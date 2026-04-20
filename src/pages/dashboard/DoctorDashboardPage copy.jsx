@@ -160,61 +160,7 @@ export default function DoctorDashboardPage() {
     }
   }
 
-  async function handleConnectGoogleCalendar() {
-    setCalendarActionLoading(true);
-
-    try {
-      const res = await getDoctorGoogleCalendarConnectUrl();
-      console.log("connect-url response =", res);
-
-      const url = res?.data?.url;
-
-      if (!url) {
-        throw new Error("Google connect URL not found.");
-      }
-
-      window.location.href = url;
-    } catch (err) {
-      console.error("handleConnectGoogleCalendar error =", err);
-      alert(
-        err?.response?.data?.message ||
-          err?.message ||
-          "Could not start Google Calendar connection."
-      );
-      setCalendarActionLoading(false);
-    }
-  }
-
-  async function handleDisconnectGoogleCalendar() {
-    const confirmed = window.confirm(
-      "Disconnect Google Calendar and switch video provider back to Agora?"
-    );
-
-    if (!confirmed) {
-      return;
-    }
-
-    setCalendarActionLoading(true);
-
-    try {
-      const res = await disconnectDoctorGoogleCalendar();
-      console.log("disconnect google-calendar response =", res);
-
-      await loadCalendarStatus();
-      alert("Google Calendar disconnected successfully.");
-    } catch (err) {
-      console.error("handleDisconnectGoogleCalendar error =", err);
-      alert(
-        err?.response?.data?.message ||
-          err?.message ||
-          "Could not disconnect Google Calendar."
-      );
-    } finally {
-      setCalendarActionLoading(false);
-    }
-  }
-
-  useEffect(() => {
+    useEffect(() => {
     loadData();
   }, []);
 
@@ -249,11 +195,11 @@ export default function DoctorDashboardPage() {
             maxWidth: 420,
             width: "100%",
           }}
-        >
+        >         
+
+          
         </div>
       </div>
-
-      
 
       {loading ? (
         <div>Loading dashboard...</div>
@@ -296,7 +242,34 @@ export default function DoctorDashboardPage() {
             />
           </div>
 
-          
+          <div
+            style={{
+              display: "grid",
+              gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))",
+              gap: 16,
+            }}
+          >
+            <QuickLinkCard
+              to="/appointments"
+              title="Appointments"
+              description="View, filter, and manage your own appointments."
+            />
+            <QuickLinkCard
+              to="/notifications"
+              title="Notifications"
+              description="Check doctor notifications and mark them as seen."
+            />
+            <QuickLinkCard
+              to="/reviews"
+              title="Reviews"
+              description="Read the reviews written for your profile."
+            />
+            <QuickLinkCard
+              to="/profile"
+              title="Profile"
+              description="Review your doctor profile and provider settings."
+            />
+          </div>
         </>
       )}
     </div>

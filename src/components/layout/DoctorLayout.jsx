@@ -1,5 +1,11 @@
 import { NavLink, Outlet, useNavigate } from "react-router-dom";
+import { useEffect, useState } from "react";
 import { useAuth } from "../../hooks/useAuth";
+import {
+  getDoctorGoogleCalendarConnectUrl,
+  getDoctorGoogleCalendarStatus,
+  disconnectDoctorGoogleCalendar,
+} from "../../api/googleCalendarApi";
 
 function SidebarLink({ to, children }) {
   return (
@@ -24,11 +30,91 @@ function SidebarLink({ to, children }) {
 export default function DoctorLayout() {
   const navigate = useNavigate();
   const { user, doctor, logout } = useAuth();
+  const [calendarConnected, setCalendarConnected] = useState(false);
+  const [videoProvider, setVideoProvider] = useState(
+    String(doctor?.video_provider || doctor?.videoProvider || "agora").toLowerCase()
+  );
+  const [calendarLoading, setCalendarLoading] = useState(true);
+  const [calendarActionLoading, setCalendarActionLoading] = useState(false);
+
+  async function loadCalendarStatus() {
+    setCalendarLoading(true);
+
+    try {
+      const res = await getDoctorGoogleCalendarStatus();
+      setCalendarConnected(!!res?.data?.google_calendar_connected);
+      setVideoProvider(
+        String(res?.data?.video_provider || doctor?.video_provider || doctor?.videoProvider || "agora").toLowerCase()
+      );
+    } catch (err) {
+      console.error("loadCalendarStatus error =", err);
+      setCalendarConnected(false);
+      setVideoProvider(
+        String(doctor?.video_provider || doctor?.videoProvider || "agora").toLowerCase()
+      );
+    } finally {
+      setCalendarLoading(false);
+    }
+  }
+
+  async function handleConnectGoogleCalendar() {
+    setCalendarActionLoading(true);
+
+    try {
+      const res = await getDoctorGoogleCalendarConnectUrl();
+      const url = res?.data?.url;
+
+      if (!url) {
+        throw new Error("Google connect URL not found.");
+      }
+
+      window.location.href = url;
+    } catch (err) {
+      console.error("handleConnectGoogleCalendar error =", err);
+      alert(
+        err?.response?.data?.message ||
+          err?.message ||
+          "Could not start Google Calendar connection."
+      );
+      setCalendarActionLoading(false);
+    }
+  }
+
+  async function handleDisconnectGoogleCalendar() {
+    const confirmed = window.confirm(
+      "Disconnect Google Calendar and switch video provider back to Agora?"
+    );
+
+    if (!confirmed) {
+      return;
+    }
+
+    setCalendarActionLoading(true);
+
+    try {
+      await disconnectDoctorGoogleCalendar();
+      await loadCalendarStatus();
+      alert("Google Calendar disconnected successfully.");
+    } catch (err) {
+      console.error("handleDisconnectGoogleCalendar error =", err);
+      alert(
+        err?.response?.data?.message ||
+          err?.message ||
+          "Could not disconnect Google Calendar."
+      );
+    } finally {
+      setCalendarActionLoading(false);
+    }
+  }
 
   async function handleLogout() {
     await logout();
     navigate("/login", { replace: true });
   }
+
+  useEffect(() => {
+    loadCalendarStatus();
+  }, [doctor?.video_provider, doctor?.videoProvider]);
 
   return (
     <div
@@ -70,11 +156,70 @@ export default function DoctorLayout() {
           <div style={{ fontSize: 13, color: "#64748b", marginTop: 4 }}>
             {user?.email || "-"}
           </div>
-          <div style={{ fontSize: 12, color: "#64748b", marginTop: 8 }}>
-            Video Provider: {doctor?.video_provider || doctor?.videoProvider || "agora"}
-          </div>
         </div>
 
+        <div
+          style={{
+            padding: 14,
+            borderRadius: 16,
+            background: "#f8fafc",
+            border: "1px solid #e2e8f0",
+          }}
+        >
+          <div style={{ fontSize: 14, fontWeight: 700, color: "#0f172a" }}>
+            Video Provider
+          </div>
+
+          <div style={{ fontSize: 13, color: "#64748b", marginTop: 10 }}>
+            Current provider: <strong style={{ color: "#0f172a" }}>{videoProvider}</strong>
+          </div>
+
+          <div
+            style={{
+              fontSize: 12,
+              marginTop: 8,
+              color: calendarConnected ? "#166534" : "#92400e",
+            }}
+          >
+            {calendarLoading
+              ? "Checking Google Calendar status..."
+              : calendarConnected
+              ? "Google Calendar connected"
+              : "Google Calendar not connected"}
+          </div>
+
+          <button
+            onClick={calendarConnected ? handleDisconnectGoogleCalendar : handleConnectGoogleCalendar}
+            disabled={calendarActionLoading || calendarLoading}
+            style={{
+              width: "100%",
+              marginTop: 12,
+              border: 0,
+              borderRadius: 10,
+              padding: "10px 12px",
+              background:
+                calendarActionLoading || calendarLoading
+                  ? calendarConnected
+                    ? "#86efac" // light green
+                    : "#fdba74" // light orange
+                  : calendarConnected
+                  ? "#16a34a" // green
+                  : "#f59e0b", // amber/orange
+              color: calendarConnected ? "#fff" : "#111827",
+              cursor:
+                calendarActionLoading || calendarLoading ? "not-allowed" : "pointer",
+              fontWeight: 700,
+            }}
+          >
+            {calendarActionLoading
+              ? calendarConnected
+                ? "Disconnecting..."
+                : "Connecting..."
+              : calendarConnected
+              ? "Disconnect Google Calendar"
+              : "Connect Google Calendar"}
+          </button>
+        </div>
         <nav style={{ display: "grid", gap: 8 }}>
           <SidebarLink to="/">Dashboard</SidebarLink>
           <SidebarLink to="/appointments">Appointments</SidebarLink>
@@ -82,7 +227,6 @@ export default function DoctorLayout() {
           <SidebarLink to="/reviews">Reviews</SidebarLink>
           <SidebarLink to="/profile">Profile</SidebarLink>
         </nav>
-
         <div style={{ marginTop: "auto" }}>
           <button
             onClick={handleLogout}

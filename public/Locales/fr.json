@@ -1,0 +1,943 @@
+﻿{
+  "featured_post": "Publication en vedette",
+  "about us": "À propos de nous",
+  "legal": "Mentions légales",
+  "terms and conditions": "Conditions générales",
+  "privacy policy": "Politique de confidentialité",
+  "make-appointment": "Prendre rendez-vous",
+  "departments": "Départements",
+  "department": "Département",
+  "clinics": "Cliniques",
+  "clinic": "Clinique",
+  "labs": "Laboratoires",
+  "lab": "Laboratoire",
+  "doctors": "Médecins",
+  "Doctor": "Docteur",
+  "patient": "Patient",
+  "appointment": "Rendez-vous",
+  "appointments": "Rendez-vous",
+  "prescriptions": "Ordonnances",
+  "prescription": "Ordonnance",
+  "prescription-details": "Détails de l’ordonnance",
+  "files": "Fichiers",
+  "file": "Fichier",
+  "family-members": "Membres de la famille",
+  "family-member": "Membre de la famille",
+  "vitals": "Signes vitaux",
+  "vital": "Signe vital",
+  "profile": "Profil",
+  "profile-details": "Détails du profil",
+  "see-all": "Tout voir",
+  "testi": "Témoignages",
+  "contact-us": "Contactez-nous",
+  "date": "Date",
+  "time": "Heure",
+  "phone": "Téléphone",
+  "whatsapp": "WhatsApp",
+  "gmail": "Gmail",
+  "location": "Emplacement",
+  "ambulance": "Ambulance",
+  "no": "Non",
+  "yes": "Oui",
+  "close": "Fermer",
+  "add": "Ajouter",
+  "cancel": "Annuler",
+  "dateTime": "Date et heure",
+  "patientDetails": "Détails du patient",
+  "Summary": "Résumé",
+  "or": "Ou",
+  "tax": "Taxe",
+  "total": "Total",
+  "book-appointment": "Réserver un rendez-vous",
+  "search": "Rechercher",
+  "swipe": "Glisser",
+  "sorry": "Désolé",
+  "notAvailable": "{{name}} ne sont pas disponibles à l’emplacement sélectionné.",
+  "and": "et",
+  "loading": "Chargement",
+  "select_location": "Sélectionner l’emplacement",
+  "failed_to_get_city": "Échec de la récupération de la ville",
+  "select_city_manually": "Veuillez sélectionner une ville manuellement",
+  "search_for_location": "Rechercher un emplacement",
+  "use_current_location": "Utiliser l’emplacement actuel",
+  "category": "Catégorie",
+  "amount": "Montant",
+  "navbar": {
+    "Home": "Accueil",
+    "Blogs": "Blogs",
+    "Profile": "Profil",
+    "Family-Members": "Membres de la famille",
+    "Appointments": "Rendez-vous",
+    "Doctors": "Médecins",
+    "Vitals": "Signes vitaux",
+    "About-us": "À propos",
+    "Contact-us": "Contact",
+    "Clinics": "Cliniques",
+    "Labs": "Laboratoires",
+    "Sign-up": "S’inscrire",
+    "Sign-in": "Se connecter",
+    "Logout": "Se déconnecter",
+    "Member-Since": "Membre depuis",
+    "Prescriptions": "Ordonnances",
+    "Files": "Fichiers",
+    "About-Us": "À propos de nous",
+    "Contact-Us": "Contactez-nous",
+    "Wallet": "Portefeuille",
+    "Lab-Tests-Bookings": "Réservations d’analyses",
+    "Lab-Test-Bookings": "Réservations d’analyses"
+  },
+  "hero": {
+    "title": "Bienvenue sur {{appName}}",
+    "heading": "Nous offrons des soins de santé de qualité et abordables.",
+    "description": "Découvrez l’excellence en santé sur {{appName}} : services médicaux complets, gestion hospitalière avancée et soins attentionnés pour un avenir en meilleure santé.",
+    "button1": "Commencer",
+    "button2": "Prendre rendez-vous"
+  },
+  "cta": {
+    "title1": "Contactez-nous",
+    "description1": "N’hésitez pas à nous joindre à tout moment. Nous sommes prêts à vous aider !",
+    "title2": "Service 24h/24",
+    "description2": "Nous sommes fiers d’offrir des services médicaux 24h/24 pour garantir votre prise en charge à tout moment.",
+    "title3": "Technologie médicale de pointe",
+    "description3": "Nous utilisons des technologies de pointe pour offrir des soins de la plus haute qualité.",
+    "button": "Prendre rendez-vous"
+  },
+  "weAre": {
+    "title1": "Nous garantissons toujours les meilleurs",
+    "highlight": "soins médicaux",
+    "title2": "pour vous",
+    "description": "Dans notre établissement, nous nous engageons à fournir des soins de haute qualité adaptés à vos besoins. Avec une équipe qualifiée et des technologies avancées, vous recevez le meilleur traitement et un accompagnement bienveillant à chaque étape.",
+    "benefits": [
+      "Spécialistes de premier plan en santé.",
+      "Services médicaux avancés disponibles.",
+      "Réductions sur tous les traitements médicaux.",
+      "Procédure d’inscription simple et rapide."
+    ]
+  },
+  "clinic-component": {
+    "title": "Nos cliniques",
+    "title1": "Meilleures cliniques à {{city}}",
+    "desc": "Découvrez des services de santé spécialisés adaptés à vos besoins, au même endroit.",
+    "see-all": "Voir toutes les cliniques"
+  },
+  "dept_component": {
+    "title": "Départements",
+    "desc": "Trouvez facilement tout ce dont vous avez besoin sous un même toit grâce à notre offre complète de services par département."
+  },
+  "doctor_component": {
+    "title": "Meilleurs médecins",
+    "title1": "Meilleurs médecins à {{city}}",
+    "desc": "Trouvez les meilleurs médecins de votre région, prêts à vous offrir des soins et une expertise d’exception.",
+    "experience": "Exp {{count}}+ ans"
+  },
+  "whyUs": {
+    "title": "Pourquoi nous choisir ?",
+    "desc": "Nous nous engageons à vous fournir les meilleurs services de santé, pour votre bien‑être et votre satisfaction.",
+    "benefits": [
+      {
+        "title": "Soins personnalisés",
+        "desc": "Sur {{appName}}, votre santé est prioritaire. Des services complets, adaptés à vos besoins individuels, garantissent la meilleure qualité de soins tout au long de votre parcours."
+      },
+      {
+        "title": "Équipe experte",
+        "desc": "Notre équipe dédiée d’experts en santé — médecins, infirmiers et personnel de soutien — vous offre une attention personnalisée et des conseils médicaux fiables."
+      },
+      {
+        "title": "Installations de pointe",
+        "desc": "Nos installations modernes sont équipées des dernières technologies pour des diagnostics, traitements et soins avancés dans un cadre confortable."
+      }
+    ]
+  },
+  "opr_method": {
+    "title": "Notre mode opératoire",
+    "title2": "Notre mode opératoire",
+    "desc": "Votre guichet unique fiable pour tous vos besoins de santé. Notre annuaire étendu facilite l’accès à une large gamme de services et de prestataires, pour des soins optimaux pour vous et votre famille.",
+    "steps": [
+      "Prendre un rendez-vous",
+      "Effectuer des bilans",
+      "Réaliser le traitement",
+      "Prescription et paiement"
+    ]
+  },
+  "faqs": {
+    "title": "Foire aux questions",
+    "1": [
+      {
+        "question": "Quels services {{appName}} propose‑t‑il ?",
+        "answer": "{{appName}} propose un large éventail de services : dentaire, gynécologie, orthopédie, neurologie, médecine générale, dermatologie et cardiologie, ainsi que des analyses et services de diagnostic avancés."
+      },
+      {
+        "question": "En quoi {{appName}} est différent des autres ?",
+        "answer": "{{appName}} se distingue par des soins abordables, une technologie médicale avancée, des spécialistes de premier plan et un service 24h/24, avec des réductions et une inscription rapide."
+      },
+      {
+        "question": "Comment réserver un rendez‑vous sur {{appName}} ?",
+        "answer": "Depuis notre site, ouvrez la section « Prendre un rendez‑vous », choisissez le service, l’horaire souhaité et confirmez la réservation."
+      },
+      {
+        "question": "Quels examens diagnostiques propose votre laboratoire ?",
+        "answer": "Nous proposons de nombreux examens, notamment NFS (CBC), hémoglobine (Hb), radiographies et scanners (CT), avec des résultats rapides et fiables."
+      },
+      {
+        "question": "Y a‑t‑il des réductions sur les traitements ?",
+        "answer": "Oui. Par exemple 5 % sur la NFS et l’hémoglobine, 10 % sur les radiographies et scanners."
+      }
+    ],
+    "2": [
+      {
+        "question": "Quels sont vos horaires d’ouverture ?",
+        "answer": "{{appName}} est ouvert 24h/24 et 7j/7 afin d’assurer votre prise en charge à tout moment."
+      },
+      {
+        "question": "Qui sont les médecins sur {{appName}} ?",
+        "answer": "Des médecins qualifiés et expérimentés dans de multiples spécialités (cardiologie, neurologie, dermatologie, etc.). Les détails figurent sur la page « Rencontrer nos médecins »."
+      },
+      {
+        "question": "Comment contacter {{appName}} pour plus d’infos ?",
+        "answer": "Utilisez les coordonnées affichées sur notre site. Notre équipe vous aide avec plaisir pour toute demande."
+      },
+      {
+        "question": "Quel est le parcours de soins sur {{appName}} ?",
+        "answer": "Réservation du rendez‑vous, consultation, traitement nécessaire, puis prescription et suivi. Un parcours fluide et efficace."
+      },
+      {
+        "question": "Comment garantissez‑vous la qualité des soins ?",
+        "answer": "Grâce à des technologies médicales de pointe, des installations modernes et une équipe dédiée, pour des soins personnalisés et sûrs."
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Ce que disent nos patients",
+    "desc": "Nous sommes fiers des retours positifs de nos patients. Voici quelques témoignages :",
+    "error_something_went_wrong": "Une erreur est survenue !",
+    "error_fetch": "Impossible de récupérer les témoignages !"
+  },
+  "footer": {
+    "copyright": "© 2024 {{appName}}. Tous droits réservés",
+    "hospital": {
+      "title": "Hôpital",
+      "links": [
+        "À propos de nous",
+        "Départements",
+        "Médecins",
+        "Contactez‑nous"
+      ]
+    },
+    "support": {
+      "title": "Support",
+      "links": [
+        "Conditions de service",
+        "Mentions légales",
+        "Politique de confidentialité"
+      ]
+    },
+    "language": {
+      "title": "Langue"
+    }
+  },
+  "clinics_page": {
+    "title": "Découvrez nos cliniques",
+    "sub_title": "Des services de santé d’exception près de chez vous",
+    "desc": "Parcourez notre réseau de cliniques offrant des soins personnalisés et des services médicaux avancés."
+  },
+  "clinic_details_page": {
+    "clinic_details": "Détails de la clinique",
+    "ambulance_call": "Appeler une ambulance",
+    "navigate_clinic": "Se rendre à la clinique",
+    "clinic_images": "Images de la clinique",
+    "not_avl_img": "Images de la clinique non disponibles",
+    "contact_details": "Coordonnées",
+    "opening_hours": "Horaires d’ouverture",
+    "opn_hrs_not_avl": "Horaires non disponibles",
+    "avl_doctor": "Médecins disponibles sur {{appName}}",
+    "appointment_closed": "Prise de rendez‑vous fermée",
+    "app_closed_desc": "Cette clinique/hôpital n’accepte pas de rendez‑vous pour le moment."
+  },
+  "doctors_page": {
+    "title": "Nos médecins",
+    "sub_title": "Découvrez une équipe pluridisciplinaire de spécialistes",
+    "desc": "Trouvez facilement le bon spécialiste grâce à notre sélection complète de médecins.",
+    "search_placeholder": "Rechercher des médecins...",
+    "experience": "Exp {{count}}+ ans",
+    "appointments_done": "{{count}} rendez‑vous effectués",
+    "not_accepting_appointments": "N’accepte pas de rendez‑vous actuellement",
+    "error_something_went_wrong": "Une erreur est survenue !",
+    "error_fetch": "Impossible de récupérer les médecins !"
+  },
+  "doctor_details_page": {
+    "title": "Profil du médecin",
+    "experience_years": "{{count}}+ années d’expérience",
+    "appointments_done": "{{count}} rendez‑vous effectués",
+    "not_taking_appointments": "Ce médecin n’accepte pas de rendez‑vous",
+    "clinic_not_scheduling": "La clinique ne planifie pas de rendez‑vous pour le moment",
+    "make_appointment": "Prendre rendez‑vous",
+    "select_appointment_type": "Sélectionner le type de rendez‑vous",
+    "appointment_types": {
+      "opd": "Consultation présentielle",
+      "video_call": "Appel vidéo",
+      "emergency": "Urgence"
+    },
+    "doctorReviews": "Avis et notes -"
+  },
+  "contact_us_page": {
+    "title": "Contactez‑nous",
+    "desc": "Nous sommes là pour vous aider pour toute question ou demande de support. Écrivez‑nous et nous vous répondrons dès que possible.",
+    "address_title": "Adresse",
+    "call_us_title": "Appelez‑nous",
+    "email_us_title": "Écrivez‑nous",
+    "form": {
+      "name_label": "Votre nom",
+      "name_placeholder": "Votre nom",
+      "email_label": "Votre e‑mail",
+      "email_placeholder": "Votre e‑mail",
+      "subject_label": "Objet",
+      "subject_placeholder": "Objet",
+      "message_label": "Message",
+      "message_placeholder": "Message",
+      "submit_button": "Envoyer le message",
+      "name_required": "Le nom est requis",
+      "email_required": "L’e‑mail est requis",
+      "email_invalid": "Format d’e‑mail invalide",
+      "subject_required": "L’objet est requis",
+      "message_required": "Le message est requis",
+      "success_title": "Message reçu !",
+      "success_desc": "Nous avons bien reçu votre message et reviendrons vers vous rapidement."
+    }
+  },
+  "user_profile_page": {
+    "title": "Profil utilisateur",
+    "first_name_label": "Prénom",
+    "last_name_label": "Nom",
+    "phone_label": "Téléphone",
+    "email_label": "E‑mail",
+    "gender_label": "Genre",
+    "gender_options": {
+      "male": "Homme",
+      "female": "Femme"
+    },
+    "dob_label": "Date de naissance",
+    "city_label": "Ville",
+    "state_label": "État/Région",
+    "postal_code_label": "Code postal",
+    "address_label": "Adresse",
+    "update_button": "Mettre à jour le profil",
+    "toast_success": "Détails utilisateur mis à jour",
+    "toast_error_invalid_email": "Adresse e‑mail invalide"
+  },
+  "family_members_page": {
+    "title": "Membres de la famille",
+    "add_new_button": "Ajouter un nouveau membre",
+    "add_form_title": "Ajouter un membre de la famille",
+    "first_name_label": "Prénom",
+    "first_name_placeholder": "Saisir le prénom",
+    "first_name_required": "Le prénom est requis",
+    "last_name_label": "Nom",
+    "last_name_placeholder": "Saisir le nom",
+    "last_name_required": "Le nom est requis",
+    "phone_label": "Téléphone",
+    "phone_placeholder": "Saisir le numéro de téléphone",
+    "phone_required": "Le téléphone est requis",
+    "phone_invalid": "Format de numéro invalide",
+    "gender_label": "Genre",
+    "gender_placeholder": "Sélectionner le genre",
+    "gender_required": "Le genre est requis",
+    "gender_options": {
+      "male": "Homme",
+      "female": "Femme"
+    },
+    "dob_label": "Date de naissance",
+    "dob_required": "La date de naissance est requise",
+    "cancel_button": "Annuler",
+    "submit_button": "Ajouter",
+    "toast_add_success": "Membre ajouté",
+    "toast_delete_success": "Membre supprimé",
+    "toast_error_generic": "Échec de l’opération"
+  },
+  "family_member_page": {
+    "title": "Membre de la famille",
+    "first_name_label": "Prénom",
+    "first_name_placeholder": "Saisir le prénom",
+    "last_name_label": "Nom",
+    "last_name_placeholder": "Saisir le nom",
+    "phone_label": "Téléphone",
+    "phone_placeholder": "Saisir le numéro de téléphone",
+    "email_label": "E‑mail",
+    "email_placeholder": "Saisir l’e‑mail",
+    "gender_label": "Genre",
+    "gender_placeholder": "Sélectionner le genre",
+    "gender_options": {
+      "male": "Homme",
+      "female": "Femme"
+    },
+    "dob_label": "Date de naissance",
+    "city_label": "Ville",
+    "city_placeholder": "Saisir la ville",
+    "state_label": "État/Région",
+    "state_placeholder": "Saisir l’état/la région",
+    "postal_code_label": "Code postal",
+    "postal_code_placeholder": "Saisir le code postal",
+    "address_label": "Adresse",
+    "address_placeholder": "Saisir l’adresse",
+    "update_button": "Mettre à jour le profil",
+    "vitals_title": "Signes vitaux",
+    "date_label": "Date",
+    "toast_success": "Membre mis à jour",
+    "toast_error_generic": "Échec de la mise à jour du membre"
+  },
+  "vitals_page": {
+    "Blood-Pressure": "Pression artérielle",
+    "Blood-Pressure-desc": "Détails et historique de la pression artérielle",
+    "Blood-Sugar": "Glycémie",
+    "Blood-Sugar-desc": "Niveaux de glycémie et informations",
+    "Temperature": "Température",
+    "Temperature-desc": "Surveillance de la température corporelle",
+    "Weight": "Poids",
+    "Weight-desc": "Suivi du poids",
+    "SpO2": "Niveau d’oxygène",
+    "SpO2-desc": "Saturation en oxygène",
+    "no_family_member": "Vous n’avez ajouté aucun membre de la famille"
+  },
+  "appointments_page": {
+    "title": "Rendez-vous",
+    "no_appointments_alert_title": "Aucun rendez‑vous trouvé !",
+    "no_appointments_alert_description": "Vous n’avez aucun rendez‑vous. Réservez dès maintenant !",
+    "make_appointment_button": "Prendre rendez‑vous",
+    "filter_steps": {
+      "All": "Tous",
+      "Upcoming": "À venir",
+      "Pending": "En attente",
+      "Confirmed": "Confirmés",
+      "Rejected": "Refusés",
+      "Completed": "Terminés",
+      "Rescheduled": "Replanifiés",
+      "Cancelled": "Annulés",
+      "Visited": "Visités",
+      "Closed": "Fermés"
+    },
+    "card": {
+      "name_label": "Nom",
+      "id_label": "ID",
+      "time_label": "Heure",
+      "doctor_label": "Médecin",
+      "rebook_button": "Replanifier"
+    }
+  },
+  "newAppointment": {
+    "selectDoct": "Veuillez sélectionner le médecin et le type de rendez‑vous avant de continuer.",
+    "selectDate": "Veuillez sélectionner la date et un créneau horaire avant de continuer.",
+    "selectFamilyMember": "Veuillez sélectionner un membre de la famille avant de continuer.",
+    "timeSlotes": "Créneaux horaires",
+    "noTimeSlotes": "Désolé, aucun créneau disponible à la date choisie.",
+    "addFamilyMember": "Ajouter un membre de la famille",
+    "oneStepAway": "Plus qu’une étape",
+    "payAndBook": "Payer et réserver",
+    "appType": "Type de rendez‑vous",
+    "appFee": "Frais de rendez‑vous",
+    "appliedCoupon": "Code promo appliqué",
+    "coupDiscount": "Remise",
+    "coupCodePlaceholder": "Appliquer un code promo",
+    "apply": "Appliquer",
+    "payNow": "Payer maintenant",
+    "payAtHospital": "Payer à la clinique",
+    "payWallet": "Payer avec le portefeuille",
+    "avlBlc": "Solde disponible",
+    "bookNow": "Réserver maintenant",
+    "payAndBookTest": "Payer"
+  },
+  "appointmentDetails": {
+    "title": "Rendez-vous",
+    "reviewDoctor": "Évaluer le médecin",
+    "queueNumber": "Numéro de file",
+    "happyPatients": "Patients satisfaits",
+    "checkIn": "Enregistrement",
+    "patient": "Patient :",
+    "joinMeeting": "Rejoindre la réunion",
+    "prescriptions": "Ordonnances -",
+    "downloadPrescription": "Télécharger l’ordonnance",
+    "prescriptionsNotFound": "Aucune ordonnance trouvée !",
+    "patientFiles": "Fichiers du patient",
+    "filesNotFound": "Aucun fichier trouvé !",
+    "paymentStatus": "Statut du paiement",
+    "paymentId": "ID de paiement",
+    "downloadInvoice": "Télécharger la facture",
+    "navigate": "Aller à la clinique",
+    "appointmentCancellation": "Annulation du rendez‑vous",
+    "initiateCancellation": "Cliquez ici pour initier la demande d’annulation",
+    "deleteCancellation": "Cliquez ici pour supprimer la demande d’annulation",
+    "currentStatus": "Statut actuel - {{status}}",
+    "requestHistory": "Historique des demandes",
+    "dialogModal": {
+      "cancelAppointment": "Annuler le rendez‑vous ?",
+      "deleteCancellationRequest": "Supprimer la demande d’annulation ?",
+      "confirmCancel": "Voulez‑vous vraiment annuler ce rendez‑vous ?",
+      "confirmDelete": "Voulez‑vous vraiment supprimer cette demande d’annulation ?"
+    }
+  },
+  "appointmentSuccess": {
+    "appointmentId": "ID du rendez‑vous",
+    "joinMeeting": "Rejoindre la réunion",
+    "successMessage": "Votre rendez‑vous a été réservé avec succès !",
+    "opdInstruction": "Rendez‑vous à la clinique et scannez le QR pour obtenir instantanément votre numéro de passage.",
+    "videoInstruction": "Cliquez sur Rejoindre la réunion ou scannez le QR pour entrer.",
+    "dateTime": "Date et heure",
+    "patientName": "Nom du patient",
+    "addToCalendar": "Ajouter au calendrier"
+  },
+  "files_page": {
+    "searchFiles": "Rechercher des fichiers...",
+    "noFiles": "Les fichiers ne sont pas disponibles pour le moment. Vous y aurez accès dès que le médecin les aura téléversés."
+  },
+  "prescription_page": {
+    "searchFiles": "Rechercher des ordonnances...",
+    "noFiles": "Les ordonnances ne sont pas disponibles pour le moment. Elles seront visibles une fois téléversées par le médecin."
+  },
+  "wallet_page": {
+    "currBal": "Solde actuel",
+    "addMoney": "Ajouter de l’argent",
+    "txnHistory": "Historique des transactions",
+    "noTxn": "Aucune transaction trouvée",
+    "title": "Ajouter de l’argent à votre portefeuille",
+    "enterAmount": "Saisir le montant",
+    "noPaymentMethod": "Aucun moyen de paiement actif !",
+    "successMessage": "Réussi !",
+    "errorMessage": "Une erreur est survenue !",
+    "amountCredited": "Montant crédité sur votre portefeuille",
+    "amountDebited": "Montant débité de votre portefeuille",
+    "transactionId": "ID de transaction",
+    "paymentId": "ID de paiement : {id}"
+  },
+  "addMoney": {
+    "title": "Ajouter de l’argent à votre portefeuille",
+    "enterAmount": "Saisir le montant",
+    "placeholder": "Saisir le montant en roupies",
+    "noPaymentMethod": "Aucun moyen de paiement actif !",
+    "successMessage": "Réussi !",
+    "errorMessage": "Une erreur est survenue !",
+    "specificError": "{message}"
+  },
+  "searchPage": {
+    "search": "Rechercher",
+    "searchPlaceholder": "Rechercher des médecins, cliniques et spécialités...",
+    "noResults": "Aucun résultat pour « {{query}} »",
+    "searchResults": "Résultats pour « {{query}} »",
+    "searching": "Recherche en cours...",
+    "error": "Une erreur est survenue lors de la recherche"
+  },
+  "firebaseLogin": {
+    "welcome": "Bienvenue",
+    "loginDescription": "Nous offrons des services de santé de qualité à prix abordable.",
+    "mobileNumber": "Numéro de mobile",
+    "continue": "Continuer",
+    "termsText": "En continuant, vous acceptez nos",
+    "termsOfUse": "Conditions d’utilisation",
+    "privacyPolicy": "Politique de confidentialité",
+    "createAccount": "Nouveau ici ? Créez un compte !",
+    "enterOtp": "Saisir le code OTP",
+    "otpSentTo": "OTP envoyé à",
+    "login": "Se connecter",
+    "resendOtp": "Renvoyer l’OTP",
+    "useDifferentPhone": "Utiliser un autre numéro",
+    "otpSentSuccess": "OTP envoyé",
+    "otpSentDescription": "Veuillez vérifier votre téléphone pour le code OTP.",
+    "otpError": "Échec de l’envoi de l’OTP. Réessayez.",
+    "otpInvalid": "Veuillez saisir un OTP valide.",
+    "invalidOtpTitle": "OTP invalide",
+    "loginSuccessTitle": "Connexion réussie",
+    "phoneRequired": "Veuillez saisir le numéro de téléphone",
+    "phoneNotExist": "Numéro inexistant ! Veuillez vous inscrire",
+    "otpResentSuccess": "OTP renvoyé avec succès.",
+    "otpResentFailed": "Échec du renvoi de l’OTP. Réessayez."
+  },
+  "signup": {
+    "title": "S’inscrire",
+    "description": "Rejoignez‑nous pour bénéficier des meilleurs services de santé.",
+    "form": {
+      "first_name_label": "Prénom",
+      "first_name_required": "Le prénom est requis",
+      "last_name_label": "Nom",
+      "last_name_required": "Le nom est requis",
+      "phone_label": "Numéro de téléphone",
+      "phone_required": "Le numéro est requis",
+      "phone_pattern": "Le numéro doit comporter 10 chiffres",
+      "gender_label": "Genre",
+      "gender_required": "Veuillez sélectionner votre genre",
+      "gender_options": {
+        "male": "Homme",
+        "female": "Femme",
+        "other": "Autre"
+      },
+      "gender_placeholder": "Sélectionner le genre",
+      "dob_label": "Date de naissance",
+      "dob_required": "La date de naissance est requise",
+      "email_label": "Adresse e‑mail",
+      "email_pattern": "Adresse e‑mail invalide",
+      "otp_label": "Saisir l’OTP",
+      "submit_button_step1": "Obtenir l’OTP",
+      "submit_button_step2": "S’inscrire"
+    },
+    "toast": {
+      "otp_sent_title": "OTP envoyé",
+      "otp_sent_description": "Veuillez vérifier votre téléphone pour le code OTP.",
+      "otp_error_title": "Erreur",
+      "otp_error_description": "Échec de l’envoi de l’OTP. Veuillez réessayer.",
+      "otp_invalid_description": "Veuillez saisir un OTP valide.",
+      "phone_exists_title": "Numéro déjà utilisé !",
+      "signup_success_title": "Inscription réussie",
+      "signup_success_description": "Bienvenue {{f_name}} {{l_name}}",
+      "otp_missing_title": "Veuillez saisir l’OTP !",
+      "signup_failed_description": "Échec de l’inscription",
+      "invalid_otp_description": "OTP invalide"
+    },
+    "terms_text": "En vous inscrivant, vous acceptez nos",
+    "terms_of_use": "Conditions d’utilisation",
+    "privacy_policy": "Politique de confidentialité",
+    "login_link": "Vous avez déjà un compte ? Connectez‑vous"
+  },
+  "dept_page": {
+    "title": "Département {{name}}",
+    "subtitle": "Découvrez une équipe pluridisciplinaire de",
+    "highlightedSubtitle": "Département {{name}}",
+    "description": "Trouvez facilement le bon expert médical pour vos besoins grâce à notre sélection complète de médecins.",
+    "otherDepartments": "Découvrir d’autres départements",
+    "noDoctorsMessage": "Nous sommes désolés, aucun médecin n’est actuellement disponible au département {{deptName}}. Réessayez plus tard ou choisissez un autre département. Pour une aide immédiate, notre support est à votre disposition."
+  },
+  "blogs_page": {
+    "title": "Blogs",
+    "description": "Parcourez nos derniers articles, analyses et mises à jour sur divers sujets.",
+    "no_blogs": "Aucun blog trouvé",
+    "no_blogs_description": "Aucun article en vedette pour le moment.",
+    "error_fetch": "Impossible de récupérer les blogs !",
+    "recent_post": "Articles récents",
+    "author_details": "Détails de l’auteur"
+  },
+  "blog_page": {
+    "title": "Blog"
+  },
+  "lab-component": {
+    "title": "Nos laboratoires",
+    "title1": "Meilleurs laboratoires à {{city}}",
+    "desc": "Découvrez des services de santé spécialisés adaptés à vos besoins, au même endroit.",
+    "see-all": "Voir tous les laboratoires"
+  },
+  "labs_page": {
+    "title": "Découvrez nos laboratoires",
+    "sub_title": "Des services de santé d’exception près de chez vous",
+    "desc": "Parcourez notre réseau de laboratoires offrant des soins personnalisés et des services médicaux avancés.",
+    "search_placeholder": "Rechercher des laboratoires..."
+  },
+  "lab_details_page": {
+    "lab_details": "Détails du laboratoire",
+    "ambulance_call": "Appeler une ambulance",
+    "navigate_lab": "Se rendre au laboratoire",
+    "lab_images": "Images du laboratoire",
+    "not_avl_img": "Images du laboratoire non disponibles",
+    "contact_details": "Coordonnées",
+    "opening_hours": "Horaires d’ouverture",
+    "opn_hrs_not_avl": "Horaires non disponibles",
+    "avl_doctor": "Analyses disponibles sur {{appName}}",
+    "appointment_closed": "Réservations fermées",
+    "app_closed_desc": "Ce laboratoire n’accepte pas de réservations pour le moment."
+  },
+  "lab_bookings_page": {
+    "title": "Vos réservations de laboratoire",
+    "no_bookings_alert_title": "Aucune réservation trouvée",
+    "make_booking_button": "Réserver une analyse",
+    "noInvoicesAvailable": "Aucune facture disponible",
+    "navigate": "Se rendre au laboratoire",
+    "files": "Fichiers / Rapports",
+    "addReview": "Ajouter un avis",
+    "reviews": "Avis",
+    "testsIncluded": "Analyses incluses",
+    "bookingId": "ID de réservation",
+    "rebookingFailed": "Échec de la nouvelle réservation",
+    "card": {
+      "name_label": "Patient",
+      "test_label": "Analyse",
+      "lab_label": "Laboratoire",
+      "payment_label": "Statut du paiement",
+      "rebook_button": "Replanifier"
+    },
+    "payment_status": {
+      "paid": "Payé",
+      "not_paid": "Non payé",
+      "refunded": "Remboursé",
+      "unpaid": "Impayé",
+      "unknown": "Inconnu"
+    }
+  },
+  "labCart": {
+    "title": "Panier laboratoire",
+    "cartDetails": "Détails du panier",
+    "your_lab_cart_empty": "Votre panier laboratoire est vide",
+    "your_selected_tests": "Vos analyses sélectionnées",
+    "remove": "Retirer",
+    "subtotal": "Sous‑total",
+    "tests": "analyses",
+    "service_charge": "Frais de service",
+    "free": "Gratuit",
+    "tax_18": "Taxe (18 %)",
+    "continue": "Continuer",
+    "select_date": "Sélectionner la date",
+    "select_patient": "Sélectionner le patient / membre de la famille",
+    "pay_and_book": "Payer et réserver l’analyse",
+    "total_amount": "Montant total",
+    "total_payable_amount": "Total à payer",
+    "lab": "Laboratoire",
+    "Date": "Date",
+    "Removed from cart": "Retiré du panier",
+    "Something went wrong": "Une erreur est survenue",
+    "No tests added yet": "Aucune analyse ajoutée pour l’instant",
+    "Payment Successful": "Paiement réussi",
+    "Lab Test booked successfully": "Analyse réservée avec succès",
+    "Failed to book": "Échec de la réservation",
+    "Failed to remove": "Échec du retrait",
+    "Subtests": "Sous‑analyses"
+  },
+  "cart": {
+    "title": "Panier",
+    "select_address": "Sélectionner l’adresse",
+    "payment": "Paiement",
+    "products": "Produits",
+    "lab_tests": "Analyses",
+    "empty_product_cart": "Votre panier produits est vide ! Explorez notre catalogue et trouvez ce qu’il vous faut.",
+    "empty_lab_cart": "Votre panier d’analyses est vide ! Découvrez nos services et choisissez ce dont vous avez besoin.",
+    "total": "Total",
+    "place_order": "Passer la commande",
+    "qty": "Qté",
+    "remove": "Retirer",
+    "mrp": "Prix public",
+    "price": "PRIX",
+    "tax": "TAXE",
+    "discount": "Remise",
+    "delivery_address": "Adresse de livraison",
+    "your_wallet_balance": "Solde de votre portefeuille",
+    "use_wallet_balance": "Utiliser le portefeuille",
+    "pay_now": "Payer maintenant",
+    "cod": "Paiement à la livraison",
+    "product_delivery_details": "Détails et délais de livraison",
+    "delivery": "Livraison",
+    "delivery_charges_20": "Frais de livraison - ₹20.0",
+    "delivery_desc": "Livraison estimée entre 24 et 28 heures après la commande.",
+    "home_time": "Livraison domicile (8h à 20h)",
+    "office_time": "Livraison bureau (10h à 17h)",
+    "emergency_delivery": "Livraison urgente",
+    "emergency_charges": "Frais de livraison - ₹50.0",
+    "emergency_desc": "Expédition prioritaire : votre produit livré en quelques heures.",
+    "your_wallet_amount": "Montant dans le portefeuille",
+    "used_wallet_amount": "Montant utilisé du portefeuille",
+    "total_payable_amount": "Total à payer",
+    "back": "Retour",
+    "order_now": "Commander"
+  },
+  "common": {
+    "closed": "Fermé",
+    "na": "N/D",
+    "opd": "Consultation externe",
+    "video_consultant": "Consultation vidéo",
+    "emergency": "Urgence",
+    "doctor": "Médecin",
+    "happy_patients": "Patients satisfaits",
+    "not_paid": "Non payé",
+    "loading": "Chargement...",
+    "load_more": "Charger plus",
+    "try_again": "Réessayer",
+    "success": "Réussi",
+    "error": "Erreur",
+    "remove": "Retirer",
+    "or": "ou"
+  },
+  "blogs": {
+    "title": "Blogs",
+    "not_available": "Blogs non disponibles.",
+    "author_not_available": "Auteur non disponible"
+  },
+  "blog": {
+    "not_available": "Blog non disponible."
+  },
+  "error_page": {
+    "title": "500 Erreur interne du serveur",
+    "code": "500",
+    "heading": "Erreur interne du serveur",
+    "message": "Oups ! Un problème est survenu de notre côté. Nous travaillons à le corriger.",
+    "description": "Actualisez la page ou retournez à l’accueil.",
+    "try_again": "Réessayer"
+  },
+  "not_found_page": {
+    "title": "Quelque chose ne va pas...",
+    "description": "La page demandée n’existe pas. L’URL peut être incorrecte ou la page a été déplacée. Si vous pensez à une erreur, contactez notre support.",
+    "back_home": "Retour à l’accueil"
+  },
+  "error": {
+    "something_went_wrong": "Une erreur est survenue !",
+    "cant_fetch_doctors": "Impossible de récupérer les médecins !",
+    "cant_fetch_tests": "Impossible de récupérer les analyses !"
+  },
+  "components": {
+    "testsByLab": {
+      "Report in": "Résultat dans",
+      "day": "jour",
+      "days": "jours",
+      "Removing...": "Retrait...",
+      "Adding...": "Ajout...",
+      "Add to Cart": "Ajouter au panier",
+      "Subtests Included": "Sous‑analyses incluses",
+      "Added": "Ajouté",
+      "View Cart": "Voir le panier",
+      "Cart updated successfully": "Panier mis à jour",
+      "Failed to update cart": "Échec de la mise à jour du panier"
+    },
+    "addReview": {
+      "lab_rating_title": "Note du test de labo",
+      "doctor_rating_title": "Note du médecin",
+      "write_feedback_placeholder": "Écrivez votre avis",
+      "close": "Fermer",
+      "add_review": "Ajouter un avis",
+      "review_added_success": "Avis ajouté avec succès"
+    },
+    "address": {
+      "add_new_address": "Ajouter une nouvelle adresse",
+      "name_label": "Nom",
+      "name_placeholder": "Saisir votre nom",
+      "phone_label": "Téléphone",
+      "phone_placeholder": "Saisir votre numéro",
+      "flat_no_label": "N° d’appartement",
+      "flat_no_placeholder": "Saisir le n° d’appartement",
+      "apartment_label": "Nom de l’immeuble",
+      "apartment_placeholder": "Saisir le nom de l’immeuble",
+      "area_label": "Quartier/Rue",
+      "area_placeholder": "Saisir le quartier/la rue",
+      "landmark_label": "Repère",
+      "landmark_placeholder": "Saisir un repère",
+      "city_label": "Ville",
+      "city_placeholder": "Saisir votre ville",
+      "pincode_label": "Code postal",
+      "pincode_placeholder": "Saisir le code postal",
+      "cancel": "Annuler",
+      "submit": "Envoyer"
+    },
+    "notification": {
+      "title": "Notifications",
+      "no_notifications": "Aucune notification",
+      "mark_all_read": "Tout marquer comme lu",
+      "clear_all": "Tout effacer"
+    },
+    "search": {
+      "placeholder": "Rechercher...",
+      "no_results": "Aucun résultat",
+      "searching": "Recherche en cours..."
+    },
+    "wallet": {
+      "current_balance": "Solde actuel",
+      "add_money": "Ajouter de l’argent",
+      "transaction_history": "Historique des transactions",
+      "no_transactions": "Aucune transaction",
+      "credited": "Crédité",
+      "debited": "Débité",
+      "transaction_id": "ID de transaction"
+    },
+    "userProfile": {
+      "edit_profile": "Modifier le profil",
+      "save_changes": "Enregistrer",
+      "cancel": "Annuler",
+      "update_success": "Profil mis à jour avec succès",
+      "update_failed": "Échec de la mise à jour du profil"
+    },
+    "familyMembers": {
+      "add_member": "Ajouter un membre",
+      "edit_member": "Modifier le membre",
+      "delete_member": "Supprimer le membre",
+      "member_added": "Membre ajouté avec succès",
+      "member_updated": "Membre mis à jour avec succès",
+      "member_deleted": "Membre supprimé avec succès"
+    },
+    "loading": {
+      "please_wait": "Veuillez patienter...",
+      "loading_data": "Chargement des données..."
+    },
+    "notAvailable": {
+      "not_available": "Non disponible",
+      "no_data": "Aucune donnée disponible"
+    },
+    "locationSelector": {
+      "select_location": "Sélectionner l’emplacement",
+      "current_location": "Utiliser l’emplacement actuel",
+      "search_location": "Rechercher un lieu...",
+      "no_locations_found": "Aucun lieu trouvé"
+    },
+    "loginModal": {
+      "login_title": "Connexion",
+      "signup_title": "Inscription",
+      "phone_label": "Numéro de téléphone",
+      "otp_label": "Saisir l’OTP",
+      "send_otp": "Envoyer l’OTP",
+      "verify_otp": "Vérifier l’OTP",
+      "resend_otp": "Renvoyer l’OTP",
+      "login_success": "Connexion réussie",
+      "login_failed": "Échec de la connexion"
+    },
+    "qrCode": {
+      "scan_qr": "Scanner le QR code",
+      "download_qr": "Télécharger le QR code"
+    },
+    "profilePicture": {
+      "upload_photo": "Téléverser une photo",
+      "change_photo": "Changer la photo",
+      "remove_photo": "Supprimer la photo",
+      "upload_success": "Photo téléversée avec succès",
+      "upload_failed": "Échec du téléversement de la photo"
+    },
+    "whatsappBtn": {
+      "chat_with_us": "Discuter avec nous sur WhatsApp"
+    },
+    "doctorReviews": {
+      "no_reviews": "Pas encore d’avis",
+      "write_review": "Écrire un avis",
+      "rating": "Note",
+      "reviews": "Avis"
+    },
+    "testimonials": {
+      "patient_testimonials": "Témoignages de patients",
+      "what_patients_say": "Ce que disent nos patients"
+    },
+    "departments": {
+      "all_departments": "Tous les départements",
+      "view_doctors": "Voir les médecins"
+    },
+    "doctors": {
+      "book_appointment": "Prendre rendez‑vous",
+      "view_profile": "Voir le profil",
+      "available": "Disponible",
+      "not_available": "Non disponible"
+    },
+    "clinics": {
+      "view_details": "Voir les détails",
+      "book_now": "Réserver maintenant"
+    },
+    "labs": {
+      "view_tests": "Voir les analyses",
+      "book_test": "Réserver une analyse"
+    },
+    "contactDetails": {
+      "email": "E‑mail",
+      "phone": "Téléphone",
+      "address": "Adresse",
+      "working_hours": "Heures d’ouverture"
+    },
+    "maps": {
+      "get_directions": "Obtenir l’itinéraire",
+      "view_on_map": "Voir sur la carte"
+    },
+    "patients": {
+      "patient_info": "Informations patient",
+      "medical_history": "Antécédents médicaux"
+    },
+    "recentPosts": {
+      "recent_posts": "Articles récents",
+      "read_more": "Lire plus"
+    },
+    "featuredBlogs": {
+      "featured_blogs": "Blogs à la une",
+      "explore_all": "Tout explorer"
+    }
+  }
+}

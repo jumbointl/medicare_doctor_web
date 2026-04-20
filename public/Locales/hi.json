@@ -1,0 +1,935 @@
+﻿{
+  "featured_post": "विशेष रुप से प्रदर्शित पोस्ट",
+  "about us": "हमारे बारे में",
+  "legal": "कानूनी",
+  "terms and conditions": "नियम और शर्तें",
+  "privacy policy": "गोपनीयता नीति",
+  "make-appointment": "अपॉइंटमेंट लें",
+  "departments": "विभाग",
+  "department": "विभाग",
+  "clinics": "क्लीनिक",
+  "clinic": "क्लीनिक",
+  "labs": "लैब",
+  "lab": "लैब",
+  "doctors": "डॉक्टर्स",
+  "Doctor": "डॉक्टर",
+  "patient": "मरीज़",
+  "appointment": "अपॉइंटमेंट",
+  "appointments": "अपॉइंटमेंट्स",
+  "prescriptions": "प्रिस्क्रिप्शन्स",
+  "prescription": "प्रिस्क्रिप्शन",
+  "prescription-details": "प्रिस्क्रिप्शन विवरण",
+  "files": "फाइलें",
+  "file": "फाइल",
+  "family-members": "परिवार के सदस्य",
+  "family-member": "परिवार का सदस्य",
+  "vitals": "वाइटल्स",
+  "vital": "वाइटल",
+  "profile": "प्रोफ़ाइल",
+  "profile-details": "प्रोफ़ाइल विवरण",
+  "see-all": "सभी देखें",
+  "testi": "टेस्टिमोनियल्स",
+  "contact-us": "संपर्क करें",
+  "date": "तारीख",
+  "time": "समय",
+  "phone": "फ़ोन",
+  "whatsapp": "व्हाट्सऐप",
+  "gmail": "जीमेल",
+  "location": "स्थान",
+  "ambulance": "एम्बुलेंस",
+  "no": "नहीं",
+  "yes": "हाँ",
+  "close": "बंद करें",
+  "add": "जोड़ें",
+  "cancel": "रद्द करें",
+  "dateTime": "तारीख और समय",
+  "patientDetails": "मरीज़ विवरण",
+  "Summary": "सारांश",
+  "or": "या",
+  "tax": "टैक्स",
+  "total": "कुल",
+  "book-appointment": "अपॉइंटमेंट बुक करें",
+  "search": "खोजें",
+  "swipe": "स्वाइप करें",
+  "sorry": "क्षमा करें",
+  "notAvailable": "{{name}} आपकी चुनी हुई लोकेशन में उपलब्ध नहीं हैं।",
+  "and": "और",
+  "loading": "लोड हो रहा है",
+  "select_location": "स्थान चुनें",
+  "failed_to_get_city": "शहर प्राप्त करने में विफल",
+  "select_city_manually": "कृपया शहर मैन्युअली चुनें",
+  "search_for_location": "स्थान खोजें",
+  "use_current_location": "वर्तमान स्थान का उपयोग करें",
+  "category": "श्रेणी",
+  "amount": "राशि",
+  "navbar": {
+    "Home": "होम",
+    "Blogs": "ब्लॉग्स",
+    "Profile": "प्रोफ़ाइल",
+    "Family-Members": "परिवार के सदस्य",
+    "Appointments": "अपॉइंटमेंट्स",
+    "Doctors": "डॉक्टर्स",
+    "Vitals": "वाइटल्स",
+    "About-us": "हमारे बारे में",
+    "Contact-us": "संपर्क करें",
+    "Clinics": "क्लीनिक",
+    "Labs": "लैब",
+    "Sign-up": "साइन अप",
+    "Sign-in": "साइन इन",
+    "Logout": "लॉगआउट",
+    "Member-Since": "सदस्य बने",
+    "Prescriptions": "प्रिस्क्रिप्शन्स",
+    "Files": "फाइलें",
+    "About-Us": "हमारे बारे में",
+    "Contact-Us": "संपर्क करें",
+    "Wallet": "वॉलेट",
+    "Lab-Tests-Bookings": "लैब टेस्ट बुकिंग्स",
+    "Lab-Test-Bookings": "लैब टेस्ट बुकिंग्स"
+  },
+  "hero": {
+    "title": "{{appName}} में आपका स्वागत है",
+    "heading": "हम सर्वश्रेष्ठ और किफायती स्वास्थ्य सेवाएँ प्रदान करते हैं।",
+    "description": "{{appName}} पर बेहतरीन हेल्थकेयर अनुभव करें: व्यापक मेडिकल सेवाएँ, एडवांस्ड हॉस्पिटल मैनेजमेंट और बेहतर कल के लिए दयालु रोगी देखभाल।",
+    "button1": "शुरू करें",
+    "button2": "अपॉइंटमेंट लें"
+  },
+  "cta": {
+    "title1": "हमसे संपर्क करें",
+    "description1": "कभी भी हमसे बेझिझक संपर्क करें। हम आपकी मदद के लिए तैयार हैं!",
+    "title2": "24 घंटे सेवा",
+    "description2": "हम 24 घंटे मेडिकल सेवाएँ देने पर गर्व महसूस करते हैं, ताकि आपको ज़रूरत के समय देखभाल मिल सके।",
+    "title3": "उन्नत मेडिकल टेक्नोलॉजी",
+    "description3": "हम सर्वोत्तम क्वालिटी की देखभाल के लिए अत्याधुनिक मेडिकल टेक्नोलॉजी का उपयोग करते हैं।",
+    "button": "अपॉइंटमेंट लें"
+  },
+  "weAre": {
+    "title1": "हम हमेशा आपको सर्वोत्तम",
+    "highlight": "चिकित्सा उपचार",
+    "title2": "प्रदान करने का प्रयास करते हैं",
+    "description": "हमारे हेल्थकेयर केंद्र में हम आपकी ज़रूरतों के अनुसार उच्च स्तरीय चिकित्सा सेवाएँ प्रदान करने के लिए प्रतिबद्ध हैं। अनुभवी टीम और आधुनिक तकनीक के साथ, हम हर चरण पर आपको बेहतर उपचार और सहयोग सुनिश्चित करते हैं।",
+    "benefits": [
+      "स्वास्थ्य क्षेत्र के विशेषज्ञ डॉक्टर।",
+      "एडवांस्ड डॉक्टर सर्विसेस उपलब्ध।",
+      "सभी ट्रीटमेंट्स पर डिस्काउंट।",
+      "आसान और तेज़ रजिस्ट्रेशन प्रक्रिया।"
+    ]
+  },
+  "clinic-component": {
+    "title": "हमारी क्लीनिक",
+    "title1": "{{city}} की टॉप क्लीनिक",
+    "desc": "आपकी ज़रूरतों के अनुसार विशेष स्वास्थ्य सेवाएँ, सब कुछ एक ही जगह पर खोजें।",
+    "see-all": "सभी क्लीनिक देखें"
+  },
+  "dept_component": {
+    "title": "विभाग",
+    "desc": "हमारे व्यापक विभागीय विकल्पों के साथ एक ही छत के नीचे आपकी सभी ज़रूरतें पूरी करें।"
+  },
+  "doctor_component": {
+    "title": "टॉप डॉक्टर्स",
+    "title1": "{{city}} के टॉप डॉक्टर्स",
+    "desc": "अपने क्षेत्र के बेहतरीन डॉक्टर्स खोजें, जो आपको उत्कृष्ट देखभाल और विशेषज्ञता प्रदान करने के लिए तैयार हैं।",
+    "experience": "अनुभव {{count}}+ वर्ष"
+  },
+  "whyUs": {
+    "title": "हम ही क्यों?",
+    "desc": "हम आपको सर्वोत्तम स्वास्थ्य सेवाएँ प्रदान करने के लिए समर्पित हैं, ताकि आपका स्वास्थ्य और संतुष्टि सुनिश्चित हो सके।",
+    "benefits": [
+      {
+        "title": "पर्सनलाइज़्ड केयर",
+        "desc": "{{appName}} में हम सबसे पहले आपकी सेहत और भलाई को प्राथमिकता देते हैं। हमारी सेवाएँ आपकी व्यक्तिगत ज़रूरतों के अनुसार तैयार की गई हैं, ताकि हर चरण पर आपको उच्च गुणवत्ता की देखभाल मिले।"
+      },
+      {
+        "title": "विशेषज्ञ टीम",
+        "desc": "अनुभवी डॉक्टर्स, नर्स और सपोर्ट स्टाफ की समर्पित टीम के साथ हम आपको पर्सनल अटेंशन और विशेषज्ञ मार्गदर्शन प्रदान करते हैं।"
+      },
+      {
+        "title": "आधुनिक सुविधाएँ",
+        "desc": "हमारी अत्याधुनिक सुविधाएँ नवीनतम मेडिकल टेक्नोलॉजी से लैस हैं, जिससे हम बेहतर डायग्नोसिस, ट्रीटमेंट और केयर दे पाते हैं।"
+      }
+    ]
+  },
+  "opr_method": {
+    "title": "हमारा कार्य तरीका",
+    "title2": "हमारा कार्य तरीका",
+    "desc": "हम आपकी सभी हेल्थकेयर ज़रूरतों के लिए एक भरोसेमंद वन-स्टॉप डेस्टिनेशन हैं। हमारी डायरेक्टरी के ज़रिये आप विभिन्न सेवाओं और प्रोवाइडर्स तक आसानी से पहुँच सकते हैं।",
+    "steps": [
+      "अपॉइंटमेंट बुक करें",
+      "चेकअप कराएं",
+      "उपचार कराएं",
+      "प्रिस्क्रिप्शन और भुगतान"
+    ]
+  },
+  "faqs": {
+    "title": "अक्सर पूछे जाने वाले प्रश्न",
+    "1": [
+      {
+        "question": "{{appName}} कौन-कौन सी सेवाएँ देता है?",
+        "answer": "{{appName}} डेंटल, गायनोकॉलॉजी, ऑर्थोपेडिक, न्यूरोलॉजी, जनरल मेडिसिन, डर्मेटोलॉजी, कार्डियोलॉजी सहित कई मेडिकल सेवाएँ और एडवांस्ड लैब टेस्ट व डायग्नोस्टिक सेवाएँ प्रदान करता है।"
+      },
+      {
+        "question": "अन्य हेल्थकेयर प्रोवाइडर से {{appName}} कैसे अलग है?",
+        "answer": "{{appName}} किफायती हेल्थकेयर, एडवांस्ड टेक्नोलॉजी, टॉप स्पेशलिस्ट्स और 24x7 सेवाओं के कारण अलग है। साथ ही हम सभी ट्रीटमेंट पर डिस्काउंट और तेज़ रजिस्ट्रेशन प्रोसेस देते हैं।"
+      },
+      {
+        "question": "{{appName}} पर अपॉइंटमेंट कैसे बुक करें?",
+        "answer": "आप हमारी वेबसाइट पर 'अपॉइंटमेंट बुक करें' सेक्शन में जाकर सेवा चुनें, समय चुनें और बुकिंग कन्फर्म करें।"
+      },
+      {
+        "question": "आपकी लैब में कौन-कौन से टेस्ट उपलब्ध हैं?",
+        "answer": "हमारी लैब में CBC, हीमोग्लोबिन, एक्स-रे, CT स्कैन सहित कई डायग्नोस्टिक टेस्ट्स उपलब्ध हैं, जिनके परिणाम समय पर और सटीक दिए जाते हैं।"
+      },
+      {
+        "question": "क्या ट्रीटमेंट पर कोई डिस्काउंट मिलता है?",
+        "answer": "हाँ, {{appName}} सभी मेडिकल ट्रीटमेंट पर डिस्काउंट देता है, जैसे CBC और हीमोग्लोबिन टेस्ट पर 5% और एक्स-रे व CT स्कैन पर 10%।"
+      }
+    ],
+    "2": [
+      {
+        "question": "आपका काम करने का समय क्या है?",
+        "answer": "{{appName}} 24x7 काम करता है, ताकि आपको ज़रूरत पड़ने पर कभी भी सेवा मिल सके।"
+      },
+      {
+        "question": "{{appName}} के डॉक्टर्स कौन हैं?",
+        "answer": "हमारे पास कार्डियोलॉजी, न्यूरोलॉजी, डर्मेटोलॉजी आदि के अनुभवी और योग्य डॉक्टर्स की टीम है। विस्तृत जानकारी 'हमारे डॉक्टर्स' पेज पर देख सकते हैं।"
+      },
+      {
+        "question": "ज्यादा जानकारी के लिए {{appName}} से कैसे संपर्क करें?",
+        "answer": "आप वेबसाइट पर दिए गए कॉन्टैक्ट डीटेल्स के ज़रिये कभी भी हमसे संपर्क कर सकते हैं, हमारी टीम आपकी मदद के लिए हमेशा तैयार है।"
+      },
+      {
+        "question": "{{appName}} में ट्रीटमेंट की प्रोसेस क्या है?",
+        "answer": "सबसे पहले अपॉइंटमेंट बुक की जाती है, फिर चेकअप, ज़रूरत पड़ने पर ट्रीटमेंट और आखिर में प्रिस्क्रिप्शन व आगे की केयर की गाइडलाइन दी जाती है।"
+      },
+      {
+        "question": "{{appName}} अपनी मेडिकल सेवाओं की क्वालिटी कैसे सुनिश्चित करता है?",
+        "answer": "हम आधुनिक मेडिकल टेक्नोलॉजी, स्टेट-ऑफ-द-आर्ट सुविधाएँ और अनुभवी प्रोफेशनल्स की टीम के साथ पर्सनलाइज़्ड और उच्च गुणवत्ता की केयर प्रदान करते हैं।"
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "हमारे मरीज़ क्या कहते हैं",
+    "desc": "हमें अपने मरीज़ों से मिलने वाले सकारात्मक फीडबैक पर गर्व है। यहाँ उनके कुछ अनुभव दिए गए हैं:",
+    "error_something_went_wrong": "कुछ गड़बड़ हो गई!",
+    "error_fetch": "टेस्टिमोनियल्स नहीं मिल पाए!"
+  },
+  "footer": {
+    "copyright": "© 2024 {{appName}}. सर्वाधिकार सुरक्षित",
+    "hospital": {
+      "title": "हॉस्पिटल",
+      "links": ["हमारे बारे में", "विभाग", "डॉक्टर्स", "संपर्क करें"]
+    },
+    "support": {
+      "title": "सपोर्ट",
+      "links": ["सेवा की शर्तें", "कानूनी", "गोपनीयता नीति"]
+    },
+    "language": {
+      "title": "भाषा"
+    }
+  },
+  "clinics_page": {
+    "title": "हमारी क्लीनिक देखें",
+    "sub_title": "आपको आपके नज़दीकी बेहतरीन हेल्थकेयर सेवाओं से जोड़ना",
+    "desc": "हमारी नेटवर्क क्लीनिक में पर्सनलाइज़्ड केयर और एडवांस्ड मेडिकल सेवाएँ खोजें।"
+  },
+  "clinic_details_page": {
+    "clinic_details": "क्लीनिक विवरण",
+    "ambulance_call": "एम्बुलेंस कॉल करें",
+    "navigate_clinic": "क्लीनिक तक जाएँ",
+    "clinic_images": "क्लीनिक इमेजेस",
+    "not_avl_img": "क्लीनिक इमेजेस उपलब्ध नहीं हैं",
+    "contact_details": "संपर्क विवरण",
+    "opening_hours": "खुलने का समय",
+    "opn_hrs_not_avl": "खुलने का समय उपलब्ध नहीं",
+    "avl_doctor": "{{appName}} में उपलब्ध डॉक्टर्स",
+    "appointment_closed": "अपॉइंटमेंट बंद हैं",
+    "app_closed_desc": "यह क्लीनिक/हॉस्पिटल फिलहाल अपॉइंटमेंट नहीं ले रहा है।"
+  },
+  "doctors_page": {
+    "title": "हमारे डॉक्टर्स",
+    "sub_title": "बहु-विशेषज्ञता वाली हेल्थकेयर टीम देखें",
+    "desc": "हमारे व्यापक डॉक्टर्स की सूची के साथ अपनी ज़रूरतों के लिए सही विशेषज्ञ चुनें।",
+    "search_placeholder": "डॉक्टर्स खोजें...",
+    "experience": "अनुभव {{count}}+ वर्ष",
+    "appointments_done": "{{count}} अपॉइंटमेंट पूरे",
+    "not_accepting_appointments": "फिलहाल अपॉइंटमेंट नहीं ले रहे",
+    "error_something_went_wrong": "कुछ गड़बड़ हो गई!",
+    "error_fetch": "डॉक्टर्स नहीं मिल पाए!"
+  },
+  "doctor_details_page": {
+    "title": "डॉक्टर प्रोफ़ाइल",
+    "experience_years": "{{count}}+ वर्ष का अनुभव",
+    "appointments_done": "{{count}} अपॉइंटमेंट पूरे",
+    "not_taking_appointments": "डॉक्टर अपॉइंटमेंट नहीं ले रहे",
+    "clinic_not_scheduling": "क्लीनिक फिलहाल अपॉइंटमेंट शेड्यूल नहीं कर रही है",
+    "make_appointment": "अपॉइंटमेंट लें",
+    "select_appointment_type": "अपॉइंटमेंट टाइप चुनें",
+    "appointment_types": {
+      "opd": "ओपीडी",
+      "video_call": "वीडियो कॉल",
+      "emergency": "इमरजेंसी"
+    },
+    "doctorReviews": "रिव्यू और रेटिंग्स -"
+  },
+  "contact_us_page": {
+    "title": "संपर्क करें",
+    "desc": "हम किसी भी क्वेरी या सपोर्ट के लिए हमेशा उपलब्ध हैं। हमें लिखें, हम जल्द ही जवाब देंगे।",
+    "address_title": "पता",
+    "call_us_title": "कॉल करें",
+    "email_us_title": "ईमेल करें",
+    "form": {
+      "name_label": "आपका नाम",
+      "name_placeholder": "आपका नाम",
+      "email_label": "आपका ईमेल",
+      "email_placeholder": "आपका ईमेल",
+      "subject_label": "विषय",
+      "subject_placeholder": "विषय",
+      "message_label": "संदेश",
+      "message_placeholder": "संदेश",
+      "submit_button": "संदेश भेजें",
+      "name_required": "नाम आवश्यक है",
+      "email_required": "ईमेल आवश्यक है",
+      "email_invalid": "ईमेल फ़ॉर्मेट ग़लत है",
+      "subject_required": "विषय आवश्यक है",
+      "message_required": "संदेश आवश्यक है",
+      "success_title": "संदेश प्राप्त हुआ!",
+      "success_desc": "हमने आपका संदेश प्राप्त कर लिया है, जल्द ही आपसे संपर्क करेंगे।"
+    }
+  },
+  "user_profile_page": {
+    "title": "यूज़र प्रोफ़ाइल",
+    "first_name_label": "पहला नाम",
+    "last_name_label": "अंतिम नाम",
+    "phone_label": "फ़ोन",
+    "email_label": "ईमेल",
+    "gender_label": "लिंग",
+    "gender_options": {
+      "male": "पुरुष",
+      "female": "महिला"
+    },
+    "dob_label": "जन्म तिथि",
+    "city_label": "शहर",
+    "state_label": "राज्य",
+    "postal_code_label": "पिन कोड",
+    "address_label": "पता",
+    "update_button": "प्रोफ़ाइल अपडेट करें",
+    "toast_success": "यूज़र विवरण अपडेट हो गए",
+    "toast_error_invalid_email": "ईमेल पता मान्य नहीं है"
+  },
+  "family_members_page": {
+    "title": "परिवार के सदस्य",
+    "add_new_button": "नया सदस्य जोड़ें",
+    "add_form_title": "नया परिवार सदस्य जोड़ें",
+    "first_name_label": "पहला नाम",
+    "first_name_placeholder": "पहला नाम दर्ज करें",
+    "first_name_required": "पहला नाम आवश्यक है",
+    "last_name_label": "अंतिम नाम",
+    "last_name_placeholder": "अंतिम नाम दर्ज करें",
+    "last_name_required": "अंतिम नाम आवश्यक है",
+    "phone_label": "फ़ोन",
+    "phone_placeholder": "फ़ोन नंबर दर्ज करें",
+    "phone_required": "फ़ोन आवश्यक है",
+    "phone_invalid": "फ़ोन नंबर मान्य नहीं है",
+    "gender_label": "लिंग",
+    "gender_placeholder": "लिंग चुनें",
+    "gender_required": "लिंग आवश्यक है",
+    "gender_options": {
+      "male": "पुरुष",
+      "female": "महिला"
+    },
+    "dob_label": "जन्म तिथि",
+    "dob_required": "जन्म तिथि आवश्यक है",
+    "cancel_button": "रद्द करें",
+    "submit_button": "जोड़ें",
+    "toast_add_success": "परिवार सदस्य जोड़ा गया",
+    "toast_delete_success": "परिवार सदस्य हटाया गया",
+    "toast_error_generic": "ऑपरेशन असफल रहा"
+  },
+  "family_member_page": {
+    "title": "परिवार सदस्य",
+    "first_name_label": "पहला नाम",
+    "first_name_placeholder": "पहला नाम दर्ज करें",
+    "last_name_label": "अंतिम नाम",
+    "last_name_placeholder": "अंतिम नाम दर्ज करें",
+    "phone_label": "फ़ोन",
+    "phone_placeholder": "फ़ोन नंबर दर्ज करें",
+    "email_label": "ईमेल",
+    "email_placeholder": "ईमेल दर्ज करें",
+    "gender_label": "लिंग",
+    "gender_placeholder": "लिंग चुनें",
+    "gender_options": {
+      "male": "पुरुष",
+      "female": "महिला"
+    },
+    "dob_label": "जन्म तिथि",
+    "city_label": "शहर",
+    "city_placeholder": "शहर दर्ज करें",
+    "state_label": "राज्य",
+    "state_placeholder": "राज्य दर्ज करें",
+    "postal_code_label": "पिन कोड",
+    "postal_code_placeholder": "पिन कोड दर्ज करें",
+    "address_label": "पता",
+    "address_placeholder": "पता दर्ज करें",
+    "update_button": "प्रोफ़ाइल अपडेट करें",
+    "vitals_title": "वाइटल्स",
+    "date_label": "तारीख",
+    "toast_success": "परिवार सदस्य अपडेट हुआ",
+    "toast_error_generic": "परिवार सदस्य अपडेट करने में विफल"
+  },
+  "vitals_page": {
+    "Blood-Pressure": "ब्लड प्रेशर",
+    "Blood-Pressure-desc": "ब्लड प्रेशर विवरण और इतिहास",
+    "Blood-Sugar": "ब्लड शुगर",
+    "Blood-Sugar-desc": "ब्लड शुगर लेवल और जानकारी",
+    "Temperature": "तापमान",
+    "Temperature-desc": "शरीर के तापमान की निगरानी",
+    "Weight": "वज़न",
+    "Weight-desc": "वज़न ट्रैकिंग",
+    "SpO2": "ऑक्सीजन स्तर",
+    "SpO2-desc": "ऑक्सीजन सेचुरेशन स्तर",
+    "no_family_member": "आपने अभी तक कोई परिवार सदस्य नहीं जोड़ा है"
+  },
+  "appointments_page": {
+    "title": "अपॉइंटमेंट्स",
+    "no_appointments_alert_title": "कोई अपॉइंटमेंट नहीं मिला!",
+    "no_appointments_alert_description": "आपके पास कोई अपॉइंटमेंट नहीं है। अभी बुक करें!",
+    "make_appointment_button": "अपॉइंटमेंट लें",
+    "filter_steps": {
+      "All": "सभी",
+      "Upcoming": "आगामी",
+      "Pending": "पेंडिंग",
+      "Confirmed": "कन्फर्म",
+      "Rejected": "अस्वीकृत",
+      "Completed": "पूरा",
+      "Rescheduled": "रीशेड्यूल्ड",
+      "Cancelled": "रद्द",
+      "Visited": "विज़िटेड",
+      "Closed": "क्लोज़्ड"
+    },
+    "card": {
+      "name_label": "नाम",
+      "id_label": "आईडी",
+      "time_label": "समय",
+      "doctor_label": "डॉक्टर",
+      "rebook_button": "फिर से बुक करें"
+    }
+  },
+  "newAppointment": {
+    "selectDoct": "कृपया आगे बढ़ने से पहले डॉक्टर और अपॉइंटमेंट टाइप चुनें।",
+    "selectDate": "कृपया आगे बढ़ने से पहले तारीख और टाइम स्लॉट चुनें।",
+    "selectFamilyMember": "कृपया आगे बढ़ने से पहले परिवार सदस्य चुनें।",
+    "timeSlotes": "टाइम स्लॉट्स",
+    "noTimeSlotes": "क्षमा करें, चुनी गई तारीख के लिए कोई उपलब्ध टाइम स्लॉट नहीं मिला।",
+    "addFamilyMember": "परिवार सदस्य जोड़ें",
+    "oneStepAway": "बस एक कदम दूर",
+    "payAndBook": "पे करके अपॉइंटमेंट बुक करें",
+    "appType": "अपॉइंटमेंट टाइप",
+    "appFee": "अपॉइंटमेंट फीस",
+    "appliedCoupon": "लगा हुआ कूपन",
+    "coupDiscount": "डिस्काउंट",
+    "coupCodePlaceholder": "कूपन लगाएँ",
+    "apply": "लागू करें",
+    "payNow": "अभी भुगतान करें",
+    "payAtHospital": "हॉस्पिटल पर भुगतान करें",
+    "payWallet": "वॉलेट से भुगतान करें",
+    "avlBlc": "उपलब्ध बैलेंस",
+    "bookNow": "अभी बुक करें",
+    "payAndBookTest": "पे करें"
+  },
+  "appointmentDetails": {
+    "title": "अपॉइंटमेंट",
+    "reviewDoctor": "डॉक्टर को रिव्यू दें",
+    "queueNumber": "क्यू नंबर",
+    "happyPatients": "खुश मरीज़",
+    "checkIn": "चेक-इन",
+    "patient": "मरीज़:",
+    "joinMeeting": "मीटिंग जॉइन करें",
+    "prescriptions": "प्रिस्क्रिप्शन्स -",
+    "downloadPrescription": "प्रिस्क्रिप्शन डाउनलोड करें",
+    "prescriptionsNotFound": "कोई प्रिस्क्रिप्शन नहीं मिला!",
+    "patientFiles": "मरीज़ की फाइलें",
+    "filesNotFound": "कोई फाइल नहीं मिली!",
+    "paymentStatus": "पेमेंट स्टेटस",
+    "paymentId": "पेमेंट आईडी",
+    "downloadInvoice": "इनवॉइस डाउनलोड करें",
+    "navigate": "क्लीनिक तक जाएँ",
+    "appointmentCancellation": "अपॉइंटमेंट कैंसिलेशन",
+    "initiateCancellation": "कैंसिलेशन रिक्वेस्ट शुरू करने के लिए यहाँ क्लिक करें",
+    "deleteCancellation": "कैंसिलेशन रिक्वेस्ट हटाने के लिए यहाँ क्लिक करें",
+    "currentStatus": "वर्तमान स्टेटस - {{status}}",
+    "requestHistory": "रिक्वेस्ट हिस्ट्री",
+    "dialogModal": {
+      "cancelAppointment": "अपॉइंटमेंट रद्द करें?",
+      "deleteCancellationRequest": "कैंसिलेशन रिक्वेस्ट हटाएँ?",
+      "confirmCancel": "क्या आप वाकई यह अपॉइंटमेंट रद्द करना चाहते हैं?",
+      "confirmDelete": "क्या आप वाकई यह कैंसिलेशन रिक्वेस्ट हटाना चाहते हैं?"
+    }
+  },
+  "appointmentSuccess": {
+    "appointmentId": "अपॉइंटमेंट आईडी",
+    "joinMeeting": "मीटिंग जॉइन करें",
+    "successMessage": "आपका अपॉइंटमेंट सफलतापूर्वक बुक हो गया!",
+    "opdInstruction": "क्लीनिक जाएँ और दिए गए QR कोड को स्कैन करके तुरंत अपना क्यू नंबर प्राप्त करें।",
+    "videoInstruction": "‘मीटिंग जॉइन करें’ पर क्लिक करें या QR कोड स्कैन करके मीटिंग में शामिल हों।",
+    "dateTime": "तारीख और समय",
+    "patientName": "मरीज़ का नाम",
+    "addToCalendar": "कैलेंडर में जोड़ें"
+  },
+  "files_page": {
+    "searchFiles": "फाइलें खोजें...",
+    "noFiles": "फाइलें फिलहाल उपलब्ध नहीं हैं। डॉक्टर द्वारा दस्तावेज़ अपलोड करने के बाद आप इन्हें देख पाएँगे।"
+  },
+  "prescription_page": {
+    "searchFiles": "प्रिस्क्रिप्शन्स खोजें...",
+    "noFiles": "प्रिस्क्रिप्शन्स फिलहाल उपलब्ध नहीं हैं। डॉक्टर द्वारा अपलोड करने के बाद आप इन्हें देख पाएँगे।"
+  },
+  "wallet_page": {
+    "currBal": "वर्तमान बैलेंस",
+    "addMoney": "पैसा जोड़ें",
+    "txnHistory": "ट्रांज़ैक्शन हिस्ट्री",
+    "noTxn": "कोई ट्रांज़ैक्शन नहीं मिला",
+    "title": "अपने वॉलेट में पैसा जोड़ें",
+    "enterAmount": "राशि दर्ज करें",
+    "noPaymentMethod": "कोई सक्रिय पेमेंट मेथड नहीं!",
+    "successMessage": "सफल!",
+    "errorMessage": "कुछ गड़बड़ हो गई!",
+    "amountCredited": "राशि आपके वॉलेट में जोड़ दी गई",
+    "amountDebited": "राशि आपके वॉलेट से काट दी गई",
+    "transactionId": "ट्रांज़ैक्शन आईडी",
+    "paymentId": "पेमेंट आईडी: {id}"
+  },
+  "addMoney": {
+    "title": "अपने वॉलेट में पैसा जोड़ें",
+    "enterAmount": "राशि दर्ज करें",
+    "placeholder": "राशि रुपये में दर्ज करें",
+    "noPaymentMethod": "कोई सक्रिय पेमेंट मेथड नहीं!",
+    "successMessage": "सफल!",
+    "errorMessage": "कुछ गड़बड़ हो गई!",
+    "specificError": "{message}"
+  },
+  "searchPage": {
+    "search": "खोजें",
+    "searchPlaceholder": "डॉक्टर्स, क्लीनिक और स्पेशलाइज़ेशन खोजें...",
+    "noResults": "'{{query}}' के लिए कोई परिणाम नहीं मिला",
+    "searchResults": "'{{query}}' के लिए सर्च परिणाम",
+    "searching": "खोज जारी...",
+    "error": "सर्च के दौरान त्रुटि हुई"
+  },
+  "firebaseLogin": {
+    "welcome": "स्वागत है",
+    "loginDescription": "हम सर्वश्रेष्ठ और किफायती हेल्थकेयर सेवाएँ प्रदान करते हैं।",
+    "mobileNumber": "मोबाइल नंबर",
+    "continue": "जारी रखें",
+    "termsText": "आगे बढ़ते हुए आप हमारी",
+    "termsOfUse": "टर्म्स ऑफ़ यूज़",
+    "privacyPolicy": "प्राइवेसी पॉलिसी",
+    "createAccount": "नए हैं? अकाउंट बनाएँ!",
+    "enterOtp": "ओटीपी दर्ज करें",
+    "otpSentTo": "ओटीपी भेजा गया",
+    "login": "लॉगिन",
+    "resendOtp": "ओटीपी फिर से भेजें",
+    "useDifferentPhone": "दूसरा फ़ोन नंबर उपयोग करें",
+    "otpSentSuccess": "ओटीपी भेजा गया",
+    "otpSentDescription": "कृपया अपने फ़ोन पर ओटीपी देखें।",
+    "otpError": "ओटीपी भेजने में विफल, कृपया फिर कोशिश करें।",
+    "otpInvalid": "कृपया मान्य ओटीपी दर्ज करें।",
+    "invalidOtpTitle": "अमान्य ओटीपी",
+    "loginSuccessTitle": "लॉगिन सफल",
+    "phoneRequired": "कृपया फ़ोन नंबर दर्ज करें",
+    "phoneNotExist": "फ़ोन नंबर मौजूद नहीं! कृपया साइनअप करें",
+    "otpResentSuccess": "ओटीपी दोबारा भेज दिया गया।",
+    "otpResentFailed": "ओटीपी दोबारा भेजने में विफल, फिर प्रयास करें।"
+  },
+  "signup": {
+    "title": "साइन अप",
+    "description": "सर्वश्रेष्ठ हेल्थकेयर सेवाओं के लिए हमारे साथ जुड़ें।",
+    "form": {
+      "first_name_label": "पहला नाम",
+      "first_name_required": "पहला नाम आवश्यक है",
+      "last_name_label": "अंतिम नाम",
+      "last_name_required": "अंतिम नाम आवश्यक है",
+      "phone_label": "फ़ोन नंबर",
+      "phone_required": "फ़ोन नंबर आवश्यक है",
+      "phone_pattern": "फ़ोन नंबर 10 अंकों का होना चाहिए",
+      "gender_label": "लिंग",
+      "gender_required": "कृपया लिंग चुनें",
+      "gender_options": {
+        "male": "पुरुष",
+        "female": "महिला",
+        "other": "अन्य"
+      },
+      "gender_placeholder": "लिंग चुनें",
+      "dob_label": "जन्म तिथि",
+      "dob_required": "जन्म तिथि आवश्यक है",
+      "email_label": "ईमेल पता",
+      "email_pattern": "ईमेल पता मान्य नहीं है",
+      "otp_label": "ओटीपी दर्ज करें",
+      "submit_button_step1": "ओटीपी लें",
+      "submit_button_step2": "साइन अप करें"
+    },
+    "toast": {
+      "otp_sent_title": "ओटीपी भेजा गया",
+      "otp_sent_description": "कृपया अपने फ़ोन पर ओटीपी देखें।",
+      "otp_error_title": "त्रुटि",
+      "otp_error_description": "ओटीपी भेजने में विफल, कृपया पुनः प्रयास करें।",
+      "otp_invalid_description": "कृपया मान्य ओटीपी दर्ज करें।",
+      "phone_exists_title": "फ़ोन नंबर पहले से मौजूद है!",
+      "signup_success_title": "साइन अप सफल",
+      "signup_success_description": "स्वागत है {{f_name}} {{l_name}}",
+      "otp_missing_title": "कृपया ओटीपी दर्ज करें!",
+      "signup_failed_description": "साइन अप विफल रहा",
+      "invalid_otp_description": "अमान्य ओटीपी"
+    },
+    "terms_text": "साइन अप करके आप हमारी",
+    "terms_of_use": "टर्म्स ऑफ़ यूज़",
+    "privacy_policy": "प्राइवेसी पॉलिसी",
+    "login_link": "पहले से अकाउंट है? लॉगिन करें"
+  },
+  "dept_page": {
+    "title": "{{name}} विभाग",
+    "subtitle": "बहु-विशेषज्ञता वाली टीम का अन्वेषण करें",
+    "highlightedSubtitle": "{{name}} विभाग",
+    "description": "हमारे व्यापक डॉक्टर्स चयन के साथ अपनी ज़रूरत के लिए सही विशेषज्ञ आसानी से खोजें।",
+    "otherDepartments": "अन्य विभाग देखें",
+    "noDoctorsMessage": "क्षमा करें, फिलहाल {{deptName}} विभाग में कोई डॉक्टर उपलब्ध नहीं है। कृपया बाद में देखें या कोई अन्य विभाग चुनें। यदि आपको तुरंत सहायता चाहिए तो हमारी सपोर्ट टीम उपलब्ध है।"
+  },
+  "blogs_page": {
+    "title": "ब्लॉग्स",
+    "description": "हमारे नवीनतम आर्टिकल, इनसाइट्स और अपडेट्स पढ़ें।",
+    "no_blogs": "कोई ब्लॉग नहीं मिला",
+    "no_blogs_description": "फिलहाल कोई फ़ीचर्ड ब्लॉग पोस्ट उपलब्ध नहीं है।",
+    "error_fetch": "ब्लॉग्स नहीं मिल पाए!",
+    "recent_post": "हाल की पोस्ट",
+    "author_details": "लेखक विवरण"
+  },
+  "blog_page": {
+    "title": "ब्लॉग"
+  },
+  "lab-component": {
+    "title": "हमारी लैब",
+    "title1": "{{city}} की टॉप लैब",
+    "desc": "आपकी ज़रूरतों के अनुसार विशेष हेल्थकेयर सेवाएँ एक ही जगह पर खोजें।",
+    "see-all": "सभी लैब देखें"
+  },
+  "labs_page": {
+    "title": "हमारी लैब्स देखें",
+    "sub_title": "आपको बेहतरीन लैब सेवाओं से जोड़ना",
+    "desc": "हमारी नेटवर्क लैब्स में पर्सनलाइज़्ड केयर और एडवांस्ड मेडिकल सेवाएँ खोजें।",
+    "search_placeholder": "लैब खोजें..."
+  },
+  "lab_details_page": {
+    "lab_details": "लैब विवरण",
+    "ambulance_call": "एम्बुलेंस कॉल करें",
+    "navigate_lab": "लैब तक जाएँ",
+    "lab_images": "लैब इमेजेस",
+    "not_avl_img": "लैब इमेजेस उपलब्ध नहीं हैं",
+    "contact_details": "संपर्क विवरण",
+    "opening_hours": "खुलने का समय",
+    "opn_hrs_not_avl": "खुलने का समय उपलब्ध नहीं",
+    "avl_doctor": "{{appName}} में उपलब्ध टेस्ट",
+    "appointment_closed": "बुकिंग बंद है",
+    "app_closed_desc": "यह लैब फिलहाल टेस्ट बुकिंग नहीं ले रही है।"
+  },
+  "lab_bookings_page": {
+    "title": "आपकी लैब बुकिंग्स",
+    "no_bookings_alert_title": "कोई लैब बुकिंग नहीं मिली",
+    "make_booking_button": "लैब टेस्ट बुक करें",
+    "noInvoicesAvailable": "कोई इनवॉइस उपलब्ध नहीं",
+    "navigate": "लैब तक जाएँ",
+    "files": "फाइलें / टेस्ट रिपोर्ट",
+    "addReview": "रिव्यू जोड़ें",
+    "reviews": "रिव्यू",
+    "testsIncluded": "शामिल टेस्ट",
+    "bookingId": "बुकिंग आईडी",
+    "rebookingFailed": "पुनः बुकिंग विफल",
+    "card": {
+      "name_label": "मरीज़",
+      "test_label": "टेस्ट",
+      "lab_label": "लैब",
+      "payment_label": "पेमेंट स्टेटस",
+      "rebook_button": "फिर से बुक करें"
+    },
+    "payment_status": {
+      "paid": "पेड",
+      "not_paid": "नॉट पेड",
+      "refunded": "रिफंडेड",
+      "unpaid": "अनपेड",
+      "unknown": "अज्ञात"
+    }
+  },
+  "labCart": {
+    "title": "लैब कार्ट",
+    "cartDetails": "कार्ट विवरण",
+    "your_lab_cart_empty": "आपका लैब कार्ट खाली है",
+    "your_selected_tests": "आपके चुने गए टेस्ट",
+    "remove": "हटाएँ",
+    "subtotal": "सबटोटल",
+    "tests": "टेस्ट",
+    "service_charge": "सर्विस चार्ज",
+    "free": "फ्री",
+    "tax_18": "टैक्स (18%)",
+    "continue": "जारी रखें",
+    "select_date": "तारीख चुनें",
+    "select_patient": "मरीज़ / परिवार सदस्य चुनें",
+    "pay_and_book": "पे करके लैब टेस्ट बुक करें",
+    "total_amount": "कुल राशि",
+    "total_payable_amount": "कुल देय राशि",
+    "lab": "लैब",
+    "Date": "तारीख",
+    "Removed from cart": "कार्ट से हटाया गया",
+    "Something went wrong": "कुछ गड़बड़ हो गई",
+    "No tests added yet": "अभी तक कोई टेस्ट नहीं जोड़ा गया",
+    "Payment Successful": "पेमेंट सफल",
+    "Lab Test booked successfully": "लैब टेस्ट सफलतापूर्वक बुक हुआ",
+    "Failed to book": "बुक करने में विफल",
+    "Failed to remove": "हटाने में विफल",
+    "Subtests": "सबटेस्ट",
+    "bookNow": "अभी बुक करें"
+  },
+  "cart": {
+    "title": "कार्ट",
+    "select_address": "पता चुनें",
+    "payment": "पेमेंट",
+    "products": "प्रोडक्ट्स",
+    "lab_tests": "लैब टेस्ट",
+    "empty_product_cart": "आपका प्रोडक्ट कार्ट खाली है! हमारे प्रोडक्ट्स देखें और ज़रूरी चीज़ें चुनें।",
+    "empty_lab_cart": "आपका लैब टेस्ट कार्ट खाली है! हमारी सेवाओं को देखें और ज़रूरत के टेस्ट चुनें।",
+    "total": "कुल",
+    "place_order": "ऑर्डर प्लेस करें",
+    "qty": "संख्या",
+    "remove": "हटाएँ",
+    "mrp": "एमआरपी",
+    "price": "कीमत",
+    "tax": "टैक्स",
+    "discount": "डिस्काउंट",
+    "delivery_address": "डिलिवरी पता",
+    "your_wallet_balance": "आपका वॉलेट बैलेंस",
+    "use_wallet_balance": "वॉलेट बैलेंस उपयोग करें",
+    "pay_now": "अभी पेमेंट करें",
+    "cod": "कैश ऑन डिलिवरी",
+    "product_delivery_details": "प्रोडक्ट डिलिवरी विवरण और समय",
+    "delivery": "डिलिवरी",
+    "delivery_charges_20": "डिलिवरी चार्ज - ₹20.0",
+    "delivery_desc": "सफल ऑर्डर के 24–28 घंटों के भीतर डिलिवरी की जाएगी।",
+    "home_time": "होम टाइम (सुबह 8 से रात 8 बजे)",
+    "office_time": "ऑफिस टाइम (सुबह 10 से शाम 5 बजे)",
+    "emergency_delivery": "इमरजेंसी डिलिवरी",
+    "emergency_charges": "डिलिवरी चार्ज - ₹50.0",
+    "emergency_desc": "जरूरी ऑर्डर के लिए तेज़ डिलिवरी, कुछ घंटों में प्रोडक्ट पहुँचेगा।",
+    "your_wallet_amount": "आपके वॉलेट में राशि",
+    "used_wallet_amount": "उपयोग की गई वॉलेट राशि",
+    "total_payable_amount": "कुल देय राशि",
+    "back": "वापस जाएँ",
+    "order_now": "अभी ऑर्डर करें"
+  },
+  "common": {
+    "closed": "बंद",
+    "na": "उपलब्ध नहीं",
+    "opd": "ओपीडी",
+    "video_consultant": "वीडियो कंसल्टेशन",
+    "emergency": "इमरजेंसी",
+    "doctor": "डॉक्टर",
+    "happy_patients": "खुश मरीज़",
+    "not_paid": "पेमेंट नहीं हुआ",
+    "loading": "लोड हो रहा है...",
+    "load_more": "और लोड करें",
+    "try_again": "फिर से प्रयास करें",
+    "success": "सफलता",
+    "error": "त्रुटि",
+    "remove": "हटाएँ",
+    "or": "या"
+  },
+  "blogs": {
+    "title": "ब्लॉग्स",
+    "not_available": "ब्लॉग उपलब्ध नहीं हैं।",
+    "author_not_available": "लेखक उपलब्ध नहीं"
+  },
+  "blog": {
+    "not_available": "ब्लॉग उपलब्ध नहीं।"
+  },
+  "error_page": {
+    "title": "500 इंटरनल सर्वर एरर",
+    "code": "500",
+    "heading": "इंटरनल सर्वर एरर",
+    "message": "ओह! हमारी तरफ़ से कुछ गड़बड़ हो गई। हम इसे ठीक करने पर काम कर रहे हैं।",
+    "description": "कृपया पेज रिफ्रेश करें या होमपेज पर लौटें।",
+    "try_again": "फिर से प्रयास करें"
+  },
+  "not_found_page": {
+    "title": "कुछ सही नहीं लग रहा...",
+    "description": "जो पेज आप खोलना चाह रहे हैं वह मौजूद नहीं है। हो सकता है कि आपने यूआरएल गलत टाइप किया हो या पेज कहीं और शिफ्ट हो गया हो। अगर आपको लगता है कि यह गलती है, तो सपोर्ट टीम से संपर्क करें।",
+    "back_home": "होम पेज पर वापस जाएँ"
+  },
+  "error": {
+    "something_went_wrong": "कुछ गड़बड़ हो गई!",
+    "cant_fetch_doctors": "डॉक्टर्स नहीं मिल पाए!",
+    "cant_fetch_tests": "टेस्ट्स नहीं मिल पाए!"
+  },
+  "components": {
+    "testsByLab": {
+      "Report in": "रिपोर्ट समय",
+      "day": "दिन",
+      "days": "दिन",
+      "Removing...": "हटा रहे हैं...",
+      "Adding...": "जोड़ रहे हैं...",
+      "Add to Cart": "कार्ट में जोड़ें",
+      "Subtests Included": "सबटेस्ट शामिल",
+      "Added": "जोड़ा गया",
+      "View Cart": "कार्ट देखें",
+      "Cart updated successfully": "कार्ट सफलतापूर्वक अपडेट हुआ",
+      "Failed to update cart": "कार्ट अपडेट करने में विफल"
+    },
+    "addReview": {
+      "lab_rating_title": "लैब टेस्ट रेटिंग",
+      "doctor_rating_title": "डॉक्टर रेटिंग",
+      "write_feedback_placeholder": "अपनी प्रतिक्रिया लिखें",
+      "close": "बंद करें",
+      "add_review": "रिव्यू जोड़ें",
+      "review_added_success": "रिव्यू सफलतापूर्वक जोड़ा गया"
+    },
+    "address": {
+      "add_new_address": "नया पता जोड़ें",
+      "name_label": "नाम",
+      "name_placeholder": "अपना नाम दर्ज करें",
+      "phone_label": "फ़ोन",
+      "phone_placeholder": "अपना फ़ोन नंबर दर्ज करें",
+      "flat_no_label": "फ़्लैट नंबर",
+      "flat_no_placeholder": "फ़्लैट नंबर दर्ज करें",
+      "apartment_label": "अपार्टमेंट का नाम",
+      "apartment_placeholder": "अपार्टमेंट का नाम दर्ज करें",
+      "area_label": "एरिया/स्ट्रीट",
+      "area_placeholder": "अपना एरिया/स्ट्रीट दर्ज करें",
+      "landmark_label": "लैंडमार्क",
+      "landmark_placeholder": "कोई लैंडमार्क दर्ज करें",
+      "city_label": "शहर",
+      "city_placeholder": "अपना शहर दर्ज करें",
+      "pincode_label": "पिन कोड",
+      "pincode_placeholder": "अपना पिन कोड दर्ज करें",
+      "cancel": "रद्द करें",
+      "submit": "सबमिट करें"
+    },
+    "notification": {
+      "title": "नोटिफिकेशन",
+      "no_notifications": "कोई नोटिफिकेशन उपलब्ध नहीं",
+      "mark_all_read": "सभी को पढ़ा मार्क करें",
+      "clear_all": "सभी साफ करें"
+    },
+    "search": {
+      "placeholder": "खोजें...",
+      "no_results": "कोई परिणाम नहीं मिला",
+      "searching": "खोज जारी..."
+    },
+    "wallet": {
+      "current_balance": "वर्तमान बैलेंस",
+      "add_money": "पैसा जोड़ें",
+      "transaction_history": "ट्रांज़ैक्शन हिस्ट्री",
+      "no_transactions": "कोई ट्रांज़ैक्शन नहीं मिला",
+      "credited": "क्रेडिटेड",
+      "debited": "डेबिटेड",
+      "transaction_id": "ट्रांज़ैक्शन आईडी"
+    },
+    "userProfile": {
+      "edit_profile": "प्रोफ़ाइल एडिट करें",
+      "save_changes": "परिवर्तन सेव करें",
+      "cancel": "रद्द करें",
+      "update_success": "प्रोफ़ाइल सफलतापूर्वक अपडेट हुई",
+      "update_failed": "प्रोफ़ाइल अपडेट करने में विफल"
+    },
+    "familyMembers": {
+      "add_member": "परिवार सदस्य जोड़ें",
+      "edit_member": "परिवार सदस्य एडिट करें",
+      "delete_member": "परिवार सदस्य हटाएँ",
+      "member_added": "परिवार सदस्य सफलतापूर्वक जोड़ा गया",
+      "member_updated": "परिवार सदस्य सफलतापूर्वक अपडेट हुआ",
+      "member_deleted": "परिवार सदस्य सफलतापूर्वक हटाया गया"
+    },
+    "loading": {
+      "please_wait": "कृपया प्रतीक्षा करें...",
+      "loading_data": "डेटा लोड हो रहा है..."
+    },
+    "notAvailable": {
+      "not_available": "उपलब्ध नहीं",
+      "no_data": "कोई डेटा उपलब्ध नहीं"
+    },
+    "locationSelector": {
+      "select_location": "स्थान चुनें",
+      "current_location": "वर्तमान स्थान उपयोग करें",
+      "search_location": "स्थान खोजें...",
+      "no_locations_found": "कोई स्थान नहीं मिला"
+    },
+    "loginModal": {
+      "login_title": "लॉगिन",
+      "signup_title": "साइन अप",
+      "phone_label": "फ़ोन नंबर",
+      "otp_label": "ओटीपी दर्ज करें",
+      "send_otp": "ओटीपी भेजें",
+      "verify_otp": "ओटीपी वेरिफाई करें",
+      "resend_otp": "ओटीपी फिर से भेजें",
+      "login_success": "लॉगिन सफल",
+      "login_failed": "लॉगिन विफल"
+    },
+    "qrCode": {
+      "scan_qr": "QR कोड स्कैन करें",
+      "download_qr": "QR कोड डाउनलोड करें"
+    },
+    "profilePicture": {
+      "upload_photo": "फोटो अपलोड करें",
+      "change_photo": "फोटो बदलें",
+      "remove_photo": "फोटो हटाएँ",
+      "upload_success": "फोटो सफलतापूर्वक अपलोड हुई",
+      "upload_failed": "फोटो अपलोड करने में विफल"
+    },
+    "whatsappBtn": {
+      "chat_with_us": "व्हाट्सऐप पर हमसे बात करें"
+    },
+    "doctorReviews": {
+      "no_reviews": "अभी तक कोई रिव्यू नहीं",
+      "write_review": "रिव्यू लिखें",
+      "rating": "रेटिंग",
+      "reviews": "रिव्यूज़"
+    },
+    "testimonials": {
+      "patient_testimonials": "मरीज़ों के टेस्टिमोनियल्स",
+      "what_patients_say": "हमारे मरीज़ क्या कहते हैं"
+    },
+    "departments": {
+      "all_departments": "सभी विभाग",
+      "view_doctors": "डॉक्टर्स देखें"
+    },
+    "doctors": {
+      "book_appointment": "अपॉइंटमेंट बुक करें",
+      "view_profile": "प्रोफ़ाइल देखें",
+      "available": "उपलब्ध",
+      "not_available": "उपलब्ध नहीं"
+    },
+    "clinics": {
+      "view_details": "विवरण देखें",
+      "book_now": "अभी बुक करें"
+    },
+    "labs": {
+      "view_tests": "टेस्ट देखें",
+      "book_test": "टेस्ट बुक करें"
+    },
+    "contactDetails": {
+      "email": "ईमेल",
+      "phone": "फ़ोन",
+      "address": "पता",
+      "working_hours": "कार्य समय"
+    },
+    "maps": {
+      "get_directions": "दिशा प्राप्त करें",
+      "view_on_map": "मैप पर देखें"
+    },
+    "patients": {
+      "patient_info": "मरीज़ की जानकारी",
+      "medical_history": "मेडिकल हिस्ट्री"
+    },
+    "recentPosts": {
+      "recent_posts": "हाल की पोस्ट",
+      "read_more": "और पढ़ें"
+    },
+    "featuredBlogs": {
+      "featured_blogs": "फ़ीचर्ड ब्लॉग्स",
+      "explore_all": "सभी देखें"
+    }
+  }
+}

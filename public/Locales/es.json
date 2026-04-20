@@ -1,0 +1,934 @@
+﻿{
+  "featured_post": "Publicación Destacada",
+  "about us": "Sobre nosotros",
+  "legal": "Legal",
+  "terms and conditions": "Términos y condiciones",
+  "privacy policy": "Política de privacidad",
+  "make-appointment": "Reservar cita",
+  "departments": "Departamentos",
+  "department": "Departamento",
+  "clinics": "Clínicas",
+  "clinic": "Clínica",
+  "labs": "Laboratorios",
+  "lab": "Laboratorio",
+  "doctors": "Doctores",
+  "Doctor": "Doctor",
+  "patient": "Paciente",
+  "appointment": "Cita",
+  "appointments": "Citas",
+  "prescriptions": "Recetas",
+  "prescription": "Receta",
+  "prescription-details": "Detalles de la receta",
+  "files": "Archivos",
+  "file": "Archivo",
+  "family-members": "Miembros de la familia",
+  "family-member": "Miembro de la familia",
+  "vitals": "Signos vitales",
+  "vital": "Signo vital",
+  "profile": "Perfil",
+  "profile-details": "Detalles del perfil",
+  "see-all": "Ver todo",
+  "testi": "Testimonios",
+  "contact-us": "Contáctanos",
+  "date": "Fecha",
+  "time": "Hora",
+  "phone": "Teléfono",
+  "whatsapp": "WhatsApp",
+  "gmail": "Gmail",
+  "location": "Ubicación",
+  "ambulance": "Ambulancia",
+  "no": "No",
+  "yes": "Sí",
+  "close": "Cerrar",
+  "add": "Agregar",
+  "cancel": "Cancelar",
+  "dateTime": "Fecha y hora",
+  "patientDetails": "Detalles del paciente",
+  "Summary": "Resumen",
+  "or": "O",
+  "tax": "Impuesto",
+  "total": "Total",
+  "book-appointment": "Reservar cita",
+  "search": "Buscar",
+  "swipe": "Deslizar",
+  "sorry": "Lo sentimos",
+  "notAvailable": "{{name}} no están disponibles en tu ubicación seleccionada.",
+  "and": "y",
+  "loading": "Cargando",
+  "select_location": "Seleccionar ubicación",
+  "failed_to_get_city": "Error al obtener la ciudad",
+  "select_city_manually": "Selecciona una ciudad manualmente",
+  "search_for_location": "Buscar una ubicación",
+  "use_current_location": "Usar ubicación actual",
+  "category": "Categoría",
+  "amount": "Cantidad",
+  "navbar": {
+    "Home": "Inicio",
+    "Blogs": "Blogs",
+    "Profile": "Perfil",
+    "Family-Members": "Miembros de la familia",
+    "Appointments": "Citas",
+    "Doctors": "Doctores",
+    "Vitals": "Signos vitales",
+    "About-us": "Sobre nosotros",
+    "Contact-us": "Contáctanos",
+    "Clinics": "Clínicas",
+    "Labs": "Laboratorios",
+    "Sign-up": "Registrarse",
+    "Sign-in": "Iniciar sesión",
+    "Logout": "Cerrar sesión",
+    "Member-Since": "Miembro desde",
+    "Prescriptions": "Recetas",
+    "Files": "Archivos",
+    "About-Us": "Sobre nosotros",
+    "Contact-Us": "Contáctanos",
+    "Wallet": "Billetera",
+    "Lab-Tests-Bookings": "Reservas de pruebas de laboratorio",
+    "Lab-Test-Bookings": "Reservas de pruebas de laboratorio"
+  },
+  "hero": {
+    "title": "Bienvenido a {{appName}}",
+    "heading": "Ofrecemos la mejor y más asequible atención médica.",
+    "description": "Vive una excelencia incomparable en atención médica en {{appName}}: servicios médicos integrales, gestión hospitalaria avanzada y atención compasiva al paciente para un mañana más saludable.",
+    "button1": "Comenzar",
+    "button2": "Obtener citas"
+  },
+  "cta": {
+    "title1": "Ponte en contacto",
+    "description1": "No dudes en comunicarte en cualquier momento. ¡Estamos listos para ayudarte!",
+    "title2": "Servicio 24 horas",
+    "description2": "Nos enorgullece ofrecer servicios médicos las 24 horas para que recibas la atención que necesitas cuando la necesites.",
+    "title3": "Tecnología médica avanzada",
+    "description3": "Utilizamos tecnología médica de vanguardia para ofrecer la más alta calidad de atención.",
+    "button": "Reservar cita"
+  },
+  "weAre": {
+    "title1": "Siempre garantizamos el mejor",
+    "highlight": "tratamiento médico",
+    "title2": "para ti",
+    "description": "En nuestro centro de salud, estamos comprometidos a brindarte atención médica de primer nivel adaptada a tus necesidades. Con un equipo de profesionales capacitados y tecnología de vanguardia, aseguramos el mejor tratamiento y un apoyo compasivo en cada paso.",
+    "benefits": [
+      "Especialistas de primer nivel en salud.",
+      "Servicios médicos avanzados disponibles.",
+      "Descuentos en todos los tratamientos médicos.",
+      "Proceso de registro fácil y rápido."
+    ]
+  },
+  "clinic-component": {
+    "title": "Nuestras clínicas",
+    "title1": "Mejores clínicas en {{city}}",
+    "desc": "Descubre servicios de salud especializados adaptados a tus necesidades, todo en un mismo lugar.",
+    "see-all": "Ver todas las clínicas"
+  },
+  "dept_component": {
+    "title": "Departamentos",
+    "desc": "Disfruta la comodidad de encontrar todo lo que necesitas bajo un mismo techo con nuestra completa oferta de departamentos."
+  },
+  "doctor_component": {
+    "title": "Doctores destacados",
+    "title1": "Mejores doctores en {{city}}",
+    "desc": "Encuentra a los mejores doctores de tu zona, listos para brindarte una atención excepcional y especializada.",
+    "experience": "Exp {{count}}+ años"
+  },
+  "whyUs": {
+    "title": "¿Por qué elegirnos?",
+    "desc": "Estamos comprometidos a brindarte los mejores servicios de salud, asegurando tu bienestar y satisfacción.",
+    "benefits": [
+      {
+        "title": "Atención personalizada",
+        "desc": "En {{appName}}, priorizamos tu salud y bienestar por encima de todo. Ofrecemos servicios médicos integrales adaptados a tus necesidades individuales, asegurando la máxima calidad de atención en cada etapa de tu proceso."
+      },
+      {
+        "title": "Equipo experto",
+        "desc": "Contamos con un equipo dedicado de profesionales de la salud, incluidos médicos, enfermeras y personal de apoyo, comprometidos a ofrecerte atención personalizada y orientación médica experta."
+      },
+      {
+        "title": "Instalaciones de vanguardia",
+        "desc": "Nuestras instalaciones de última generación están equipadas con la tecnología médica más reciente, lo que nos permite ofrecer diagnósticos y tratamientos avanzados en un entorno cómodo y seguro."
+      }
+    ]
+  },
+  "opr_method": {
+    "title": "Nuestro método de trabajo",
+    "title2": "Nuestro método de trabajo",
+    "desc": "Somos tu destino integral para todas tus necesidades de salud. Nuestro amplio directorio está diseñado para ofrecer acceso sencillo a una gran variedad de servicios y proveedores médicos, garantizando la mejor atención para ti y tu familia.",
+    "steps": [
+      "Reservar una cita",
+      "Realizar chequeos",
+      "Llevar a cabo el tratamiento",
+      "Prescribir y pagar"
+    ]
+  },
+  "faqs": {
+    "title": "Preguntas frecuentes",
+    "1": [
+      {
+        "question": "¿Qué servicios ofrece {{appName}}?",
+        "answer": "{{appName}} ofrece una amplia gama de servicios médicos, incluyendo odontología, ginecología, ortopedia, neurología, medicina general, dermatología y cardiología, además de pruebas de laboratorio y servicios de diagnóstico avanzados."
+      },
+      {
+        "question": "¿Qué hace diferente a {{appName}} de otros proveedores de salud?",
+        "answer": "{{appName}} destaca por su compromiso con la atención médica asequible, la tecnología avanzada, especialistas de primer nivel y servicio 24 horas, además de descuentos en todos los tratamientos y un proceso de registro ágil."
+      },
+      {
+        "question": "¿Cómo puedo reservar una cita en {{appName}}?",
+        "answer": "Puedes reservar una cita fácilmente en nuestro sitio web en la sección \"Reservar una cita\", eligiendo el servicio, la hora conveniente y confirmando la reserva."
+      },
+      {
+        "question": "¿Qué tipos de pruebas diagnósticas hay en el laboratorio?",
+        "answer": "Nuestro laboratorio ofrece una amplia variedad de pruebas diagnósticas como hemograma completo (CBC), hemoglobina (Hb), radiografías y tomografías (CT), con resultados rápidos y precisos."
+      },
+      {
+        "question": "¿Hay descuentos en los tratamientos médicos?",
+        "answer": "Sí, en {{appName}} ofrecemos descuentos en todos los tratamientos médicos, por ejemplo 5% en CBC y pruebas de hemoglobina y 10% en radiografías y tomografías."
+      }
+    ],
+    "2": [
+      {
+        "question": "¿Cuáles son sus horarios de atención?",
+        "answer": "{{appName}} funciona las 24 horas del día, los 7 días de la semana, para que recibas atención cuando la necesites."
+      },
+      {
+        "question": "¿Quiénes son los doctores en {{appName}}?",
+        "answer": "Contamos con médicos altamente cualificados y con experiencia en cardiología, neurología, dermatología y otras especialidades. Puedes ver los detalles en la página \"Conoce a nuestros doctores\"."
+      },
+      {
+        "question": "¿Cómo puedo contactar con {{appName}} para más información?",
+        "answer": "Puedes comunicarte con nosotros en cualquier momento usando la información de contacto de nuestro sitio web; nuestro equipo estará encantado de ayudarte."
+      },
+      {
+        "question": "¿Cuál es el proceso para recibir tratamiento en {{appName}}?",
+        "answer": "El proceso incluye reservar cita, realizar la consulta, efectuar el tratamiento necesario y, finalmente, la prescripción y cuidados posteriores, todo de forma fluida y eficiente."
+      },
+      {
+        "question": "¿Cómo garantiza {{appName}} la calidad de sus servicios médicos?",
+        "answer": "Usamos tecnología médica de última generación e instalaciones modernas, junto con un equipo dedicado de profesionales que ofrecen atención personalizada y guía experta a lo largo de todo tu tratamiento."
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Lo que dicen nuestros pacientes",
+    "desc": "Nos enorgullece la opinión positiva de nuestros pacientes. Aquí tienes algunos de sus testimonios:",
+    "error_something_went_wrong": "¡Algo salió mal!",
+    "error_fetch": "¡No se pueden obtener los testimonios!"
+  },
+  "footer": {
+    "copyright": "© 2024 {{appName}}. Todos los derechos reservados",
+    "hospital": {
+      "title": "Hospital",
+      "links": ["Sobre nosotros", "Departamentos", "Doctores", "Contáctanos"]
+    },
+    "support": {
+      "title": "Soporte",
+      "links": ["Términos del servicio", "Legal", "Política de privacidad"]
+    },
+    "language": {
+      "title": "Idioma"
+    }
+  },
+  "clinics_page": {
+    "title": "Explora nuestras clínicas",
+    "sub_title": "Conectándote con servicios de salud excepcionales cerca de ti",
+    "desc": "Explora nuestra red de clínicas que ofrecen atención personalizada y servicios médicos avanzados."
+  },
+  "clinic_details_page": {
+    "clinic_details": "Detalles de la clínica",
+    "ambulance_call": "Llamar ambulancia",
+    "navigate_clinic": "Ir a la clínica",
+    "clinic_images": "Imágenes de la clínica",
+    "not_avl_img": "Imágenes de la clínica no disponibles",
+    "contact_details": "Datos de contacto",
+    "opening_hours": "Horario de atención",
+    "opn_hrs_not_avl": "Horario no disponible",
+    "avl_doctor": "Doctores disponibles en {{appName}}",
+    "appointment_closed": "Citas cerradas",
+    "app_closed_desc": "Esta clínica/hospital no está aceptando citas en este momento."
+  },
+  "doctors_page": {
+    "title": "Nuestros doctores",
+    "sub_title": "Explora un equipo multidisciplinario de especialistas en salud",
+    "desc": "Encuentra fácilmente al especialista adecuado para tus necesidades con nuestra completa lista de doctores.",
+    "search_placeholder": "Buscar doctores...",
+    "experience": "Exp {{count}}+ años",
+    "appointments_done": "{{count}} citas realizadas",
+    "not_accepting_appointments": "Actualmente no acepta citas",
+    "error_something_went_wrong": "¡Algo salió mal!",
+    "error_fetch": "¡No se pueden obtener doctores!"
+  },
+  "doctor_details_page": {
+    "title": "Perfil del doctor",
+    "experience_years": "{{count}}+ años de experiencia",
+    "appointments_done": "{{count}} citas realizadas",
+    "not_taking_appointments": "El doctor no acepta citas",
+    "clinic_not_scheduling": "La clínica no está programando citas en este momento",
+    "make_appointment": "Reservar cita",
+    "select_appointment_type": "Seleccionar tipo de cita",
+    "appointment_types": {
+      "opd": "Consulta presencial",
+      "video_call": "Videollamada",
+      "emergency": "Emergencia"
+    },
+    "doctorReviews": "Opiniones y valoraciones -"
+  },
+  "contact_us_page": {
+    "title": "Contáctanos",
+    "desc": "Estamos aquí para ayudarte con cualquier consulta o soporte. Escríbenos y te responderemos lo antes posible.",
+    "address_title": "Dirección",
+    "call_us_title": "Llámanos",
+    "email_us_title": "Escríbenos",
+    "form": {
+      "name_label": "Tu nombre",
+      "name_placeholder": "Tu nombre",
+      "email_label": "Tu correo",
+      "email_placeholder": "Tu correo",
+      "subject_label": "Asunto",
+      "subject_placeholder": "Asunto",
+      "message_label": "Mensaje",
+      "message_placeholder": "Mensaje",
+      "submit_button": "Enviar mensaje",
+      "name_required": "El nombre es obligatorio",
+      "email_required": "El correo es obligatorio",
+      "email_invalid": "Formato de correo inválido",
+      "subject_required": "El asunto es obligatorio",
+      "message_required": "El mensaje es obligatorio",
+      "success_title": "¡Mensaje recibido!",
+      "success_desc": "Hemos recibido tu mensaje y te responderemos pronto."
+    }
+  },
+  "user_profile_page": {
+    "title": "Perfil de usuario",
+    "first_name_label": "Nombre",
+    "last_name_label": "Apellido",
+    "phone_label": "Teléfono",
+    "email_label": "Correo",
+    "gender_label": "Género",
+    "gender_options": {
+      "male": "Hombre",
+      "female": "Mujer"
+    },
+    "dob_label": "Fecha de nacimiento",
+    "city_label": "Ciudad",
+    "state_label": "Estado",
+    "postal_code_label": "Código postal",
+    "address_label": "Dirección",
+    "update_button": "Actualizar perfil",
+    "toast_success": "Datos de usuario actualizados",
+    "toast_error_invalid_email": "Correo electrónico inválido"
+  },
+  "family_members_page": {
+    "title": "Miembros de la familia",
+    "add_new_button": "Agregar nuevo miembro",
+    "add_form_title": "Agregar nuevo miembro de la familia",
+    "first_name_label": "Nombre",
+    "first_name_placeholder": "Introduce el nombre",
+    "first_name_required": "El nombre es obligatorio",
+    "last_name_label": "Apellido",
+    "last_name_placeholder": "Introduce el apellido",
+    "last_name_required": "El apellido es obligatorio",
+    "phone_label": "Teléfono",
+    "phone_placeholder": "Introduce el número de teléfono",
+    "phone_required": "El teléfono es obligatorio",
+    "phone_invalid": "Formato de teléfono inválido",
+    "gender_label": "Género",
+    "gender_placeholder": "Selecciona género",
+    "gender_required": "El género es obligatorio",
+    "gender_options": {
+      "male": "Hombre",
+      "female": "Mujer"
+    },
+    "dob_label": "Fecha de nacimiento",
+    "dob_required": "La fecha de nacimiento es obligatoria",
+    "cancel_button": "Cancelar",
+    "submit_button": "Agregar",
+    "toast_add_success": "Miembro de la familia agregado",
+    "toast_delete_success": "Miembro de la familia eliminado",
+    "toast_error_generic": "La operación falló"
+  },
+  "family_member_page": {
+    "title": "Miembro de la familia",
+    "first_name_label": "Nombre",
+    "first_name_placeholder": "Introduce el nombre",
+    "last_name_label": "Apellido",
+    "last_name_placeholder": "Introduce el apellido",
+    "phone_label": "Teléfono",
+    "phone_placeholder": "Introduce el número de teléfono",
+    "email_label": "Correo",
+    "email_placeholder": "Introduce el correo",
+    "gender_label": "Género",
+    "gender_placeholder": "Selecciona género",
+    "gender_options": {
+      "male": "Hombre",
+      "female": "Mujer"
+    },
+    "dob_label": "Fecha de nacimiento",
+    "city_label": "Ciudad",
+    "city_placeholder": "Introduce la ciudad",
+    "state_label": "Estado",
+    "state_placeholder": "Introduce el estado",
+    "postal_code_label": "Código postal",
+    "postal_code_placeholder": "Introduce el código postal",
+    "address_label": "Dirección",
+    "address_placeholder": "Introduce la dirección",
+    "update_button": "Actualizar perfil",
+    "vitals_title": "Signos vitales",
+    "date_label": "Fecha",
+    "toast_success": "Miembro de la familia actualizado",
+    "toast_error_generic": "Error al actualizar el miembro de la familia"
+  },
+  "vitals_page": {
+    "Blood-Pressure": "Presión arterial",
+    "Blood-Pressure-desc": "Detalles e historial de la presión arterial",
+    "Blood-Sugar": "Glucosa en sangre",
+    "Blood-Sugar-desc": "Niveles de azúcar en sangre y análisis",
+    "Temperature": "Temperatura",
+    "Temperature-desc": "Control de la temperatura corporal",
+    "Weight": "Peso",
+    "Weight-desc": "Seguimiento del peso",
+    "SpO2": "Nivel de oxígeno",
+    "SpO2-desc": "Niveles de saturación de oxígeno",
+    "no_family_member": "Aún no has agregado ningún miembro de la familia"
+  },
+  "appointments_page": {
+    "title": "Citas",
+    "no_appointments_alert_title": "¡No se encontraron citas!",
+    "no_appointments_alert_description": "No tienes citas. ¡Reserva una ahora!",
+    "make_appointment_button": "Reservar cita",
+    "filter_steps": {
+      "All": "Todas",
+      "Upcoming": "Próximas",
+      "Pending": "Pendientes",
+      "Confirmed": "Confirmadas",
+      "Rejected": "Rechazadas",
+      "Completed": "Completadas",
+      "Rescheduled": "Reprogramadas",
+      "Cancelled": "Canceladas",
+      "Visited": "Visitadas",
+      "Closed": "Cerradas"
+    },
+    "card": {
+      "name_label": "Nombre",
+      "id_label": "ID",
+      "time_label": "Hora",
+      "doctor_label": "Doctor",
+      "rebook_button": "Volver a reservar"
+    }
+  },
+  "newAppointment": {
+    "selectDoct": "Selecciona un doctor y el tipo de cita antes de continuar.",
+    "selectDate": "Selecciona fecha y franja horaria antes de continuar.",
+    "selectFamilyMember": "Selecciona un miembro de la familia antes de continuar.",
+    "timeSlotes": "Franjas horarias",
+    "noTimeSlotes": "Lo sentimos, no se encontraron horarios disponibles para la fecha seleccionada.",
+    "addFamilyMember": "Agregar miembro de la familia",
+    "oneStepAway": "Solo un paso más",
+    "payAndBook": "Pagar y reservar cita",
+    "appType": "Tipo de cita",
+    "appFee": "Tarifa de la cita",
+    "appliedCoupon": "Cupón aplicado",
+    "coupDiscount": "Descuento",
+    "coupCodePlaceholder": "Aplicar cupón",
+    "apply": "Aplicar",
+    "payNow": "Pagar ahora",
+    "payAtHospital": "Pagar en el hospital",
+    "payWallet": "Pagar con billetera",
+    "avlBlc": "Saldo disponible",
+    "bookNow": "Reservar ahora",
+    "payAndBookTest": "Pagar"
+  },
+  "appointmentDetails": {
+    "title": "Cita",
+    "reviewDoctor": "Opinar sobre el doctor",
+    "queueNumber": "Número de turno",
+    "happyPatients": "Pacientes satisfechos",
+    "checkIn": "Check-in",
+    "patient": "Paciente:",
+    "joinMeeting": "Unirse a la reunión",
+    "prescriptions": "Recetas -",
+    "downloadPrescription": "Descargar receta",
+    "prescriptionsNotFound": "No se encontraron recetas",
+    "patientFiles": "Archivos del paciente",
+    "filesNotFound": "No se encontraron archivos",
+    "paymentStatus": "Estado del pago",
+    "paymentId": "ID de pago",
+    "downloadInvoice": "Descargar factura",
+    "navigate": "Ir a la clínica",
+    "appointmentCancellation": "Cancelación de cita",
+    "initiateCancellation": "Haz clic aquí para iniciar la solicitud de cancelación",
+    "deleteCancellation": "Haz clic aquí para eliminar la solicitud de cancelación",
+    "currentStatus": "Estado actual - {{status}}",
+    "requestHistory": "Historial de solicitudes",
+    "dialogModal": {
+      "cancelAppointment": "¿Cancelar la cita?",
+      "deleteCancellationRequest": "¿Eliminar la solicitud de cancelación?",
+      "confirmCancel": "¿Seguro que quieres cancelar esta cita?",
+      "confirmDelete": "¿Seguro que quieres eliminar la solicitud de cancelación?"
+    }
+  },
+  "appointmentSuccess": {
+    "appointmentId": "ID de cita",
+    "joinMeeting": "Unirse a la reunión",
+    "successMessage": "¡Tu cita se reservó correctamente!",
+    "opdInstruction": "Visita la clínica y escanea el código QR para generar tu número de turno al instante.",
+    "videoInstruction": "Haz clic en \"Unirse a la reunión\" o escanea el código QR para entrar.",
+    "dateTime": "Fecha y hora",
+    "patientName": "Nombre del paciente",
+    "addToCalendar": "Agregar al calendario"
+  },
+  "files_page": {
+    "searchFiles": "Buscar archivos...",
+    "noFiles": "Los archivos no están disponibles por ahora. Podrás acceder a ellos cuando el doctor los suba."
+  },
+  "prescription_page": {
+    "searchFiles": "Buscar recetas...",
+    "noFiles": "Las recetas no están disponibles por ahora. Podrás verlas una vez que el doctor las suba."
+  },
+  "wallet_page": {
+    "currBal": "Saldo actual",
+    "addMoney": "Agregar dinero",
+    "txnHistory": "Historial de transacciones",
+    "noTxn": "No se encontraron transacciones",
+    "title": "Agregar dinero a tu billetera",
+    "enterAmount": "Introduce el monto",
+    "noPaymentMethod": "¡No hay métodos de pago activos!",
+    "successMessage": "¡Éxito!",
+    "errorMessage": "¡Algo salió mal!",
+    "amountCredited": "Monto abonado a tu billetera",
+    "amountDebited": "Monto debitado de tu billetera",
+    "transactionId": "ID de transacción",
+    "paymentId": "ID de pago: {id}"
+  },
+  "addMoney": {
+    "title": "Agregar dinero a tu billetera",
+    "enterAmount": "Introduce el monto",
+    "placeholder": "Introduce el monto en rupias",
+    "noPaymentMethod": "¡No hay métodos de pago activos!",
+    "successMessage": "¡Éxito!",
+    "errorMessage": "¡Algo salió mal!",
+    "specificError": "{message}"
+  },
+  "searchPage": {
+    "search": "Buscar",
+    "searchPlaceholder": "Busca doctores, clínicas y especialidades...",
+    "noResults": "No se encontraron resultados para '{{query}}'",
+    "searchResults": "Resultados de búsqueda para '{{query}}'",
+    "searching": "Buscando...",
+    "error": "Se produjo un error durante la búsqueda"
+  },
+  "firebaseLogin": {
+    "welcome": "Bienvenido",
+    "loginDescription": "Ofrecemos los mejores y más asequibles servicios de salud.",
+    "mobileNumber": "Número de móvil",
+    "continue": "Continuar",
+    "termsText": "Al continuar aceptas nuestros",
+    "termsOfUse": "Términos de uso",
+    "privacyPolicy": "Política de privacidad",
+    "createAccount": "¿Nuevo aquí? ¡Crea una cuenta!",
+    "enterOtp": "Introduce el código OTP",
+    "otpSentTo": "OTP enviado a",
+    "login": "Iniciar sesión",
+    "resendOtp": "Reenviar OTP",
+    "useDifferentPhone": "Usar otro número",
+    "otpSentSuccess": "OTP enviado",
+    "otpSentDescription": "Revisa tu teléfono para ver el OTP.",
+    "otpError": "Error al enviar el OTP. Inténtalo de nuevo.",
+    "otpInvalid": "Introduce un OTP válido.",
+    "invalidOtpTitle": "OTP inválido",
+    "loginSuccessTitle": "Inicio de sesión correcto",
+    "phoneRequired": "Introduce el número de teléfono",
+    "phoneNotExist": "¡El número no existe! Regístrate primero",
+    "otpResentSuccess": "OTP reenviado correctamente.",
+    "otpResentFailed": "Error al reenviar OTP. Inténtalo de nuevo."
+  },
+  "signup": {
+    "title": "Registrarse",
+    "description": "Únete para disfrutar de los mejores servicios de salud.",
+    "form": {
+      "first_name_label": "Nombre",
+      "first_name_required": "El nombre es obligatorio",
+      "last_name_label": "Apellido",
+      "last_name_required": "El apellido es obligatorio",
+      "phone_label": "Número de teléfono",
+      "phone_required": "El número es obligatorio",
+      "phone_pattern": "El número debe tener 10 dígitos",
+      "gender_label": "Género",
+      "gender_required": "Selecciona tu género",
+      "gender_options": {
+        "male": "Hombre",
+        "female": "Mujer",
+        "other": "Otro"
+      },
+      "gender_placeholder": "Selecciona género",
+      "dob_label": "Fecha de nacimiento",
+      "dob_required": "La fecha de nacimiento es obligatoria",
+      "email_label": "Correo electrónico",
+      "email_pattern": "Correo electrónico inválido",
+      "otp_label": "Introduce el OTP",
+      "submit_button_step1": "Obtener OTP",
+      "submit_button_step2": "Registrarse"
+    },
+    "toast": {
+      "otp_sent_title": "OTP enviado",
+      "otp_sent_description": "Revisa tu teléfono para ver el OTP.",
+      "otp_error_title": "Error",
+      "otp_error_description": "Error al enviar el OTP. Inténtalo de nuevo.",
+      "otp_invalid_description": "Introduce un OTP válido.",
+      "phone_exists_title": "¡El número de teléfono ya existe!",
+      "signup_success_title": "Registro correcto",
+      "signup_success_description": "Bienvenido {{f_name}} {{l_name}}",
+      "otp_missing_title": "Introduce el OTP",
+      "signup_failed_description": "El registro ha fallado",
+      "invalid_otp_description": "OTP inválido"
+    },
+    "terms_text": "Al registrarte aceptas nuestros",
+    "terms_of_use": "Términos de uso",
+    "privacy_policy": "Política de privacidad",
+    "login_link": "¿Ya tienes cuenta? Inicia sesión"
+  },
+  "dept_page": {
+    "title": "Departamento de {{name}}",
+    "subtitle": "Explora un equipo multidisciplinario de",
+    "highlightedSubtitle": "Departamento de {{name}}",
+    "description": "Encuentra fácilmente al médico adecuado para tus necesidades con nuestra selección de doctores.",
+    "otherDepartments": "Explorar otros departamentos",
+    "noDoctorsMessage": "No hay doctores disponibles actualmente en el departamento de {{deptName}}. Vuelve más tarde o elige otro departamento. Si necesitas ayuda urgente, nuestro equipo de soporte está disponible para asistirte."
+  },
+  "blogs_page": {
+    "title": "Blogs",
+    "description": "Explora nuestros últimos artículos, noticias e información sobre diversos temas.",
+    "no_blogs": "No se encontraron blogs",
+    "no_blogs_description": "Actualmente no hay entradas destacadas.",
+    "error_fetch": "¡No se pueden obtener blogs!",
+    "recent_post": "Entradas recientes",
+    "author_details": "Datos del autor"
+  },
+  "blog_page": {
+    "title": "Blog"
+  },
+  "lab-component": {
+    "title": "Nuestros laboratorios",
+    "title1": "Mejores laboratorios en {{city}}",
+    "desc": "Descubre servicios de salud especializados adaptados a tus necesidades en un solo lugar.",
+    "see-all": "Ver todos los laboratorios"
+  },
+  "labs_page": {
+    "title": "Explora nuestros laboratorios",
+    "sub_title": "Conectándote con servicios de salud excepcionales cerca de ti",
+    "desc": "Explora nuestra red de laboratorios con atención personalizada y servicios médicos avanzados.",
+    "search_placeholder": "Buscar laboratorios..."
+  },
+  "lab_details_page": {
+    "lab_details": "Detalles del laboratorio",
+    "ambulance_call": "Llamar ambulancia",
+    "navigate_lab": "Ir al laboratorio",
+    "lab_images": "Imágenes del laboratorio",
+    "not_avl_img": "Imágenes del laboratorio no disponibles",
+    "contact_details": "Datos de contacto",
+    "opening_hours": "Horario de atención",
+    "opn_hrs_not_avl": "Horario no disponible",
+    "avl_doctor": "Pruebas disponibles en {{appName}}",
+    "appointment_closed": "Reservas cerradas",
+    "app_closed_desc": "Este laboratorio no está aceptando reservas en este momento."
+  },
+  "lab_bookings_page": {
+    "title": "Tus reservas de laboratorio",
+    "no_bookings_alert_title": "No se encontraron reservas de laboratorio",
+    "make_booking_button": "Reservar prueba de laboratorio",
+    "noInvoicesAvailable": "No hay facturas disponibles",
+    "navigate": "Ir al laboratorio",
+    "files": "Archivos / Informes de prueba",
+    "addReview": "Añadir reseña",
+    "reviews": "Reseñas",
+    "testsIncluded": "Pruebas incluidas",
+    "bookingId": "ID de reserva",
+    "rebookingFailed": "Error al volver a reservar",
+    "card": {
+      "name_label": "Paciente",
+      "test_label": "Prueba",
+      "lab_label": "Laboratorio",
+      "payment_label": "Estado del pago",
+      "rebook_button": "Volver a reservar"
+    },
+    "payment_status": {
+      "paid": "Pagado",
+      "not_paid": "No pagado",
+      "refunded": "Reembolsado",
+      "unpaid": "Pendiente de pago",
+      "unknown": "Desconocido"
+    }
+  },
+  "labCart": {
+    "title": "Carrito de laboratorio",
+    "cartDetails": "Detalles del carrito",
+    "your_lab_cart_empty": "Tu carrito de laboratorio está vacío",
+    "your_selected_tests": "Tus pruebas seleccionadas",
+    "remove": "Eliminar",
+    "subtotal": "Subtotal",
+    "tests": "pruebas",
+    "service_charge": "Cargo por servicio",
+    "free": "Gratis",
+    "tax_18": "Impuesto (18%)",
+    "continue": "Continuar",
+    "select_date": "Seleccionar fecha",
+    "select_patient": "Seleccionar paciente / miembro de la familia",
+    "pay_and_book": "Pagar y reservar prueba",
+    "total_amount": "Monto total",
+    "total_payable_amount": "Total a pagar",
+    "lab": "Laboratorio",
+    "Date": "Fecha",
+    "Removed from cart": "Eliminado del carrito",
+    "Something went wrong": "Algo salió mal",
+    "No tests added yet": "Aún no se han agregado pruebas",
+    "Payment Successful": "Pago exitoso",
+    "Lab Test booked successfully": "Prueba de laboratorio reservada con éxito",
+    "Failed to book": "Error al reservar",
+    "Failed to remove": "Error al eliminar",
+    "Subtests": "Subpruebas"
+  },
+  "cart": {
+    "title": "Carrito",
+    "select_address": "Seleccionar dirección",
+    "payment": "Pago",
+    "products": "Productos",
+    "lab_tests": "Pruebas de laboratorio",
+    "empty_product_cart": "Tu carrito de productos está vacío. Explora nuestros productos para encontrar lo que necesitas.",
+    "empty_lab_cart": "Tu carrito de pruebas de laboratorio está vacío. Explora nuestros servicios y elige lo que necesitas.",
+    "total": "Total",
+    "place_order": "Realizar pedido",
+    "qty": "Cant.",
+    "remove": "Eliminar",
+    "mrp": "MRP",
+    "price": "PRECIO",
+    "tax": "IMP.",
+    "discount": "Descuento",
+    "delivery_address": "Dirección de entrega",
+    "your_wallet_balance": "Saldo de tu billetera",
+    "use_wallet_balance": "Usar saldo de billetera",
+    "pay_now": "Pagar ahora",
+    "cod": "Contra reembolso",
+    "product_delivery_details": "Detalles y tiempos de entrega de productos",
+    "delivery": "Entrega",
+    "delivery_charges_20": "Gastos de envío - ₹20.0",
+    "delivery_desc": "Entrega estimada de 24 a 28 horas después de confirmar el pedido.",
+    "home_time": "Horario casa (8 AM a 8 PM)",
+    "office_time": "Horario oficina (10 AM a 5 PM)",
+    "emergency_delivery": "Entrega urgente",
+    "emergency_charges": "Gastos de envío - ₹50.0",
+    "emergency_desc": "Envío urgente: tu producto entregado rápidamente en pocas horas.",
+    "your_wallet_amount": "Saldo en billetera",
+    "used_wallet_amount": "Saldo usado de billetera",
+    "total_payable_amount": "Total a pagar",
+    "back": "Atrás",
+    "order_now": "Pedir ahora"
+  },
+  "common": {
+    "closed": "Cerrado",
+    "na": "N/D",
+    "opd": "Consulta externa",
+    "video_consultant": "Consulta por video",
+    "emergency": "Emergencia",
+    "doctor": "Doctor",
+    "happy_patients": "Pacientes satisfechos",
+    "not_paid": "No pagado",
+    "loading": "Cargando...",
+    "load_more": "Cargar más",
+    "try_again": "Intentar de nuevo",
+    "success": "Éxito",
+    "error": "Error",
+    "remove": "Eliminar",
+    "or": "o"
+  },
+  "blogs": {
+    "title": "Blogs",
+    "not_available": "Blogs no disponibles.",
+    "author_not_available": "Autor no disponible"
+  },
+  "blog": {
+    "not_available": "Blog no disponible."
+  },
+  "error_page": {
+    "title": "500 Error interno del servidor",
+    "code": "500",
+    "heading": "Error interno del servidor",
+    "message": "Ups, algo salió mal por nuestra parte. Ya estamos trabajando para solucionarlo.",
+    "description": "Intenta actualizar la página o vuelve a la página de inicio.",
+    "try_again": "Intentar de nuevo"
+  },
+  "not_found_page": {
+    "title": "Algo no está bien...",
+    "description": "La página a la que intentas acceder no existe. Puede que hayas escrito mal la URL o que la página se haya movido. Si crees que es un error, contacta con soporte.",
+    "back_home": "Volver a la página de inicio"
+  },
+  "error": {
+    "something_went_wrong": "¡Algo salió mal!",
+    "cant_fetch_doctors": "¡No se pueden obtener doctores!",
+    "cant_fetch_tests": "¡No se pueden obtener pruebas!"
+  },
+  "components": {
+    "testsByLab": {
+      "Report in": "Informe en",
+      "day": "día",
+      "days": "días",
+      "Removing...": "Eliminando...",
+      "Adding...": "Agregando...",
+      "Add to Cart": "Agregar al carrito",
+      "Subtests Included": "Subpruebas incluidas",
+      "Added": "Agregado",
+      "View Cart": "Ver carrito",
+      "Cart updated successfully": "Carrito actualizado correctamente",
+      "Failed to update cart": "Error al actualizar el carrito"
+    },
+    "addReview": {
+      "lab_rating_title": "Calificación del laboratorio",
+      "doctor_rating_title": "Calificación del doctor",
+      "write_feedback_placeholder": "Escribe tu opinión",
+      "close": "Cerrar",
+      "add_review": "Agregar reseña",
+      "review_added_success": "Reseña agregada correctamente"
+    },
+    "address": {
+      "add_new_address": "Agregar nueva dirección",
+      "name_label": "Nombre",
+      "name_placeholder": "Introduce tu nombre",
+      "phone_label": "Teléfono",
+      "phone_placeholder": "Introduce tu teléfono",
+      "flat_no_label": "Núm. de piso",
+      "flat_no_placeholder": "Introduce tu número de piso",
+      "apartment_label": "Nombre del edificio",
+      "apartment_placeholder": "Introduce el nombre del edificio",
+      "area_label": "Zona/Calle",
+      "area_placeholder": "Introduce zona/calle",
+      "landmark_label": "Referencia",
+      "landmark_placeholder": "Introduce una referencia",
+      "city_label": "Ciudad",
+      "city_placeholder": "Introduce tu ciudad",
+      "pincode_label": "Código postal",
+      "pincode_placeholder": "Introduce tu código postal",
+      "cancel": "Cancelar",
+      "submit": "Enviar"
+    },
+    "notification": {
+      "title": "Notificaciones",
+      "no_notifications": "No hay notificaciones",
+      "mark_all_read": "Marcar todo como leído",
+      "clear_all": "Borrar todo"
+    },
+    "search": {
+      "placeholder": "Buscar...",
+      "no_results": "No se encontraron resultados",
+      "searching": "Buscando..."
+    },
+    "wallet": {
+      "current_balance": "Saldo actual",
+      "add_money": "Agregar dinero",
+      "transaction_history": "Historial de transacciones",
+      "no_transactions": "No hay transacciones",
+      "credited": "Abonado",
+      "debited": "Debitado",
+      "transaction_id": "ID de transacción"
+    },
+    "userProfile": {
+      "edit_profile": "Editar perfil",
+      "save_changes": "Guardar cambios",
+      "cancel": "Cancelar",
+      "update_success": "Perfil actualizado correctamente",
+      "update_failed": "Error al actualizar el perfil"
+    },
+    "familyMembers": {
+      "add_member": "Agregar miembro de la familia",
+      "edit_member": "Editar miembro de la familia",
+      "delete_member": "Eliminar miembro de la familia",
+      "member_added": "Miembro agregado correctamente",
+      "member_updated": "Miembro actualizado correctamente",
+      "member_deleted": "Miembro eliminado correctamente"
+    },
+    "loading": {
+      "please_wait": "Por favor espera...",
+      "loading_data": "Cargando datos..."
+    },
+    "notAvailable": {
+      "not_available": "No disponible",
+      "no_data": "No hay datos disponibles"
+    },
+    "locationSelector": {
+      "select_location": "Seleccionar ubicación",
+      "current_location": "Usar ubicación actual",
+      "search_location": "Buscar ubicación...",
+      "no_locations_found": "No se encontraron ubicaciones"
+    },
+    "loginModal": {
+      "login_title": "Iniciar sesión",
+      "signup_title": "Registrarse",
+      "phone_label": "Número de teléfono",
+      "otp_label": "Introduce OTP",
+      "send_otp": "Enviar OTP",
+      "verify_otp": "Verificar OTP",
+      "resend_otp": "Reenviar OTP",
+      "login_success": "Inicio de sesión correcto",
+      "login_failed": "Error al iniciar sesión"
+    },
+    "qrCode": {
+      "scan_qr": "Escanear código QR",
+      "download_qr": "Descargar código QR"
+    },
+    "profilePicture": {
+      "upload_photo": "Subir foto",
+      "change_photo": "Cambiar foto",
+      "remove_photo": "Eliminar foto",
+      "upload_success": "Foto subida correctamente",
+      "upload_failed": "Error al subir la foto"
+    },
+    "whatsappBtn": {
+      "chat_with_us": "Chatea con nosotros por WhatsApp"
+    },
+    "doctorReviews": {
+      "no_reviews": "Sin reseñas todavía",
+      "write_review": "Escribir una reseña",
+      "rating": "Calificación",
+      "reviews": "Reseñas"
+    },
+    "testimonials": {
+      "patient_testimonials": "Testimonios de pacientes",
+      "what_patients_say": "Lo que dicen nuestros pacientes"
+    },
+    "departments": {
+      "all_departments": "Todos los departamentos",
+      "view_doctors": "Ver doctores"
+    },
+    "doctors": {
+      "book_appointment": "Reservar cita",
+      "view_profile": "Ver perfil",
+      "available": "Disponible",
+      "not_available": "No disponible"
+    },
+    "clinics": {
+      "view_details": "Ver detalles",
+      "book_now": "Reservar ahora"
+    },
+    "labs": {
+      "view_tests": "Ver pruebas",
+      "book_test": "Reservar prueba"
+    },
+    "contactDetails": {
+      "email": "Correo",
+      "phone": "Teléfono",
+      "address": "Dirección",
+      "working_hours": "Horario de trabajo"
+    },
+    "maps": {
+      "get_directions": "Obtener indicaciones",
+      "view_on_map": "Ver en el mapa"
+    },
+    "patients": {
+      "patient_info": "Información del paciente",
+      "medical_history": "Historial médico"
+    },
+    "recentPosts": {
+      "recent_posts": "Entradas recientes",
+      "read_more": "Leer más"
+    },
+    "featuredBlogs": {
+      "featured_blogs": "Blogs destacados",
+      "explore_all": "Ver todos"
+    }
+  }
+}

@@ -1,0 +1,934 @@
+﻿{
+  "featured_post": "المقال المميز",
+  "about us": "معلومات عنا",
+  "legal": "قانوني",
+  "terms and conditions": "الأحكام والشروط",
+  "privacy policy": "سياسة الخصوصية",
+  "make-appointment": "حجز موعد",
+  "departments": "الأقسام",
+  "department": "قسم",
+  "clinics": "العيادات",
+  "clinic": "عيادة",
+  "labs": "المختبرات",
+  "lab": "مختبر",
+  "doctors": "الأطباء",
+  "Doctor": "طبيب",
+  "patient": "مريض",
+  "appointment": "موعد",
+  "appointments": "مواعيد",
+  "prescriptions": "الوصفات الطبية",
+  "prescription": "وصفة طبية",
+  "prescription-details": "تفاصيل الوصفة الطبية",
+  "files": "ملفات",
+  "file": "ملف",
+  "family-members": "أفراد العائلة",
+  "family-member": "فرد من العائلة",
+  "vitals": "العلامات الحيوية",
+  "vital": "علامة حيوية",
+  "profile": "الملف الشخصي",
+  "profile-details": "تفاصيل الملف الشخصي",
+  "see-all": "عرض الكل",
+  "testi": "آراء المرضى",
+  "contact-us": "اتصل بنا",
+  "date": "التاريخ",
+  "time": "الوقت",
+  "phone": "الهاتف",
+  "whatsapp": "واتساب",
+  "gmail": "جيميل",
+  "location": "الموقع",
+  "ambulance": "سيارة إسعاف",
+  "no": "لا",
+  "yes": "نعم",
+  "close": "إغلاق",
+  "add": "إضافة",
+  "cancel": "إلغاء",
+  "dateTime": "التاريخ والوقت",
+  "patientDetails": "بيانات المريض",
+  "Summary": "الملخص",
+  "or": "أو",
+  "tax": "الضريبة",
+  "total": "الإجمالي",
+  "book-appointment": "حجز موعد",
+  "search": "بحث",
+  "swipe": "اسحب",
+  "sorry": "عذراً",
+  "notAvailable": "{{name}} غير متوفرة في الموقع الذي اخترته.",
+  "and": "و",
+  "loading": "جارٍ التحميل",
+  "select_location": "اختر الموقع",
+  "failed_to_get_city": "فشل في جلب اسم المدينة",
+  "select_city_manually": "يرجى اختيار المدينة يدوياً",
+  "search_for_location": "ابحث عن موقع",
+  "use_current_location": "استخدام موقعي الحالي",
+  "category": "الفئة",
+  "amount": "المبلغ",
+  "navbar": {
+    "Home": "الرئيسية",
+    "Blogs": "المدونات",
+    "Profile": "الملف الشخصي",
+    "Family-Members": "أفراد العائلة",
+    "Appointments": "المواعيد",
+    "Doctors": "الأطباء",
+    "Vitals": "العلامات الحيوية",
+    "About-us": "معلومات عنا",
+    "Contact-us": "اتصل بنا",
+    "Clinics": "العيادات",
+    "Labs": "المختبرات",
+    "Sign-up": "إنشاء حساب",
+    "Sign-in": "تسجيل الدخول",
+    "Logout": "تسجيل الخروج",
+    "Member-Since": "عضو منذ",
+    "Prescriptions": "الوصفات الطبية",
+    "Files": "الملفات",
+    "About-Us": "معلومات عنا",
+    "Contact-Us": "اتصل بنا",
+    "Wallet": "المحفظة",
+    "Lab-Tests-Bookings": "حجوزات فحوصات المختبر",
+    "Lab-Test-Bookings": "حجوزات فحوصات المختبر"
+  },
+  "hero": {
+    "title": "مرحبًا بك في {{appName}}",
+    "heading": "نقدّم أفضل خدمات الرعاية الصحية وبأسعار مناسبة.",
+    "description": "استمتع برعاية صحية متميزة في {{appName}}: خدمات طبية شاملة، إدارة متقدمة للمستشفيات، ورعاية إنسانية للمرضى من أجل غدٍ أكثر صحة.",
+    "button1": "ابدأ الآن",
+    "button2": "احجز المواعيد"
+  },
+  "cta": {
+    "title1": "تواصل معنا",
+    "description1": "لا تتردد في التواصل معنا في أي وقت، فنحن جاهزون لمساعدتك.",
+    "title2": "خدمة على مدار الساعة",
+    "description2": "نفتخر بتقديم خدمات طبية على مدار 24 ساعة لضمان حصولك على الرعاية في أي وقت تحتاج فيه.",
+    "title3": "تقنيات طبية متقدمة",
+    "description3": "نستخدم أحدث التقنيات الطبية لتقديم أعلى مستوى من جودة الرعاية.",
+    "button": "حجز موعد"
+  },
+  "weAre": {
+    "title1": "نحرص دائمًا على تقديم أفضل",
+    "highlight": "الرعاية الطبية",
+    "title2": "من أجلك",
+    "description": "في منشأتنا الصحية نلتزم بتقديم رعاية طبية عالية الجودة ومناسبة لاحتياجاتك. بفضل فريق من المتخصصين المتمرسين وتقنيات حديثة، نضمن لك أفضل علاج ودعم إنساني في كل خطوة.",
+    "benefits": [
+      "أطباء واختصاصيون من أعلى المستويات.",
+      "توفّر خدمات طبية متقدمة.",
+      "خصومات على جميع العلاجات الطبية.",
+      "إجراءات تسجيل سهلة وسريعة."
+    ]
+  },
+  "clinic-component": {
+    "title": "عياداتنا",
+    "title1": "أفضل العيادات في {{city}}",
+    "desc": "اكتشف خدمات رعاية صحية متخصّصة تناسب احتياجاتك، في مكان واحد.",
+    "see-all": "عرض جميع العيادات"
+  },
+  "dept_component": {
+    "title": "الأقسام",
+    "desc": "استمتع بالوصول إلى جميع خدماتك الصحية تحت سقف واحد من خلال أقسامنا المتعددة."
+  },
+  "doctor_component": {
+    "title": "أفضل الأطباء",
+    "title1": "أفضل الأطباء في {{city}}",
+    "desc": "اكتشف أفضل الأطباء في منطقتك، الجاهزين لتقديم رعاية متميزة وخبرة عالية.",
+    "experience": "خبرة {{count}}+ سنوات"
+  },
+  "whyUs": {
+    "title": "لماذا تختارنا؟",
+    "desc": "نلتزم بتقديم أفضل خدمات الرعاية الصحية لك، مع ضمان راحتك ورضاك.",
+    "benefits": [
+      {
+        "title": "رعاية شخصية",
+        "desc": "في {{appName}} نضع صحتك ورفاهيتك في المقام الأول. نقدم خدمات طبية شاملة مصممة لتناسب احتياجاتك الفردية لضمان أفضل جودة رعاية في كل مرحلة من رحلتك العلاجية."
+      },
+      {
+        "title": "فريق خبير",
+        "desc": "يضم فريقنا أطباء وممرضين وطاقم دعم ذوي خبرة عالية ملتزمين بتقديم رعاية مخصصة وإرشاد طبي موثوق به طوال فترة علاجك."
+      },
+      {
+        "title": "منشآت متطورة",
+        "desc": "منشآتنا الحديثة مجهزة بأحدث الأجهزة الطبية مما يتيح لنا تقديم تشخيصات وعلاجات متقدمة في بيئة مريحة وآمنة."
+      }
+    ]
+  },
+  "opr_method": {
+    "title": "طريقة عملنا",
+    "title2": "طريقة عملنا",
+    "desc": "نشكّل وجهتك الموثوقة لكل احتياجاتك الصحية. دليلنا الشامل مصمم لتسهيل الوصول إلى مجموعة متنوعة من مقدمي خدمات الرعاية الصحية، لضمان أفضل رعاية لك ولعائلتك.",
+    "steps": [
+      "حجز موعد",
+      "إجراء الفحوصات",
+      "تنفيذ العلاج",
+      "الوصفة الطبية والدفع"
+    ]
+  },
+  "faqs": {
+    "title": "الأسئلة الشائعة",
+    "1": [
+      {
+        "question": "ما الخدمات التي يقدمها {{appName}}؟",
+        "answer": "{{appName}} يقدم مجموعة شاملة من الخدمات الطبية، بما في ذلك طب الأسنان، أمراض النساء، العظام، الأعصاب، الطب العام، الأمراض الجلدية، وأمراض القلب، إضافةً إلى خدمات مختبرية وتشخيصية متقدمة."
+      },
+      {
+        "question": "ما الذي يميز {{appName}} عن غيره من مقدمي الرعاية الصحية؟",
+        "answer": "{{appName}} يتميز بالتركيز على الرعاية الصحية بأسعار مناسبة، والتقنيات الطبية المتقدمة، وأطباء متخصصين من أعلى المستويات، وخدمة متوفرة على مدار الساعة، مع توفير خصومات على جميع العلاجات الطبية وإجراءات تسجيل سريعة."
+      },
+      {
+        "question": "كيف يمكنني حجز موعد في {{appName}}؟",
+        "answer": "يمكنك حجز موعد بسهولة عبر موقعنا من خلال قسم \"حجز موعد\"، باختيار الخدمة المطلوبة وتحديد الوقت المناسب ثم تأكيد الحجز."
+      },
+      {
+        "question": "ما أنواع الفحوصات المتوفرة في المختبر؟",
+        "answer": "يقدم مختبرنا مجموعة واسعة من الفحوصات التشخيصية مثل تحليل الدم الشامل (CBC)، فحص الهيموغلوبين، الأشعة السينية، وفحوصات الأشعة المقطعية (CT)، مع نتائج دقيقة وسريعة."
+      },
+      {
+        "question": "هل توجد خصومات على العلاجات الطبية؟",
+        "answer": "نعم، يقدم {{appName}} خصومات على جميع العلاجات الطبية، مثل خصم 5٪ على فحوصات CBC والهيموغلوبين و10٪ على الأشعة السينية والأشعة المقطعية."
+      }
+    ],
+    "2": [
+      {
+        "question": "ما هي أوقات العمل لديكم؟",
+        "answer": "{{appName}} يعمل على مدار 24 ساعة في اليوم و7 أيام في الأسبوع، لضمان حصولك على الرعاية في أي وقت."
+      },
+      {
+        "question": "من هم الأطباء في {{appName}}؟",
+        "answer": "يضم فريقنا أطباء مؤهلين وذوي خبرة في مجالات متعددة مثل أمراض القلب والأعصاب والأمراض الجلدية وغيرها. يمكن الاطلاع على تفاصيل الأطباء في صفحة \"قابل أطبّاءنا\" على الموقع."
+      },
+      {
+        "question": "كيف يمكنني التواصل مع {{appName}} لمزيد من المعلومات؟",
+        "answer": "يمكنك التواصل معنا في أي وقت عبر معلومات الاتصال الموجودة على موقعنا، وسيسعد فريقنا بمساعدتك والإجابة عن استفساراتك."
+      },
+      {
+        "question": "ما هي خطوات الحصول على العلاج في {{appName}}؟",
+        "answer": "تشمل العملية حجز موعد، ثم إجراء الفحص الطبي، ثم تلقي العلاج اللازم، وأخيرًا الحصول على الوصفات الطبية أو المتابعة عند الحاجة، مع إجراءات سلسة وفعّالة."
+      },
+      {
+        "question": "كيف يضمن {{appName}} جودة الخدمات الطبية؟",
+        "answer": "نستخدم أحدث التقنيات الطبية ومنشآت متطورة، مع فريق من المتخصصين في الرعاية الصحية لتقديم عناية شخصية وإرشاد طبي دقيق طوال فترة علاجك."
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "آراء مرضانا",
+    "desc": "نفتخر بالتغذية الراجعة الإيجابية التي نتلقاها من مرضانا. إليك بعضًا من آرائهم:",
+    "error_something_went_wrong": "حدث خطأ ما!",
+    "error_fetch": "تعذّر جلب آراء المرضى!"
+  },
+  "footer": {
+    "copyright": "© 2024 {{appName}}. جميع الحقوق محفوظة",
+    "hospital": {
+      "title": "المستشفى",
+      "links": ["معلومات عنا", "الأقسام", "الأطباء", "اتصل بنا"]
+    },
+    "support": {
+      "title": "الدعم",
+      "links": ["شروط الخدمة", "قانوني", "سياسة الخصوصية"]
+    },
+    "language": {
+      "title": "اللغة"
+    }
+  },
+  "clinics_page": {
+    "title": "استكشاف عياداتنا",
+    "sub_title": "نوصلك إلى خدمات رعاية صحية متميزة بالقرب منك",
+    "desc": "تصفّح شبكة العيادات لدينا التي تقدّم رعاية شخصية وخدمات طبية متقدمة."
+  },
+  "clinic_details_page": {
+    "clinic_details": "بيانات العيادة",
+    "ambulance_call": "الاتصال بالإسعاف",
+    "navigate_clinic": "الانتقال إلى العيادة",
+    "clinic_images": "صور العيادة",
+    "not_avl_img": "لا توجد صور متاحة للعيادة",
+    "contact_details": "بيانات التواصل",
+    "opening_hours": "ساعات العمل",
+    "opn_hrs_not_avl": "ساعات العمل غير متاحة",
+    "avl_doctor": "الأطباء المتوفرون في {{appName}}",
+    "appointment_closed": "المواعيد مغلقة",
+    "app_closed_desc": "هذه العيادة/المستشفى لا تستقبل مواعيد في الوقت الحالي."
+  },
+  "doctors_page": {
+    "title": "أطبّاؤنا",
+    "sub_title": "اكتشف فريقًا متنوعًا من المتخصصين في الرعاية الصحية",
+    "desc": "استمتع بسهولة العثور على الطبيب المناسب لاحتياجاتك من خلال قائمتنا الشاملة من الأطباء.",
+    "search_placeholder": "ابحث عن الأطباء...",
+    "experience": "خبرة {{count}}+ سنوات",
+    "appointments_done": "{{count}} موعدًا مكتملًا",
+    "not_accepting_appointments": "لا يستقبل مواعيد حاليًا",
+    "error_something_went_wrong": "حدث خطأ ما!",
+    "error_fetch": "تعذّر جلب الأطباء!"
+  },
+  "doctor_details_page": {
+    "title": "ملف الطبيب",
+    "experience_years": "{{count}}+ سنة من الخبرة",
+    "appointments_done": "{{count}} موعدًا مكتملًا",
+    "not_taking_appointments": "الطبيب لا يستقبل مواعيد حاليًا",
+    "clinic_not_scheduling": "العيادة لا تقوم بجدولة المواعيد في الوقت الحالي",
+    "make_appointment": "حجز موعد",
+    "select_appointment_type": "اختر نوع الموعد",
+    "appointment_types": {
+      "opd": "عيادة خارجية",
+      "video_call": "مكالمة فيديو",
+      "emergency": "حالة طارئة"
+    },
+    "doctorReviews": "التقييمات والمراجعات -"
+  },
+  "contact_us_page": {
+    "title": "اتصل بنا",
+    "desc": "نحن هنا لمساعدتك في أي استفسارات أو دعم تحتاجه. لا تتردد في التواصل معنا وسنعاود الاتصال بك في أقرب وقت.",
+    "address_title": "العنوان",
+    "call_us_title": "اتصل بنا",
+    "email_us_title": "راسلنا عبر البريد",
+    "form": {
+      "name_label": "اسمك",
+      "name_placeholder": "اكتب اسمك",
+      "email_label": "بريدك الإلكتروني",
+      "email_placeholder": "اكتب بريدك الإلكتروني",
+      "subject_label": "الموضوع",
+      "subject_placeholder": "الموضوع",
+      "message_label": "الرسالة",
+      "message_placeholder": "اكتب رسالتك",
+      "submit_button": "إرسال الرسالة",
+      "name_required": "الاسم مطلوب",
+      "email_required": "البريد الإلكتروني مطلوب",
+      "email_invalid": "صيغة البريد الإلكتروني غير صحيحة",
+      "subject_required": "الموضوع مطلوب",
+      "message_required": "الرسالة مطلوبة",
+      "success_title": "تم استلام الرسالة!",
+      "success_desc": "لقد استلمنا رسالتك وسنتواصل معك قريبًا."
+    }
+  },
+  "user_profile_page": {
+    "title": "الملف الشخصي للمستخدم",
+    "first_name_label": "الاسم الأول",
+    "last_name_label": "اسم العائلة",
+    "phone_label": "الهاتف",
+    "email_label": "البريد الإلكتروني",
+    "gender_label": "الجنس",
+    "gender_options": {
+      "male": "ذكر",
+      "female": "أنثى"
+    },
+    "dob_label": "تاريخ الميلاد",
+    "city_label": "المدينة",
+    "state_label": "الولاية/المحافظة",
+    "postal_code_label": "الرمز البريدي",
+    "address_label": "العنوان",
+    "update_button": "تحديث الملف الشخصي",
+    "toast_success": "تم تحديث بيانات المستخدم",
+    "toast_error_invalid_email": "عنوان بريد إلكتروني غير صالح"
+  },
+  "family_members_page": {
+    "title": "أفراد العائلة",
+    "add_new_button": "إضافة فرد جديد",
+    "add_form_title": "إضافة فرد جديد من العائلة",
+    "first_name_label": "الاسم الأول",
+    "first_name_placeholder": "أدخل الاسم الأول",
+    "first_name_required": "الاسم الأول مطلوب",
+    "last_name_label": "اسم العائلة",
+    "last_name_placeholder": "أدخل اسم العائلة",
+    "last_name_required": "اسم العائلة مطلوب",
+    "phone_label": "الهاتف",
+    "phone_placeholder": "أدخل رقم الهاتف",
+    "phone_required": "رقم الهاتف مطلوب",
+    "phone_invalid": "تنسيق رقم الهاتف غير صحيح",
+    "gender_label": "الجنس",
+    "gender_placeholder": "اختر الجنس",
+    "gender_required": "الجنس مطلوب",
+    "gender_options": {
+      "male": "ذكر",
+      "female": "أنثى"
+    },
+    "dob_label": "تاريخ الميلاد",
+    "dob_required": "تاريخ الميلاد مطلوب",
+    "cancel_button": "إلغاء",
+    "submit_button": "إضافة",
+    "toast_add_success": "تمت إضافة فرد من العائلة",
+    "toast_delete_success": "تم حذف فرد من العائلة",
+    "toast_error_generic": "فشلت العملية"
+  },
+  "family_member_page": {
+    "title": "فرد من العائلة",
+    "first_name_label": "الاسم الأول",
+    "first_name_placeholder": "أدخل الاسم الأول",
+    "last_name_label": "اسم العائلة",
+    "last_name_placeholder": "أدخل اسم العائلة",
+    "phone_label": "الهاتف",
+    "phone_placeholder": "أدخل رقم الهاتف",
+    "email_label": "البريد الإلكتروني",
+    "email_placeholder": "أدخل البريد الإلكتروني",
+    "gender_label": "الجنس",
+    "gender_placeholder": "اختر الجنس",
+    "gender_options": {
+      "male": "ذكر",
+      "female": "أنثى"
+    },
+    "dob_label": "تاريخ الميلاد",
+    "city_label": "المدينة",
+    "city_placeholder": "أدخل المدينة",
+    "state_label": "الولاية/المحافظة",
+    "state_placeholder": "أدخل الولاية/المحافظة",
+    "postal_code_label": "الرمز البريدي",
+    "postal_code_placeholder": "أدخل الرمز البريدي",
+    "address_label": "العنوان",
+    "address_placeholder": "أدخل العنوان",
+    "update_button": "تحديث الملف الشخصي",
+    "vitals_title": "العلامات الحيوية",
+    "date_label": "التاريخ",
+    "toast_success": "تم تحديث بيانات فرد العائلة",
+    "toast_error_generic": "فشل تحديث بيانات فرد العائلة"
+  },
+  "vitals_page": {
+    "Blood-Pressure": "ضغط الدم",
+    "Blood-Pressure-desc": "تفاصيل ضغط الدم وسجله",
+    "Blood-Sugar": "سكر الدم",
+    "Blood-Sugar-desc": "مستويات سكر الدم وتحليلاتها",
+    "Temperature": "درجة الحرارة",
+    "Temperature-desc": "متابعة درجة حرارة الجسم",
+    "Weight": "الوزن",
+    "Weight-desc": "متابعة الوزن",
+    "SpO2": "مستوى الأكسجين",
+    "SpO2-desc": "مستويات تشبّع الأكسجين في الدم",
+    "no_family_member": "لم تقم بإضافة أي فرد من العائلة بعد"
+  },
+  "appointments_page": {
+    "title": "المواعيد",
+    "no_appointments_alert_title": "لم يتم العثور على مواعيد!",
+    "no_appointments_alert_description": "ليس لديك أي مواعيد حالياً. احجز موعدًا الآن!",
+    "make_appointment_button": "حجز موعد",
+    "filter_steps": {
+      "All": "الكل",
+      "Upcoming": "القادمة",
+      "Pending": "قيد الانتظار",
+      "Confirmed": "مؤكدة",
+      "Rejected": "مرفوضة",
+      "Completed": "مكتملة",
+      "Rescheduled": "معاد جدولتها",
+      "Cancelled": "ملغاة",
+      "Visited": "تمت الزيارة",
+      "Closed": "مغلقة"
+    },
+    "card": {
+      "name_label": "الاسم",
+      "id_label": "المعرف",
+      "time_label": "الوقت",
+      "doctor_label": "الطبيب",
+      "rebook_button": "إعادة الحجز"
+    }
+  },
+  "newAppointment": {
+    "selectDoct": "يرجى اختيار الطبيب ونوع الموعد قبل المتابعة.",
+    "selectDate": "يرجى اختيار التاريخ والوقت قبل المتابعة.",
+    "selectFamilyMember": "يرجى اختيار أحد أفراد العائلة قبل المتابعة.",
+    "timeSlotes": "الفترات الزمنية",
+    "noTimeSlotes": "عذراً، لا توجد أوقات متاحة في التاريخ المحدد.",
+    "addFamilyMember": "إضافة فرد من العائلة",
+    "oneStepAway": "خطوة واحدة فقط متبقية",
+    "payAndBook": "الدفع وحجز الموعد",
+    "appType": "نوع الموعد",
+    "appFee": "رسوم الموعد",
+    "appliedCoupon": "الكوبون المطبق",
+    "coupDiscount": "الخصم",
+    "coupCodePlaceholder": "أدخل كود الكوبون",
+    "apply": "تطبيق",
+    "payNow": "ادفع الآن",
+    "payAtHospital": "الدفع في المستشفى",
+    "payWallet": "الدفع من المحفظة",
+    "avlBlc": "الرصيد المتاح",
+    "bookNow": "احجز الآن",
+    "payAndBookTest": "ادفع"
+  },
+  "appointmentDetails": {
+    "title": "الموعد",
+    "reviewDoctor": "تقييم الطبيب",
+    "queueNumber": "رقم الدور",
+    "happyPatients": "مرضى سعداء",
+    "checkIn": "تسجيل الوصول",
+    "patient": "المريض:",
+    "joinMeeting": "الانضمام إلى الجلسة",
+    "prescriptions": "الوصفات الطبية -",
+    "downloadPrescription": "تحميل الوصفة الطبية",
+    "prescriptionsNotFound": "لا توجد وصفات طبية!",
+    "patientFiles": "ملفات المريض",
+    "filesNotFound": "لا توجد ملفات!",
+    "paymentStatus": "حالة الدفع",
+    "paymentId": "معرّف الدفع",
+    "downloadInvoice": "تحميل الفاتورة",
+    "navigate": "الانتقال إلى العيادة",
+    "appointmentCancellation": "إلغاء الموعد",
+    "initiateCancellation": "اضغط هنا لبدء طلب الإلغاء",
+    "deleteCancellation": "اضغط هنا لحذف طلب الإلغاء",
+    "currentStatus": "الحالة الحالية - {{status}}",
+    "requestHistory": "سجل الطلبات",
+    "dialogModal": {
+      "cancelAppointment": "هل تريد إلغاء الموعد؟",
+      "deleteCancellationRequest": "هل تريد حذف طلب الإلغاء؟",
+      "confirmCancel": "هل أنت متأكد أنك تريد إلغاء هذا الموعد؟",
+      "confirmDelete": "هل أنت متأكد أنك تريد حذف طلب الإلغاء؟"
+    }
+  },
+  "appointmentSuccess": {
+    "appointmentId": "معرّف الموعد",
+    "joinMeeting": "الانضمام إلى الجلسة",
+    "successMessage": "تم حجز الموعد بنجاح!",
+    "opdInstruction": "توجّه إلى العيادة وامسح رمز QR المخصص للحصول على رقم دورك مباشرة.",
+    "videoInstruction": "اضغط على \"الانضمام إلى الجلسة\" أو امسح رمز QR للانضمام.",
+    "dateTime": "التاريخ والوقت",
+    "patientName": "اسم المريض",
+    "addToCalendar": "إضافة إلى التقويم"
+  },
+  "files_page": {
+    "searchFiles": "بحث في الملفات...",
+    "noFiles": "الملفات غير متاحة حالياً. ستتمكن من الوصول إليها عندما يقوم الطبيب برفع المستندات المطلوبة."
+  },
+  "prescription_page": {
+    "searchFiles": "بحث في الوصفات الطبية...",
+    "noFiles": "الوصفات الطبية غير متاحة حالياً. ستتمكن من رؤيتها بعد أن يقوم الطبيب برفعها."
+  },
+  "wallet_page": {
+    "currBal": "الرصيد الحالي",
+    "addMoney": "إضافة مبلغ",
+    "txnHistory": "سجل المعاملات",
+    "noTxn": "لا توجد أي معاملات",
+    "title": "إضافة مبلغ إلى محفظتك",
+    "enterAmount": "أدخل المبلغ",
+    "noPaymentMethod": "لا توجد طرق دفع مفعّلة!",
+    "successMessage": "تم بنجاح!",
+    "errorMessage": "حدث خطأ ما!",
+    "amountCredited": "تم إضافة المبلغ إلى محفظتك",
+    "amountDebited": "تم خصم المبلغ من محفظتك",
+    "transactionId": "معرّف المعاملة",
+    "paymentId": "معرّف الدفع: {id}"
+  },
+  "addMoney": {
+    "title": "إضافة مبلغ إلى محفظتك",
+    "enterAmount": "أدخل المبلغ",
+    "placeholder": "أدخل المبلغ بالروبية",
+    "noPaymentMethod": "لا توجد طرق دفع مفعّلة!",
+    "successMessage": "تم بنجاح!",
+    "errorMessage": "حدث خطأ ما!",
+    "specificError": "{message}"
+  },
+  "searchPage": {
+    "search": "بحث",
+    "searchPlaceholder": "ابحث عن الأطباء والعيادات والتخصصات...",
+    "noResults": "لا توجد نتائج لـ '{{query}}'",
+    "searchResults": "نتائج البحث عن '{{query}}'",
+    "searching": "جارٍ البحث...",
+    "error": "حدث خطأ أثناء البحث"
+  },
+  "firebaseLogin": {
+    "welcome": "مرحبًا",
+    "loginDescription": "نوفّر أفضل وأوفر خدمات الرعاية الصحية.",
+    "mobileNumber": "رقم الجوال",
+    "continue": "متابعة",
+    "termsText": "بمتابعتك، فإنك توافق على",
+    "termsOfUse": "شروط الاستخدام",
+    "privacyPolicy": "سياسة الخصوصية",
+    "createAccount": "مستخدم جديد؟ أنشئ حسابًا!",
+    "enterOtp": "أدخل رمز التحقق (OTP)",
+    "otpSentTo": "تم إرسال رمز التحقق إلى",
+    "login": "تسجيل الدخول",
+    "resendOtp": "إعادة إرسال الرمز",
+    "useDifferentPhone": "استخدام رقم آخر",
+    "otpSentSuccess": "تم إرسال الرمز",
+    "otpSentDescription": "يرجى التحقق من هاتفك لرؤية رمز التحقق.",
+    "otpError": "فشل إرسال رمز التحقق، يرجى المحاولة مرة أخرى.",
+    "otpInvalid": "يرجى إدخال رمز تحقق صالح.",
+    "invalidOtpTitle": "رمز تحقق غير صالح",
+    "loginSuccessTitle": "تم تسجيل الدخول بنجاح",
+    "phoneRequired": "يرجى إدخال رقم الجوال",
+    "phoneNotExist": "رقم الجوال غير موجود! يرجى التسجيل أولاً",
+    "otpResentSuccess": "تمت إعادة إرسال رمز التحقق بنجاح.",
+    "otpResentFailed": "فشلت إعادة إرسال رمز التحقق، حاول مرة أخرى."
+  },
+  "signup": {
+    "title": "إنشاء حساب",
+    "description": "انضم إلينا للحصول على أفضل خدمات الرعاية الصحية.",
+    "form": {
+      "first_name_label": "الاسم الأول",
+      "first_name_required": "الاسم الأول مطلوب",
+      "last_name_label": "اسم العائلة",
+      "last_name_required": "اسم العائلة مطلوب",
+      "phone_label": "رقم الجوال",
+      "phone_required": "رقم الجوال مطلوب",
+      "phone_pattern": "يجب أن يتكون رقم الجوال من 10 أرقام",
+      "gender_label": "الجنس",
+      "gender_required": "يرجى اختيار الجنس",
+      "gender_options": {
+        "male": "ذكر",
+        "female": "أنثى",
+        "other": "آخر"
+      },
+      "gender_placeholder": "اختر الجنس",
+      "dob_label": "تاريخ الميلاد",
+      "dob_required": "تاريخ الميلاد مطلوب",
+      "email_label": "البريد الإلكتروني",
+      "email_pattern": "بريد إلكتروني غير صالح",
+      "otp_label": "أدخل رمز التحقق",
+      "submit_button_step1": "الحصول على رمز التحقق",
+      "submit_button_step2": "إنشاء حساب"
+    },
+    "toast": {
+      "otp_sent_title": "تم إرسال رمز التحقق",
+      "otp_sent_description": "يرجى التحقق من هاتفك لرؤية رمز التحقق.",
+      "otp_error_title": "خطأ",
+      "otp_error_description": "فشل إرسال رمز التحقق، يرجى إعادة المحاولة.",
+      "otp_invalid_description": "يرجى إدخال رمز تحقق صالح.",
+      "phone_exists_title": "رقم الجوال مستخدم بالفعل!",
+      "signup_success_title": "تم إنشاء الحساب بنجاح",
+      "signup_success_description": "مرحبًا {{f_name}} {{l_name}}",
+      "otp_missing_title": "يرجى إدخال رمز التحقق!",
+      "signup_failed_description": "فشل إنشاء الحساب",
+      "invalid_otp_description": "رمز تحقق غير صالح"
+    },
+    "terms_text": "بإنشائك حسابًا، فأنت توافق على",
+    "terms_of_use": "شروط الاستخدام",
+    "privacy_policy": "سياسة الخصوصية",
+    "login_link": "لديك حساب بالفعل؟ سجّل الدخول"
+  },
+  "dept_page": {
+    "title": "قسم {{name}}",
+    "subtitle": "اكتشف فريقًا متنوعًا من",
+    "highlightedSubtitle": "قسم {{name}}",
+    "description": "استمتع بسهولة العثور على الطبيب المناسب لاحتياجاتك من خلال قائمتنا الشاملة من الأطباء.",
+    "otherDepartments": "استكشاف أقسام أخرى",
+    "noDoctorsMessage": "نعتذر عن الإزعاج، لا يوجد حاليًا أي أطباء متوفرين في قسم {{deptName}}. يرجى المحاولة لاحقًا أو اختيار قسم آخر. إذا كنت بحاجة إلى مساعدة عاجلة، فإن فريق الدعم لدينا جاهز لخدمتك."
+  },
+  "blogs_page": {
+    "title": "المدونات",
+    "description": "اطّلع على أحدث مقالاتنا وآرائنا وتحديثاتنا في مختلف المجالات.",
+    "no_blogs": "لم يتم العثور على مدونات",
+    "no_blogs_description": "لا توجد حاليًا أي تدوينات مميزة.",
+    "error_fetch": "تعذّر جلب المدونات!",
+    "recent_post": "أحدث المنشورات",
+    "author_details": "بيانات الكاتب"
+  },
+  "blog_page": {
+    "title": "مدونة"
+  },
+  "lab-component": {
+    "title": "مختبراتنا",
+    "title1": "أفضل المختبرات في {{city}}",
+    "desc": "اكتشف خدمات رعاية صحية متخصّصة تناسب احتياجاتك في مكان واحد.",
+    "see-all": "عرض جميع المختبرات"
+  },
+  "labs_page": {
+    "title": "استكشاف مختبراتنا",
+    "sub_title": "نوصلك إلى خدمات مختبرية متميزة بالقرب منك",
+    "desc": "تصفّح شبكة المختبرات لدينا التي تقدّم رعاية شخصية وفحوصات طبية متقدمة.",
+    "search_placeholder": "ابحث عن مختبر..."
+  },
+  "lab_details_page": {
+    "lab_details": "بيانات المختبر",
+    "ambulance_call": "الاتصال بالإسعاف",
+    "navigate_lab": "الانتقال إلى المختبر",
+    "lab_images": "صور المختبر",
+    "not_avl_img": "لا توجد صور متاحة للمختبر",
+    "contact_details": "بيانات التواصل",
+    "opening_hours": "ساعات العمل",
+    "opn_hrs_not_avl": "ساعات العمل غير متاحة",
+    "avl_doctor": "الفحوصات المتاحة في {{appName}}",
+    "appointment_closed": "الحجوزات مغلقة",
+    "app_closed_desc": "هذا المختبر لا يستقبل حجوزات في الوقت الحالي."
+  },
+  "lab_bookings_page": {
+    "title": "حجوزات المختبر",
+    "no_bookings_alert_title": "لا توجد حجوزات مختبر",
+    "make_booking_button": "حجز فحص مختبر",
+    "noInvoicesAvailable": "لا توجد فواتير متاحة",
+    "navigate": "الانتقال إلى المختبر",
+    "files": "الملفات / تقارير الفحص",
+    "addReview": "إضافة تقييم",
+    "reviews": "تقييمات",
+    "testsIncluded": "الفحوصات المشمولة",
+    "bookingId": "رقم الحجز",
+    "rebookingFailed": "فشل إعادة الحجز",
+    "card": {
+      "name_label": "المريض",
+      "test_label": "الفحص",
+      "lab_label": "المختبر",
+      "payment_label": "حالة الدفع",
+      "rebook_button": "إعادة الحجز"
+    },
+    "payment_status": {
+      "paid": "مدفوع",
+      "not_paid": "غير مدفوع",
+      "refunded": "مسترد",
+      "unpaid": "غير مدفوع",
+      "unknown": "غير معروف"
+    }
+  },
+  "labCart": {
+    "title": "سلة المختبر",
+    "cartDetails": "تفاصيل السلة",
+    "your_lab_cart_empty": "سلة المختبر فارغة",
+    "your_selected_tests": "الفحوصات التي اخترتها",
+    "remove": "إزالة",
+    "subtotal": "المجموع الفرعي",
+    "tests": "فحوصات",
+    "service_charge": "رسوم الخدمة",
+    "free": "مجانًا",
+    "tax_18": "ضريبة (18٪)",
+    "continue": "متابعة",
+    "select_date": "اختر التاريخ",
+    "select_patient": "اختر المريض / فرد العائلة",
+    "pay_and_book": "الدفع وحجز فحص المختبر",
+    "total_amount": "المبلغ الإجمالي",
+    "total_payable_amount": "إجمالي المبلغ المستحق",
+    "lab": "مختبر",
+    "Date": "التاريخ",
+    "Removed from cart": "تمت الإزالة من السلة",
+    "Something went wrong": "حدث خطأ ما",
+    "No tests added yet": "لم تتم إضافة أي فحوصات بعد",
+    "Payment Successful": "تم الدفع بنجاح",
+    "Lab Test booked successfully": "تم حجز فحص المختبر بنجاح",
+    "Failed to book": "فشل في الحجز",
+    "Failed to remove": "فشل في الإزالة",
+    "Subtests": "فحوصات فرعية"
+  },
+  "cart": {
+    "title": "سلة التسوق",
+    "select_address": "اختر العنوان",
+    "payment": "الدفع",
+    "products": "المنتجات",
+    "lab_tests": "فحوصات المختبر",
+    "empty_product_cart": "قسم سلة المنتجات فارغ! استكشف منتجاتنا واختر ما تحتاجه.",
+    "empty_lab_cart": "قسم سلة فحوصات المختبر فارغ! استكشف خدماتنا واختر الفحوصات المناسبة.",
+    "total": "الإجمالي",
+    "place_order": "إتمام الطلب",
+    "qty": "الكمية",
+    "remove": "إزالة",
+    "mrp": "السعر الأساسي",
+    "price": "السعر",
+    "tax": "الضريبة",
+    "discount": "الخصم",
+    "delivery_address": "عنوان التوصيل",
+    "your_wallet_balance": "رصيد محفظتك",
+    "use_wallet_balance": "استخدام رصيد المحفظة",
+    "pay_now": "ادفع الآن",
+    "cod": "الدفع عند الاستلام",
+    "product_delivery_details": "تفاصيل ووقت توصيل المنتجات",
+    "delivery": "التوصيل",
+    "delivery_charges_20": "رسوم التوصيل - ₹20.0",
+    "delivery_desc": "يتم التوصيل خلال 24 إلى 28 ساعة بعد إتمام الطلب.",
+    "home_time": "وقت التوصيل للمنزل (من 8 صباحًا حتى 8 مساءً)",
+    "office_time": "وقت التوصيل للمكتب (من 10 صباحًا حتى 5 مساءً)",
+    "emergency_delivery": "توصيل عاجل",
+    "emergency_charges": "رسوم التوصيل - ₹50.0",
+    "emergency_desc": "توصيل عاجل لطلبك خلال ساعات معدودة.",
+    "your_wallet_amount": "المبلغ في المحفظة",
+    "used_wallet_amount": "المبلغ المستخدم من المحفظة",
+    "total_payable_amount": "إجمالي المبلغ المستحق",
+    "back": "رجوع",
+    "order_now": "اطلب الآن"
+  },
+  "common": {
+    "closed": "مغلق",
+    "na": "غير متوفر",
+    "opd": "عيادة خارجية",
+    "video_consultant": "استشارة مرئية",
+    "emergency": "طارئ",
+    "doctor": "طبيب",
+    "happy_patients": "مرضى سعداء",
+    "not_paid": "غير مدفوع",
+    "loading": "جارٍ التحميل...",
+    "load_more": "تحميل المزيد",
+    "try_again": "إعادة المحاولة",
+    "success": "نجاح",
+    "error": "خطأ",
+    "remove": "إزالة",
+    "or": "أو"
+  },
+  "blogs": {
+    "title": "المدونات",
+    "not_available": "المدونات غير متاحة.",
+    "author_not_available": "الكاتب غير متوفر"
+  },
+  "blog": {
+    "not_available": "المدونة غير متاحة."
+  },
+  "error_page": {
+    "title": "500 خطأ داخلي في الخادم",
+    "code": "500",
+    "heading": "خطأ داخلي في الخادم",
+    "message": "عذرًا! حدث خطأ ما في نظامنا، ونعمل حاليًا على إصلاحه.",
+    "description": "يرجى إعادة تحميل الصفحة، أو العودة إلى الصفحة الرئيسية.",
+    "try_again": "إعادة المحاولة"
+  },
+  "not_found_page": {
+    "title": "هناك شيء غير صحيح...",
+    "description": "الصفحة التي تحاول الوصول إليها غير موجودة. قد تكون كتبت العنوان بشكل خاطئ أو تم نقل الصفحة إلى مكان آخر. إذا كنت تعتقد أن هذا خطأ، يرجى التواصل مع فريق الدعم.",
+    "back_home": "العودة إلى الصفحة الرئيسية"
+  },
+  "error": {
+    "something_went_wrong": "حدث خطأ ما!",
+    "cant_fetch_doctors": "تعذّر جلب الأطباء!",
+    "cant_fetch_tests": "تعذّر جلب الفحوصات!"
+  },
+  "components": {
+    "testsByLab": {
+      "Report in": "النتيجة خلال",
+      "day": "يوم",
+      "days": "أيام",
+      "Removing...": "جارٍ الإزالة...",
+      "Adding...": "جارٍ الإضافة...",
+      "Add to Cart": "إضافة إلى السلة",
+      "Subtests Included": "الفحوصات الفرعية المشمولة",
+      "Added": "تمت الإضافة",
+      "View Cart": "عرض السلة",
+      "Cart updated successfully": "تم تحديث السلة بنجاح",
+      "Failed to update cart": "فشل في تحديث السلة"
+    },
+    "addReview": {
+      "lab_rating_title": "تقييم فحص المختبر",
+      "doctor_rating_title": "تقييم الطبيب",
+      "write_feedback_placeholder": "اكتب تعليقك",
+      "close": "إغلاق",
+      "add_review": "إضافة تقييم",
+      "review_added_success": "تمت إضافة التقييم بنجاح"
+    },
+    "address": {
+      "add_new_address": "إضافة عنوان جديد",
+      "name_label": "الاسم",
+      "name_placeholder": "أدخل اسمك",
+      "phone_label": "الهاتف",
+      "phone_placeholder": "أدخل رقم هاتفك",
+      "flat_no_label": "رقم الشقة",
+      "flat_no_placeholder": "أدخل رقم الشقة",
+      "apartment_label": "اسم المبنى",
+      "apartment_placeholder": "أدخل اسم المبنى",
+      "area_label": "المنطقة/الشارع",
+      "area_placeholder": "أدخل المنطقة/الشارع",
+      "landmark_label": "علامة مميزة",
+      "landmark_placeholder": "أدخل علامة مميزة",
+      "city_label": "المدينة",
+      "city_placeholder": "أدخل مدينتك",
+      "pincode_label": "الرمز البريدي",
+      "pincode_placeholder": "أدخل الرمز البريدي",
+      "cancel": "إلغاء",
+      "submit": "إرسال"
+    },
+    "notification": {
+      "title": "الإشعارات",
+      "no_notifications": "لا توجد إشعارات",
+      "mark_all_read": "اعتبار الكل مقروءًا",
+      "clear_all": "مسح الكل"
+    },
+    "search": {
+      "placeholder": "بحث...",
+      "no_results": "لا توجد نتائج",
+      "searching": "جارٍ البحث..."
+    },
+    "wallet": {
+      "current_balance": "الرصيد الحالي",
+      "add_money": "إضافة مبلغ",
+      "transaction_history": "سجل المعاملات",
+      "no_transactions": "لا توجد معاملات",
+      "credited": "دائن",
+      "debited": "مدين",
+      "transaction_id": "معرّف المعاملة"
+    },
+    "userProfile": {
+      "edit_profile": "تعديل الملف الشخصي",
+      "save_changes": "حفظ التغييرات",
+      "cancel": "إلغاء",
+      "update_success": "تم تحديث الملف الشخصي بنجاح",
+      "update_failed": "فشل تحديث الملف الشخصي"
+    },
+    "familyMembers": {
+      "add_member": "إضافة فرد من العائلة",
+      "edit_member": "تعديل فرد من العائلة",
+      "delete_member": "حذف فرد من العائلة",
+      "member_added": "تمت إضافة فرد من العائلة بنجاح",
+      "member_updated": "تم تحديث فرد العائلة بنجاح",
+      "member_deleted": "تم حذف فرد العائلة بنجاح"
+    },
+    "loading": {
+      "please_wait": "يرجى الانتظار...",
+      "loading_data": "جارٍ تحميل البيانات..."
+    },
+    "notAvailable": {
+      "not_available": "غير متوفر",
+      "no_data": "لا تتوفر بيانات"
+    },
+    "locationSelector": {
+      "select_location": "اختر الموقع",
+      "current_location": "استخدام موقعي الحالي",
+      "search_location": "ابحث عن موقع...",
+      "no_locations_found": "لم يتم العثور على مواقع"
+    },
+    "loginModal": {
+      "login_title": "تسجيل الدخول",
+      "signup_title": "إنشاء حساب",
+      "phone_label": "رقم الجوال",
+      "otp_label": "أدخل رمز التحقق",
+      "send_otp": "إرسال رمز التحقق",
+      "verify_otp": "تأكيد الرمز",
+      "resend_otp": "إعادة إرسال الرمز",
+      "login_success": "تم تسجيل الدخول بنجاح",
+      "login_failed": "فشل في تسجيل الدخول"
+    },
+    "qrCode": {
+      "scan_qr": "مسح رمز QR",
+      "download_qr": "تحميل رمز QR"
+    },
+    "profilePicture": {
+      "upload_photo": "رفع صورة",
+      "change_photo": "تغيير الصورة",
+      "remove_photo": "إزالة الصورة",
+      "upload_success": "تم رفع الصورة بنجاح",
+      "upload_failed": "فشل في رفع الصورة"
+    },
+    "whatsappBtn": {
+      "chat_with_us": "تحدث معنا عبر واتساب"
+    },
+    "doctorReviews": {
+      "no_reviews": "لا توجد مراجعات بعد",
+      "write_review": "اكتب مراجعة",
+      "rating": "التقييم",
+      "reviews": "المراجعات"
+    },
+    "testimonials": {
+      "patient_testimonials": "آراء المرضى",
+      "what_patients_say": "ماذا يقول مرضانا"
+    },
+    "departments": {
+      "all_departments": "جميع الأقسام",
+      "view_doctors": "عرض الأطباء"
+    },
+    "doctors": {
+      "book_appointment": "حجز موعد",
+      "view_profile": "عرض الملف الشخصي",
+      "available": "متاح",
+      "not_available": "غير متاح"
+    },
+    "clinics": {
+      "view_details": "عرض التفاصيل",
+      "book_now": "احجز الآن"
+    },
+    "labs": {
+      "view_tests": "عرض الفحوصات",
+      "book_test": "حجز فحص"
+    },
+    "contactDetails": {
+      "email": "البريد الإلكتروني",
+      "phone": "الهاتف",
+      "address": "العنوان",
+      "working_hours": "ساعات العمل"
+    },
+    "maps": {
+      "get_directions": "الحصول على الاتجاهات",
+      "view_on_map": "عرض على الخريطة"
+    },
+    "patients": {
+      "patient_info": "معلومات المريض",
+      "medical_history": "التاريخ الطبي"
+    },
+    "recentPosts": {
+      "recent_posts": "أحدث المنشورات",
+      "read_more": "قراءة المزيد"
+    },
+    "featuredBlogs": {
+      "featured_blogs": "المدونات المميزة",
+      "explore_all": "عرض الكل"
+    }
+  }
+}
