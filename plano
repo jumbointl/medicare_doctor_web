@@ -1,0 +1,76 @@
+medicare_doctor_web/
+├─ src/
+│  ├─ api/
+│  │  ├─ client.js
+│  │  ├─ authApi.js
+│  │  ├─ dashboardApi.js
+│  │  ├─ appointmentsApi.js
+│  │  ├─ notificationsApi.js
+│  │  ├─ reviewsApi.js
+│  │  └─ patientFilesApi.js
+│  ├─ app/
+│  │  ├─ router.jsx
+│  │  └─ AppProviders.jsx
+│  ├─ assets/
+│  ├─ components/
+│  │  ├─ common/
+│  │  │  ├─ LoadingView.jsx
+│  │  │  ├─ ErrorView.jsx
+│  │  │  ├─ EmptyState.jsx
+│  │  │  ├─ ConfirmDialog.jsx
+│  │  │  └─ StatusBadge.jsx
+│  │  ├─ layout/
+│  │  │  ├─ DoctorLayout.jsx
+│  │  │  ├─ Sidebar.jsx
+│  │  │  ├─ Topbar.jsx
+│  │  │  └─ ProtectedRoute.jsx
+│  │  ├─ dashboard/
+│  │  │  ├─ DashboardStats.jsx
+│  │  │  └─ UpcomingVideoCard.jsx
+│  │  ├─ appointments/
+│  │  │  ├─ AppointmentFilters.jsx
+│  │  │  ├─ AppointmentTable.jsx
+│  │  │  ├─ AppointmentHeaderCard.jsx
+│  │  │  ├─ AppointmentPatientCard.jsx
+│  │  │  ├─ AppointmentPaymentCard.jsx
+│  │  │  ├─ AppointmentFilesCard.jsx
+│  │  │  └─ VideoConferenceCard.jsx
+│  │  ├─ notifications/
+│  │  │  └─ NotificationList.jsx
+│  │  └─ reviews/
+│  │     └─ ReviewList.jsx
+│  ├─ contexts/
+│  │  └─ AuthContext.jsx
+│  ├─ hooks/
+│  │  ├─ useAuth.js
+│  │  ├─ useDoctorSocket.js
+│  │  └─ usePolling.js
+│  ├─ pages/
+│  │  ├─ auth/
+│  │  │  └─ DoctorLoginPage.jsx
+│  │  ├─ dashboard/
+│  │  │  └─ DoctorDashboardPage.jsx
+│  │  ├─ appointments/
+│  │  │  ├─ DoctorAppointmentsPage.jsx
+│  │  │  └─ DoctorAppointmentDetailsPage.jsx
+│  │  ├─ notifications/
+│  │  │  └─ DoctorNotificationsPage.jsx
+│  │  ├─ reviews/
+│  │  │  └─ DoctorReviewsPage.jsx
+│  │  └─ profile/
+│  │     └─ DoctorProfilePage.jsx
+│  ├─ utils/
+│  │  ├─ tokenStorage.js
+│  │  ├─ appointmentStatus.js
+│  │  ├─ videoProvider.js
+│  │  └─ dateTime.js
+│  ├─ i18n/
+│  │  ├─ en.json
+│  │  ├─ es.json
+│  │  ├─ pt.json
+│  │  ├─ zh.json
+│  │  └─ zh-TW.json
+│  ├─ main.jsx
+│  └─ App.jsx
+├─ package.json
+└─ .env
