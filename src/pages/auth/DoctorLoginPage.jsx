@@ -1,6 +1,6 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { useAuth } from "../../hooks/useAuth";
+import { useAuth } from "../../contexts/AuthContext";
 
 function InputField({
   label,
@@ -75,6 +75,7 @@ function decodeBase64Url(value) {
 export default function DoctorLoginPage() {
   const navigate = useNavigate();
   const googleButtonRef = useRef(null);
+  const googlePromptRef = useRef(false);
 
   const {
     isAuthenticated,
@@ -89,6 +90,65 @@ export default function DoctorLoginPage() {
   const [googleSubmitting, setGoogleSubmitting] = useState(false);
   const [googleReady, setGoogleReady] = useState(false);
   const [error, setError] = useState("");
+  const [googleDebug, setGoogleDebug] = useState(null);
+
+  const clientId = import.meta.env.VITE_GOOGLE_CLIENT_ID;
+  const showGoogleDebug = import.meta.env.VITE_SHOW_GOOGLE_DEBUG === "true";
+
+  const maskedClientId = useMemo(() => {
+    if (!clientId || typeof clientId !== "string") return "(missing)";
+    return `${clientId.slice(0, 5)}...`;
+  }, [clientId]);
+
+  function debugLog(...args) {
+    if (showGoogleDebug) {
+      console.log(...args);
+    }
+  }
+
+  function logGoogleDiagnostics(extra = {}) {
+    const debugData = {
+      mode: import.meta.env.MODE,
+      origin: window.location.origin,
+      href: window.location.href,
+      hasClientId: !!clientId,
+      clientIdPreview: maskedClientId,
+      hasGoogleObject: !!window.google,
+      hasGoogleAccounts: !!window.google?.accounts,
+      hasGoogleAccountsId: !!window.google?.accounts?.id,
+      hasContainer: !!googleButtonRef.current,
+      isSecureContext: window.isSecureContext,
+      userAgent: navigator.userAgent,
+      timestamp: new Date().toISOString(),
+      ...extra,
+    };
+
+    debugLog("[Google Sign-In][diagnostics]", debugData);
+    if (showGoogleDebug) {
+      setGoogleDebug(debugData);
+    }
+    return debugData;
+  }
+
+  useEffect(() => {
+    if (!showGoogleDebug) return undefined;
+
+    const onWindowError = (event) => {
+      console.error("[window error]", event.message, event.error);
+    };
+
+    const onUnhandledRejection = (event) => {
+      console.error("[unhandled rejection]", event.reason);
+    };
+
+    window.addEventListener("error", onWindowError);
+    window.addEventListener("unhandledrejection", onUnhandledRejection);
+
+    return () => {
+      window.removeEventListener("error", onWindowError);
+      window.removeEventListener("unhandledrejection", onUnhandledRejection);
+    };
+  }, [showGoogleDebug]);
 
   useEffect(() => {
     if (!authLoading && isAuthenticated) {
@@ -104,10 +164,27 @@ export default function DoctorLoginPage() {
     function renderGoogleButton() {
       const google = window.google;
       const container = googleButtonRef.current;
-      const clientId = import.meta.env.VITE_GOOGLE_CLIENT_ID;
 
-      if (!container || !google?.accounts?.id || !clientId) {
+      logGoogleDiagnostics({ phase: "initial-check" });
+
+      if (!container) {
+        console.error("[Google Sign-In] Missing container element");
         setGoogleReady(false);
+        logGoogleDiagnostics({ phase: "missing-container" });
+        return;
+      }
+
+      if (!google?.accounts?.id) {
+        console.error("[Google Sign-In] Google Identity script not loaded");
+        setGoogleReady(false);
+        logGoogleDiagnostics({ phase: "missing-google-script" });
+        return;
+      }
+
+      if (!clientId) {
+        console.error("[Google Sign-In] VITE_GOOGLE_CLIENT_ID is missing in build");
+        setGoogleReady(false);
+        logGoogleDiagnostics({ phase: "missing-client-id" });
         return;
       }
 
@@ -118,6 +195,14 @@ export default function DoctorLoginPage() {
           client_id: clientId,
           callback: async (response) => {
             if (cancelled) return;
+
+            debugLog("[Google Sign-In] callback response received", {
+              hasCredential: !!response?.credential,
+              selectBy: response?.select_by,
+              clientIdPreview: maskedClientId,
+              origin: window.location.origin,
+            });
+
             await handleGoogleCredential(response?.credential || null);
           },
           auto_select: false,
@@ -135,21 +220,44 @@ export default function DoctorLoginPage() {
           logo_alignment: "left",
         });
 
+        if (!googlePromptRef.current && typeof google.accounts.id.prompt === "function") {
+          googlePromptRef.current = true;
+          google.accounts.id.prompt((notification) => {
+            const promptData = {
+              isNotDisplayed: notification?.isNotDisplayed?.(),
+              isSkippedMoment: notification?.isSkippedMoment?.(),
+              isDismissedMoment: notification?.isDismissedMoment?.(),
+              notDisplayedReason: notification?.getNotDisplayedReason?.(),
+              skippedReason: notification?.getSkippedReason?.(),
+              dismissedReason: notification?.getDismissedReason?.(),
+            };
+            debugLog("[Google Sign-In] prompt notification", promptData);
+            logGoogleDiagnostics({ phase: "prompt", ...promptData });
+          });
+        }
+
         setGoogleReady(true);
+        logGoogleDiagnostics({ phase: "rendered-button" });
       } catch (err) {
         console.error("Could not render Google button", err);
         setGoogleReady(false);
+        logGoogleDiagnostics({
+          phase: "initialize-error",
+          errorMessage: err?.message || String(err),
+        });
       }
     }
 
-    renderGoogleButton();
+    const timer = window.setTimeout(renderGoogleButton, 300);
 
     return () => {
       cancelled = true;
+      window.clearTimeout(timer);
     };
-  }, [authLoading]);
+  }, [authLoading, clientId, maskedClientId]);
 
-  async function handleSubmit(event) {
+  async function handleSubmit(event) 
+  {
     event.preventDefault();
     setError("");
 
@@ -161,19 +269,40 @@ export default function DoctorLoginPage() {
     setSubmitting(true);
 
     try {
+      console.log("DOCTOR_LOGIN request", { email });
+
       const res = await loginWithPassword({
         email: email.trim(),
         password,
       });
+
+      console.log("DOCTOR_LOGIN response", res);
 
       if (!res?.status) {
         setError(res?.message || "Login failed.");
         return;
       }
 
+      const token = res?.token;
+      const userData = res?.data;
+
+      console.log("DOCTOR_LOGIN token", token);
+      console.log("DOCTOR_LOGIN userData", userData);
+
+      if (!token || !userData) {
+        setError("Login response is incomplete.");
+        return;
+      }
+
+      localStorage.setItem("doctor_web_token", token);
+      localStorage.setItem("doctor_web_user", JSON.stringify(userData));
+
       navigate("/dashboard", { replace: true });
     } catch (err) {
-      setError(err?.response?.data?.message || "Login failed.");
+      console.log("DOCTOR_LOGIN error full", err);
+      console.log("DOCTOR_LOGIN error response", err?.response);
+      console.log("DOCTOR_LOGIN error data", err?.response?.data);
+      setError(err?.response?.data?.message || err?.message || "Login failed.");
     } finally {
       setSubmitting(false);
     }
@@ -183,6 +312,7 @@ export default function DoctorLoginPage() {
     setError("");
 
     if (!idToken) {
+      console.error("[Google Sign-In] Missing ID token in callback");
       setError("Could not get Google token.");
       return;
     }
@@ -191,6 +321,11 @@ export default function DoctorLoginPage() {
 
     try {
       const emailFromJwt = parseEmailFromJwt(idToken);
+
+      debugLog("[Google Sign-In] Parsed token payload", {
+        hasEmailFromJwt: !!emailFromJwt,
+        emailPreview: emailFromJwt ? `${emailFromJwt.slice(0, 5)}...` : null,
+      });
 
       if (!emailFromJwt) {
         setError("Could not read Google email.");
@@ -202,6 +337,11 @@ export default function DoctorLoginPage() {
         email: emailFromJwt,
       });
 
+      debugLog("[Google Sign-In] Backend login response", {
+        status: res?.status,
+        hasMessage: !!res?.message,
+      });
+
       if (!res?.status) {
         setError(res?.message || "Google login failed.");
         return;
@@ -209,6 +349,7 @@ export default function DoctorLoginPage() {
 
       navigate("/dashboard", { replace: true });
     } catch (err) {
+      console.error("[Google Sign-In] handleGoogleCredential error", err);
       setError(err?.response?.data?.message || "Google login failed.");
     } finally {
       setGoogleSubmitting(false);
@@ -339,6 +480,50 @@ export default function DoctorLoginPage() {
             >
               Connecting Google...
             </div>
+          ) : null}
+
+            {showGoogleDebug ? (
+            <>
+              <div
+                style={{
+                  marginTop: 8,
+                  padding: 12,
+                  borderRadius: 12,
+                  background: "#f8fafc",
+                  border: "1px solid #e2e8f0",
+                  fontSize: 12,
+                  lineHeight: 1.5,
+                  color: "#334155",
+                }}
+              >
+                <div style={{ fontWeight: 700, marginBottom: 6 }}>Google debug</div>
+                <div>mode: {import.meta.env.MODE}</div>
+                <div>origin: {typeof window !== "undefined" ? window.location.origin : ""}</div>
+                <div>clientId: {maskedClientId}</div>
+                <div>google loaded: {String(!!window.google)}</div>
+                <div>google.accounts.id loaded: {String(!!window.google?.accounts?.id)}</div>
+                <div>container found: {String(!!googleButtonRef.current)}</div>
+              </div>
+
+              {googleDebug ? (
+                <pre
+                  style={{
+                    margin: 0,
+                    padding: 12,
+                    borderRadius: 12,
+                    background: "#0f172a",
+                    color: "#e2e8f0",
+                    overflowX: "auto",
+                    fontSize: 11,
+                    lineHeight: 1.5,
+                    whiteSpace: "pre-wrap",
+                    wordBreak: "break-word",
+                  }}
+                >
+                  {JSON.stringify(googleDebug, null, 2)}
+                </pre>
+              ) : null}
+            </>
           ) : null}
         </div>
       </div>
